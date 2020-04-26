@@ -1,0 +1,42 @@
+@font-face{
+    font-family:'Bangers';
+    src:url('../Fonts/Bangers-Regular.ttf')
+}
+#navigation{
+    margin:0;
+    padding:0;
+    list-style: none;
+   
+}
+#navigation li{
+      float: left ;
+      width: 150px ;
+      border: 1px solid #600 ;
+      margin-right: 1px ;
+      color: #fff ;
+      /* background: #c00 ; */
+      
+}
+#navigation li a {
+      display: block ;
+      background: rgb(167, 72, 72) ;
+      color: #fff ;
+      font: 1em "Bangers";
+      line-height: 1em ;
+      padding: 4px 0 ;
+      text-align: center ;
+      text-decoration: none;
+}
+#navigation li a:hover, #navigation li a:focus, #navigation li a:active {
+  background: #900 ;
+  transition-duration: .3s;
+}
+
+.flex-navigation {
+    display: flex;
+    flex-wrap : wrap;
+    margin:0 0;
+    padding:0 0;
+    width:100%;
+    
+  }
