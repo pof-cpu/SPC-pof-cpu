@@ -1,0 +1,101 @@
+/*
+#box {
+  display: flex;
+  align-items: flex-start; 
+  
+}
+*/
+.svg-content{
+  display:inline-block;
+  position:absolute;
+  top:0;
+  left:0;
+}
+
+/* 
+encradrement
+--------------*/
+.cadre{
+  border : 1px solid; 
+  padding-left: 5px;
+  padding-right: 5px;
+  } 
+
+/*réduire une image
+*/
+
+#document {
+  width: 100%;
+  display:flex;
+
+}
+/*.element:nth-child(1){
+flex:1;*/
+#article{
+  padding-right: 0%;
+  padding-left: 0%;  
+}
+#aside{
+  padding-right: 0%;
+  padding-left: 2%; 
+}
+
+.reduire{
+  width :100px; 
+}
+
+
+h3.doc{
+  margin-top: 0%;
+}
+
+.correction{
+  color:rgb(29, 60, 218)
+}
+/* -------------------------------
+Menu horizontal
+----------------------------------*/
+
+
+
+ul.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-family: arial;
+  
+   
+}
+
+
+
+
+
+li.menu {
+  float: left;
+}
+
+li.menu a {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.menu a:hover:not(.active) {
+  background-color: rgb(173, 173, 173);
+  color: black;
+}
+
+.active {
+  background-color: rgba(5, 104, 170, 0.952); 
+  color: black;
+}
+
+

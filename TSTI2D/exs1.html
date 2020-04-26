@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <meta charset="utf-8" />
+           <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+       <link rel="stylesheet" href="style.css" />
+       <title>SPC|TSTI2D-Correction</title>
+       <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+       <script id="MathJax-script" async
+               src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+       </script>
+   </head>
+   
+
+    <body>
+
+      
+    <h2>Vitesse d’écoulement en sortie de réservoir</h2>
+    <div class="cadre">  
+        <h3 class="doc">
+            Document 1 – Réservoir de récupération d’eau de pluie 
+            </h3>
+    <div id="document">        
+            <div id="article"> 
+                <p>Le réservoir permet de récupérer l’eau de pluie d’un toit. 
+                C’est un cylindre de 3,5 m de diamètre. Il contient une hauteur de 3,0 m d’eau. 
+                À sa base, se trouve un orifice de 2,5 cm de diamètre, dans lequel 
+                on a fixé un robinet R.
+                </p>
+                <p>
+                    <strong>Données</strong> : <br>
+                    \(g=9,8\ m.s^{-1}\) | \(\rho_{eau}=1000\ kg.m^{-3}\) | 
+                    \(P_{atm}=1013\;hPa\)
+                </p>
+            </div>
+            <div id="aside">
+                <img class="reduire" src="..\SVG\Réservoir.svg" alt="réservoir"/>
+            </div>       
+    </div>
+    </div>
+    
+    <p>1) Écrire l’équation de continuité pour les points A et R.</p>
+    <p class="correction">
+        Le débit en A est égale au débit en R : <br>
+        \[Q_A=Q_R\]
+        \[v_A.S_A = v_R.S_R\]
+    </p>
+    
+    <p>2)	En déduire que l’écoulement en A est négligeable devant la vitesse de l’écoulement en R.</p>
+    <p class="correction">
+        À partir de l’équation de continuité on en déduit :
+        \[\frac{v_A}{v_R}=\frac{S_R}{S_A}\]
+        On a \(S_R\ll S_A\) (la section S_R du robinet est très inférieure à la section \(S_A\) du réservoir) donc,
+        \[\frac{S_R}{S_A}\ll 1\]
+        donc 
+        \[\frac{v_A}{v_R}\ll 1\]
+        On en déduit que la vitesse d’écoulement en A est très inférieur à la vitesse d’écoulement en B :
+        \[v_A\ll v_R\]
+    </p>
+
+    <p>
+        3)	Quelle est la pression exercée en A et en R ? 
+    </p>
+    <p class="correction">
+        À la surface au point A, la pression est la pression atmosphérique : \(P_A=P_{atm}=1013\ hPa\). <br>
+    Au niveau du point R, puisque le robinet est ouvert, la pression est aussi celle de la pression 
+    atmosphérique : \(P_R=P_{atm}=1013\ hPa\).
+
+    </p>
+
+    <p>
+        4)	Écrire l’équation de Bernoulli entre A et R.
+    </p>
+    <p class="correction">
+        Entre A et R l’équation de Bernoulli s’écrit :
+        \[\frac{1}{2}\rho.v_A^2 + \cancel{P_A}+\rho.g.z_A =\]
+        \[\frac{1}{2}\rho.v_R^2 +\cancel{P_R}+ \rho.g.z_R \]
+        On peut simplifier car \(P_A = P_R\) (d’après la question 3)
+        \[\frac{1}{2}\rho.v_A^2 +\rho.g.z_A =\frac{1}{2}\rho.v_R^2 + \rho.g.z_R \]
+        En arrangeant l’écriture on obtient :
+        \[\rho.g.z_A-\rho.g.z_R = \frac{1}{2}\rho.v_R^2 - \frac{1}{2}\rho.v_A^2 \]
+        \[\rho.g.(z_A -z_R)= \frac{1}{2}\rho.(v_R^2 - v_A^2) \]
+        On peut encore simplifier l’équation car : 
+        <ul class="correction">
+            <li>\(v_A \ll v_R \) donc \(v_R^2 - v_A^2 \simeq v_R^2 \)</li>
+            <li>\(z_A -z_B=h \)</li>
+        
+        \[g.h=\frac{1}{2} v_R^2 \]
+    </ul>
+    </p>
+    <p>
+        5) À l’aide de la question 1) et 4) montrer que la vitesse d’écoulement en R peut s’écrire \(v_R=\sqrt{2.g.h} \) 
+    </p>
+    <p class="correction">
+        De la question précédente on obtient :
+        \begin{align}
+       g.h & = \frac{1}{2}v_R^2 \\
+        \frac{1}{2}v_R^2 & = g.h \\
+        v_R^2 & = 2.g.h \\
+        v_R & = \sqrt{2.g.h} \\
+        \end{align}
+    </p>
+    <p>
+       6) Calculer cette vitesse \(v_R\).
+    </p>
+    <p class="correction">
+        \begin{align} 
+        v_R &= \sqrt{2\times 9,8 \times 3,0}\\
+        &=7,67 \ m.s^{-1}\\
+        \end{align}
+    </p>
+    </body>
+</html>
