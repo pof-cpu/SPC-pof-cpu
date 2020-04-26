@@ -40,3 +40,8 @@
     width:100%;
     
   }
+  .classe{ /*dans la feuille accueil : mise en page de la classe */
+    font-weight: bold;
+    margin : 0 0;
+    padding: 0 0;
+  }
