@@ -58,4 +58,6 @@ a.active{
   .sans-marging{
     margin:0 0;
   }
-  
+  p, ul {
+    font-size: small;
+  }
