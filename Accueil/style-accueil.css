@@ -21,7 +21,8 @@
       display: block ;
      
       color: #fff ;
-      font: 1em "Bangers";
+      /* font: 0.7em "Bangers"; */
+      font: 0.7em "Arial";
       line-height: 1em ;
       padding: 4px 0 ;
       text-align: center ;
@@ -37,6 +38,7 @@ a.defaut{
 }
 a.active{
   background: #900 ;
+ 
 }
 
 .flex-navigation {
@@ -52,3 +54,8 @@ a.active{
     margin : 0 0;
     padding: 0 0;
   }
+
+  .sans-marging{
+    margin:0 0;
+  }
+  
