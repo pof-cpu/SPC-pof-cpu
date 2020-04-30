@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <meta charset="utf-8" />
+           <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+       <link rel="stylesheet" href="style-1G.css" />
+       <title>SPC|TSTI2D-Correction</title>
+       <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+       <script id="MathJax-script" async
+               src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+       </script>
+   </head>
+   
+
+    <body>
+
+     <div class="sans-marging entete">
+        Lycée Taiarapu Nui<br> 
+        1ère Générale<br> 
+        Spécialité Physique – Chimie<br>
+        2019-2020
+        <hr>
+        
+     </div> 
+    <h5 class="sans-marging">Semaine 4 - Lundi 27 avril</h5>
+    <div class="exercice">
+        Exercice 1.
+    </div>
+<div class="sans-marging">
+    <img width="200px" src='trajectoire rectiligne.svg' alt="Trajectoire"/>
+</div>
+<p>Un élève a obtenu la figure ci-dessus. Il affirme que le mouvement est accéléré.<br>
+    1) Dans quel sens se déplace le point M ?</p>
+    <p class="correction">
+        La durée pour parcourir la distance entre chaque point est la même. 
+        Pour un mouvement accéléré, la distance entre chaque point doit 
+        augmenter. On en déduit que le mouvement s’effectue de droite à 
+        gauche (de M<sub>5</sub> vers M<sub>1</sub>).
+    </p>
+    <p> 2) Calculer la vitesse <s>instantanée</s> au point M<sub>2</sub> et au 
+        point M<sub>4</sub> en m/s puis en km/h.</p>
+    <p class="correction">
+        On ne dit plus « vitesse instantanée » mais vitesse. 
+        Il y a plusieurs façons de calculer la vitesse et qui donneront 
+        plusieurs résultats différents. (De préférence pour la terminale)
+        \[v(M_4)=\frac{M_4 M_5}{\Delta t}\]
+        Pour calculer la distance \(M_4 M_5 \) on mesure avec la règle 0,7 cm 
+        et on tient compte de l’échelle :
+        \[M_4 M_5=0,7 \times 12 = 8,4 \ cm\]
+        On peut ensuite calculer la vitesse : 
+        \begin{align}
+        v(M_4) & = \frac{8,4 \times 10^{-2} }{10 \times 10^{-3}} \\
+          & = 8,4 \ m.s^{-1}
+        \end{align}  
+        Pour convertir en \( km.h^{-1} \)  on multiplie par 3,6 :
+        \begin{align}
+        v(M_4) & = 8,4 \times 3,6 \\
+          & = 30,2 \ km.h^{-1}
+        \end{align}      
+    </p>
+    <p>
+        3)	Quelle est la vitesse moyenne en m/s et en km/h entre les 
+        points \(M_1\) et \(M_5\) ?
+    </p>
+    <p class="correction">
+        La vitesse moyenne se calcule en faisant le rapport de la distance 
+        parcourue par la durée :
+        \[v= \frac{M_1 M_5}{t_5 - t_1} \]
+        La distance \(M_1 M_5\) mesurée à la règle est de 4,6 cm. 
+        En tenant compte de l’échelle on obtient
+        \begin{align}
+        M_1 M_5 & = 4,6 \times 12\\
+        & = 55,2 \ cm \\
+        \end{align}
+        La durée \(t_5 - t_1 = 4 \times\Delta t \).
+        La vitesse moyenne est donc :
+        \begin{align}
+            v & = \frac{55,2\times 10^{-2}}{4\times 10\times 10^{-3}} \\
+              & = 13,8 \ m.s^{-1}
+
+        \end{align} 
+    </p>
+
+    <div class="exercice">
+        Exercice 2.
+    </div>
+
+    <div class="cadre">
+     <div id="document">        
+        <div id="article"> 
+            <p class="doc sans-marging sans-padding">
+                Document 1 - Vitesse de la Terre
+            </p>
+            <p class="sans-marging">Dans le référentiel géocentrique, la trajectoire 
+                d’un point situé à l’équateur est un cercle de rayon égal au rayon de la Terre. 
+            </p>
+            <p class="sans-marging">
+                <strong>Donnée</strong> : <br>
+                rayon de la Terre \(R_T = 6350 km\)
+            </p>
+        </div>
+    </div>
+    </div>
+    <p>
+        4) Dans le référentiel terrestre, quelle est la vitesse de ce point ?
+    </p>
+    <p class="correction">
+        Dans le référentiel terrestre la vitesse d’un point de la Terre est nulle.
+    </p>
+
+    <p>
+        5) Dans le référentiel géocentrique, calculer la vitesse de 
+        ce point en \(m.s^{-1}\) et en km.\(h^{-1}\).
+    </p>
+
+    <p class="correction">
+        Dans le référentiel géocentrique, un point situé à l’équateur à une trajectoire 
+        circulaire de rayon \(R_T\). La distance \(d\) parcourue par ce point est égale au 
+        périmètre du cercle de rayon \(R_T\) :
+        \begin{align}
+        d &= 2 \pi R_T \\
+        & = 2 \pi \times 6350 \times 10^3 \\
+        &= 3,990\times 10^7 m
+        \end{align}
+        La durée pour effectuer un tour complet est 
+        \begin{align}
+        \Delta t &= 24 h \\
+        &= 24\times 60 \times 60 \\
+        &= 86400s\\
+        \end{align}
+        La vitesse v de ce point est :
+        \begin{align}
+        v &=\frac{d}{\Delta t}\\
+        &= \frac{3,990\times 10^7}{86400} \\
+        &= 461,8m.s^{-1}\\ 
+        \end{align}
+        En \(km.h^{-1}\) :
+        \begin{align}
+        v &= 461,8\times 3,6 \\
+        &= 1,662\times 10^3 km.h^{-1} \\
+        \end{align}
+    </p>
+
+    <div class="exercice">
+        Exercice 3.
+    </div>
+
+    <div class="cadre">
+     <div id="document">        
+        <div id="article"> 
+            <p class="doc sans-marging sans-padding">
+                Document 2 - Mouvement d'un mobile
+            </p>
+            <p class="sans-marging">
+                L’étude du mouvement d’un mobile dans le référentiel terrestre permet d’obtenir 
+                la courbe ci-dessous à partir d’un enregistrement vidéo. Le mobile se déplace 
+                sur des rails rectilignes dont la longueur totale est de 1,4 m. 
+            </p>
+            <p>
+                
+                <img class="pic" src="Annotation 2020-04-29 132800.jpg" alt="Courbe" />
+            
+                <img class="bigpic" src="Annotation 2020-04-29 132800.jpg" alt="Courbe" />
+            </p>
+        </div>
+    </div>
+    </div>
+    <p>
+       L’enregistrement vidéo, n’a pu être réalisé au-delà de 0,6s, 
+       on cherche à déterminer à quel instant le mobile arrive à l’extrémité des rails.
+    </p>
+    <p> 
+        6) Analyser : Déterminer le type de mouvement et expliquer par des phrases les étapes permettant de répondre.
+    </p>
+    <p class="correction">
+        Pour décrire le mouvement il faut donner le type de trajectoire 
+        (rectiligne, circulaire, curviligne, etc.) et donner la façon dont la vitesse 
+        varie (mouvement uniforme, mouvement accéléré, mouvement ralenti). <br>
+        La trajectoire est rectiligne (document : rails rectilignes).
+        Il faut observer la courbe et déterminer comment varie la vitesse. 
+        La courbe (droite) représente la distance parcourue en fonction du temps : 
+        \( d=f(t) \). <br>
+        On sait que \(d=v.t\). Puisque la représentation graphique est une droite 
+        on peut affirmer que la vitesse est constante. Le mouvement est donc rectiligne 
+        uniforme.  
+    </p>
+    <p>
+        7) Réaliser : Effectuer les calculs permettant de répondre à la question.
+    </p>
+    <p class="correction">
+        La distance parcourue est \(d=v.t\) donc le temps pour parcourir \(d\) est :
+        \[t= \frac{d}{v} \]
+        Il faut d’abord calculer la vitesse v d’après la courbe.
+        La vitesse correspond au coefficient directeur de la droite :
+        \[v= \frac{0,8}{0,6}\]
+        On peut ensuite calculer la durée pour atteindre l’extrémité du rail :
+        \begin{align}
+        t &= \frac{1,4}{\frac{0,8}{0,6}} \\
+        & = 2,9 \ s
+        \end{align}
+        
+         
+    </p>
+
+    </body>
+</html>
