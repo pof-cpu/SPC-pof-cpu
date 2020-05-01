@@ -75,7 +75,7 @@ h3.doc{
   padding: 0 0;
 }
 
-.sans-marging{
+.sans-margin{
   margin:0 0;
 }
 .sans-padding{
@@ -95,40 +95,9 @@ p, ul {
   font-size: 8pt;
 }
 .exercice{
+  margin-top:10px;
   background:rgb(234, 241, 221);
   font-weight: bold;
   font-size: medium;
 }
 
-
-/* ******************************
-Effet zoom sur l'image 
-*********************************/
-.pic{
-  width:200px;
-}
-.bigpic{
-  /* position :absolute; */
-  width : 0;
-}
-.pic:hover + .bigpic{
-  width:300px;
-}
-
-
-/*
-.image img {
-width:80%;
-
-}
-.image:hover img {
-  -webkit-transform-origin:0 0;
-  -webkit-transform:scale(2);
-  /* L'image est doublée */
-  /*-webkit-transform:scale(2); /* Safari et Chrome */
-  /*-moz-transform:scale(2; /* Firefox */
-  /*-ms-transform:scale(2; /* Internet Explorer 9 */
-  /*-o-transform:scale(2; /* Opera */
-  /*transform:scale(2;
-  */
-  /*} */
