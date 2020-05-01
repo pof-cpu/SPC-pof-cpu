@@ -27,6 +27,7 @@
       padding: 4px 0 ;
       text-align: center ;
       text-decoration: none;
+      font-size: 10px;
 }
 #navigation li a:hover, #navigation li a:focus, #navigation li a:active {
   background: #900 ;
@@ -38,6 +39,7 @@ a.defaut{
 }
 a.active{
   background: #900 ;
+  
  
 }
 
@@ -53,11 +55,12 @@ a.active{
     font-weight: bold;
     margin : 0 0;
     padding: 0 0;
+    font-size: 14px;
   }
 
   .sans-marging{
     margin:0 0;
   }
   p, ul {
-    font-size: small;
+    font-size:14px;
   }
