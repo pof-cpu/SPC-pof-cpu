@@ -82,12 +82,12 @@ h3.doc{
   padding:0,0;
 }
 .doc{
-  font-size: 12pt;
+  font-size:  medium;
   font-weight: bold;
 }
 
 p, ul {
-  font-size: 12pt;
+  font-size: medium;
   margin:0 0;
   margin-top: 8px;
 }
@@ -97,7 +97,7 @@ p, ul {
 .exercice{
   background:rgb(234, 241, 221);
   font-weight: bold;
-  font-size: 12pt;
+  font-size: medium;
 }
 
 
