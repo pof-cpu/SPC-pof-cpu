@@ -64,3 +64,6 @@ a.active{
   p, ul {
     font-size:14px;
   }
+  li {
+    margin-bottom: 5px;
+  }
