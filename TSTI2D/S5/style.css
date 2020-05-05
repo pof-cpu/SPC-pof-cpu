@@ -124,3 +124,49 @@ td{
 .container{
   display:flex;
 }
+
+/* liste ordonnée avec parenthèse avec lettre minuscule
+********************************** */
+/*
+ol {
+  counter-reset: list;
+}
+ol > li {
+  list-style: none;
+}
+ol > li:before {
+  content: counter(list, lower-alpha) ") ";
+  counter-increment: list;
+}
+*/
+/* liste ordonnée avec parenthèse avec nombre
+********************************** */
+ol.num {
+  counter-reset: list;
+  padding-left: 20px;
+}
+ol.num > li {
+  list-style: none;
+  
+  margin-bottom: 10px;
+}
+ol.num > li:before {
+  content: counter(list, decimal) ") ";
+  counter-increment: list;
+}
+
+/* liste ordonnée avec parenthèse avec lettre
+********************************** */
+ol.al {
+  counter-reset: list;
+  padding-left: 30px;
+}
+ol.al > li {
+  list-style: none;
+  
+  margin-bottom: 10px;
+}
+ol.al > li:before {
+  content: counter(list, lower-alpha) ") ";
+  counter-increment: list;
+}
