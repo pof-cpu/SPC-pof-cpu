@@ -116,19 +116,29 @@ Effet zoom sur l'image
 }
 
 
-/*
-.image img {
-width:80%;
-
+.main{
+  display: flex;
+  /* flex-direction: row; */
+  flex-wrap:wrap;
+  /* align-items: center; */
+  justify-content: space-between;
+  /* align-self: flex-start; */
+  align-content: stretch;
 }
-.image:hover img {
-  -webkit-transform-origin:0 0;
-  -webkit-transform:scale(2);
-  /* L'image est doublée */
-  /*-webkit-transform:scale(2); /* Safari et Chrome */
-  /*-moz-transform:scale(2; /* Firefox */
-  /*-ms-transform:scale(2; /* Internet Explorer 9 */
-  /*-o-transform:scale(2; /* Opera */
-  /*transform:scale(2;
-  */
-  /*} */
+
+
+.d:nth-child(2) {
+  flex:1.2;
+}
+.d:nth-child(1) {
+  flex:1;
+}
+.d:nth-child(3) {
+  flex:1;
+}
+
+@media screen and (max-width: 1000px) {
+  .main {   
+    flex-direction: column;
+  }
+}

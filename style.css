@@ -170,3 +170,31 @@ ol.al > li:before {
   content: counter(list, lower-alpha) ") ";
   counter-increment: list;
 }
+
+
+.main{
+  display: flex;
+  /* flex-direction: row; */
+  flex-wrap:wrap;
+  /* align-items: center; */
+  justify-content: space-between;
+  /* align-self: flex-start; */
+  align-content: stretch;
+}
+
+
+.d:nth-child(2) {
+  flex:1.2;
+}
+.d:nth-child(1) {
+  flex:1;
+}
+.d:nth-child(3) {
+  flex:1;
+}
+
+@media screen and (max-width: 1000px) {
+  .main {   
+    flex-direction: column;
+  }
+}
