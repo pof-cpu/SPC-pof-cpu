@@ -139,6 +139,35 @@ ol > li:before {
   counter-increment: list;
 }
 */
+ul.tiret{
+  margin:0;
+  margin-left: 20px;
+  padding: 0;
+}
+ul.tiret >li {
+  list-style: none;
+  
+}
+ul.tiret >li:before{
+  content:"- ";
+}
+
+ol.num1{
+  padding-left: 40px;
+  margin-top: 5px;
+}
+ol.num1 > li {
+  margin-bottom: 10px;
+}
+
+ol.al1 {
+  list-style: lower-alpha;
+  margin-top: 5px;
+}
+ol.al1 >li{
+  margin-bottom: 2px;
+}
+
 /* liste ordonnée avec parenthèse avec nombre
 ********************************** */
 ol.num {
