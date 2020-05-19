@@ -123,6 +123,7 @@ td{
 
 .container{
   display:flex;
+  flex-wrap:wrap;
 }
 
 /* liste ordonnée avec parenthèse avec lettre minuscule
