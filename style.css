@@ -107,6 +107,10 @@ p, ul {
 .gras{
   font-weight: bold;
 }
+.italique{
+  font-style: italic;
+}
+
 table{
   border-collapse: collapse;
 }
@@ -140,6 +144,26 @@ ol > li:before {
   counter-increment: list;
 }
 */
+
+/* liste simple avec tiret */
+/* ******************************************** */
+
+ul.simple {
+  margin : 50;
+}
+ul.simple >li {
+  list-style: none;
+  
+  
+  padding-left: 0em;
+  text-indent: -0.5em;
+}
+ul.simple >li:before{
+  content:"- ";
+}
+/* liste tiret */
+/* ***************************** */
+
 ul.tiret{
   margin:0;
   margin-left: 20px;
