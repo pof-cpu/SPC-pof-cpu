@@ -148,9 +148,6 @@ ol > li:before {
 /* liste simple avec tiret */
 /* ******************************************** */
 
-ul.simple {
-  margin : 50;
-}
 ul.simple >li {
   list-style: none;
   
