@@ -153,7 +153,7 @@ ol > li:before {
 /* liste puce  */
 ul.TP >li{
   list-style-type: none;
-  letter-spacing: -1px;
+  letter-spacing: -1.0px;
   margin:0;
   padding-left: 0em;
   text-indent: -0.5em;
