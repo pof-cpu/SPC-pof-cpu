@@ -91,7 +91,8 @@ h5{
   font-weight: bold;
 }
 
-p, ul {
+
+ul {
   font-size: medium;
   margin:0 0;
   margin-top: 8px;
@@ -149,6 +150,22 @@ td{
   flex-wrap:wrap;
 }
 
+.§{
+  
+    font-size: medium;
+    margin:0 0;
+    margin-top: 5pt;
+    text-indent: -10pt;
+    
+}
+p{
+    font-size: medium;
+    margin:0 0;
+    margin-top: 8px;
+}
+
+
+
 /* liste ordonnée avec parenthèse avec lettre minuscule
 ********************************** */
 /*
@@ -177,6 +194,7 @@ ol > li:before {
 ul.TP >li{
   list-style-type: none;
   font-stretch: condensed;
+  
  
   margin:0;
   padding-left: 0em;
