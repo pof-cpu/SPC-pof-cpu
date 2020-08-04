@@ -154,7 +154,7 @@ td{
 /* flex box à utiliser  08/2020*/
 .conteneur{
   display:flex;
-  /* flex-wrap:wrap; */
+  flex-wrap:wrap;
   justify-content: space-between;
 }
 
