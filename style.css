@@ -171,7 +171,11 @@ p{
     margin:0 0;
     margin-top: 8px;
 }
-
+.question{
+  padding-left: 2em;
+  text-indent: -1em;
+  margin-top: 0.5em
+}
 
 
 /* liste ordonnée avec parenthèse avec lettre minuscule
@@ -206,7 +210,7 @@ ul.TP >li{
  
   margin:0;
   padding-left: 0em;
-  text-indent: -0.5em;
+  text-indent: -1em;
    
 }
 ul.TP >li:before{

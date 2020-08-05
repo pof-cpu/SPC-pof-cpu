@@ -5,6 +5,13 @@
            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
        <link rel="stylesheet" href="../../style.css" />
        <title>SPC|Tle TP02</title>
+       <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          }
+        };
+        </script>
        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
        <script id="MathJax-script" async
                src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
@@ -67,7 +74,7 @@
                             
                         </ul>
                     
-                    <p class="gras"><u>Protocole</u> : </p>
+                        <p class="gras"><u>Protocole</u> : </p>
                         <ul class="TP">
                             <li>Réaliser une vidéo permettant une exploitation à l’ordinateur.</li>
                         </ul>
@@ -76,7 +83,7 @@
                     </p>
 
                     <h4>2. Exploiter une vidéo</h4>
-                    <h5>2.1. Vecteur position</h5>
+                    <h5  style="margin-bottom: 0.5em;">2.1. Vecteur position</h5>
                     <div class="cadre">
                         <span class="gras">Document 1 – Le vecteur position</span> <br>
                         Dans un repère \( (O,\vec{i}, \vec{j}, \vec{k} \), la position d’un point G 
@@ -147,11 +154,81 @@
                              <em>Modélisation</em> puis sur <em> modèle.</em></li>      
                         <li>Choisir la modélisation qui vous convient 
                             pour \(x(t) \) et cliquer <em>Ajuster</em>. </li>
-                            </ul>
-                </div>
+                        <li>Faire la même chose pour \(y(t)\).</li>
+                    </ul>
+                    <p class="question">
+                        2) Donner les coordonnées \(x(t)\) et \(y(t)\) du vecteur position 
+                        \( \overrightarrow{OG}(t)\) en fonction du temps t.
+                    </p>
+                    <h5  style="margin-bottom: 0.5em;">2.2. coordonnées approchées du vecteur vitesse</h5>
+                    <div class="cadre">
+                        <span class="gras">Document 2 – Le vecteur déplacement
+                            et le vecteur vitesse
+                        </span> <br>
+
+                        Le vecteur position est \(\overrightarrow{OG}(M)\) lorsque \(G\)
+                        est en \(M\) et  \(\overrightarrow{OG}(M')\) lorsque \(G\)
+                        est en \(M'\). <br>
+                        On a donc \(\overrightarrow{OG}(M')=\overrightarrow{OG}(M)+
+                        \overrightarrow{MM'} \) avec \(\overrightarrow{MM'}\) le vecteur déplacement.
+                        Si \(M\) et \(M'\) sont proches, la durée \(\Delta t\) est "petite". 
+                        On peut alors calculer le vecteur vitesse approchée :
+                      \[ \vec{v}=\frac{\overrightarrow{MM'}}{\Delta t} \]
+                      En utilisant les coordonnées \( (x_M, y_M) \) de \(M\) et \( (x_M', y_M') \)
+                      de \(M'\) on a :
+                        
+                        \[ \vec{v}= \left ( \begin{eqnarray} 
+                        \frac{x_{M'}-x_{M}}{\Delta t} \\ 
+                        \frac{y_{M'}-y_{M}}{\Delta t} \\       
+                        \end{eqnarray} \right ) \]
+                        
+
+                    </div>
+                    <p class="gras sans"><u>Calculs des coordonnées approchées du vecteur
+                         itesse :</u> 
+                    </p>
+                    <p class="sans-margin">Dans le logiciel REGRESSI :
+                        <ul class="TP">
+                            <li>Dans la fenêtre <em>Grandeurs</em> et l’onglet 
+                                <em>Expressions</em> créer une nouvelle grandeur à la 
+                                ligne : vx=(x[i+1]-x[i])/t</li>
+                            <li>Faire la même chose pour la grandeur vy</li>
+                            <li>Sélectionner <em>Tableau</em>, les nouvelles 
+                                grandeurs ont été ajoutées.</li>
+                        </ul>
+                    </p>
+                    <p class="question">
+                       3) Afficher les représentations de \(v_x (t) \) et \(v_y (t) \). 
+                    </p>
+                    <p class="question">
+                       4) Modéliser les deux grandeurs précédentes. Appeler le professeur pour 
+                       valider.
+                    </p>
+                    
+
+                    <h5 style="margin-bottom: 0.5em;">2.2. coordonnées approchées du vecteur 
+                        vitesse</h5>
+                    <div class="cadre">
+                        <span class="gras">Document 3 – Le vecteur vitesse approchée et le 
+                            vecteur accélération approchée
+                        </span> <br>
+                        Le vecteur vitesse approchée s’écrit :
+                        \[ \vec{v}= \left ( \begin{eqnarray} 
+                        v_x \\ 
+                        v_y \\       
+                        \end{eqnarray} \right ) \]
+                        
+                        Le vecteur accélération approchée s’écrit : <br>
+                      
+                     
+                     </div>
                        
 
-    </div>
+                </div>
+            </div> 
+            <!-- Fin -->
+
+
     <div class="d"></div>
     </div>
     </body>
