@@ -193,10 +193,10 @@ ol > li:before {
 .TP{
   /* font-family: Cambria;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
- font-family: Arial /*, sans-serif*/;
+ /* font-family: Arial /*, sans-serif*/;
   /* Cambria, Cochin, Georgia, Times, 'Times New Roman',  */
   /* font-stretch: 50%; */
-  /* letter-spacing: -.8px; */
+   letter-spacing: -.8px; 
 
 }
 ul.TP >li{
