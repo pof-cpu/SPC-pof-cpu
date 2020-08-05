@@ -9,6 +9,9 @@
         MathJax = {
           tex: {
             inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
           }
         };
         </script>
@@ -16,10 +19,22 @@
        <script id="MathJax-script" async
                src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
        </script>
+        
+     
+
+
    </head>
    
 
     <body>
+        
+        <a href="https://www.mathjax.org">
+            <img title="Powered by MathJax"
+            src="https://www.mathjax.org/badge/badge.gif"
+            border="0" alt="Powered by MathJax" />
+        </a>
+
+</a>
         <div class="main">
             <div class="d"></div>
             <div class="d">
@@ -28,6 +43,7 @@
                     Terminale Générale<br> 
                     Spécialité Physique – Chimie<br>
                     2020-2021  
+                    
                     <hr>
                 </div> 
                 <h5 class="sans-margin centrer">Act.2 Décrire le mouvement</h5>
@@ -206,7 +222,7 @@
                     </p>
                     
 
-                    <h5 style="margin-bottom: 0.5em;">2.2. coordonnées approchées du vecteur 
+                    <h5 style="margin-bottom: 0.5em;">2.3. coordonnées approchées du vecteur 
                         vitesse</h5>
                     <div class="cadre">
                         <span class="gras">Document 3 – Le vecteur vitesse approchée et le 
@@ -219,11 +235,48 @@
                         \end{eqnarray} \right ) \]
                         
                         Le vecteur accélération approchée s’écrit : <br>
-                      
                      
-                     </div>
-                       
 
+                      
+
+                        \[
+                            \vec{a}=
+                                \left( 
+                                    \begin{array}{c}
+                                        a_x \\
+                                        a_y  
+                                    \end{array}
+                                \right )=
+
+                                \left(\begin{array}{c}
+                                    \frac{v_{xM'}-v_{xM}}{\Delta t} \\
+                                    \frac{v_{yM'}-v_{yM}}{\Delta t}  
+                                \end{array}\right )
+                        \]
+
+
+                         
+                        
+                     </div>
+                     
+                     <p class="sans-margin sans-padding">
+                        Dans le logiciel REGRESSI :
+                        <ul class="TP">
+                            <li>
+                                Dans la fenêtre <em>Grandeurs</em> et l’onglet <em>Expressions</em> 
+                                créer une nouvelle grandeur à la ligne : ax
+                            </li>
+                            <li>Faire la même chose pour la grandeur ay.</li>
+                        </ul>
+                     </p>
+                     <p class="question">
+                         5) Afficher les représentations de $ a_x (t) $ et $ a_y (t) $.
+                     </p>
+                     <p class="question">
+                        6)	Modéliser les deux grandeurs précédentes. Appeler le professeur pour valider.
+                     </p>
+                       
+                     
                 </div>
             </div> 
             <!-- Fin -->

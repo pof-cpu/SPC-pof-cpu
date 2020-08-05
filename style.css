@@ -201,6 +201,7 @@ ol > li:before {
   /* Cambria, Cochin, Georgia, Times, 'Times New Roman',  */
   /* font-stretch: 50%; */
    letter-spacing: -.8px; 
+   margin:0;
 
 }
 ul.TP >li{
