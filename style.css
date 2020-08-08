@@ -12,6 +12,32 @@
   left:0;
 }
 
+
+/* fonts */
+/* ---------------------------------- */
+@font-face{
+  font-family:'consola';
+  src:url('/Fonts/consola.ttf');
+  
+}
+@font-face{
+  font-family:'consolab';
+  src:url('/Fonts/consolab.ttf');
+  
+}
+
+
+/* ----------------------------------- */
+
+.console{
+  font-family: 'consola';
+  letter-spacing: -.8px; 
+}
+.consoleb{
+  font-family: 'consolab';
+  letter-spacing: 0px; 
+}
+
 /* 
 encradrement
 --------------*/
@@ -150,7 +176,8 @@ td{
 .container{
   display:flex;
   flex-wrap:wrap;
-  
+  /* justify-content: space-between; */
+  align-items: center;
 }
 
 /* flex box à utiliser  08/2020*/
