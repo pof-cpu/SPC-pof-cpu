@@ -145,6 +145,8 @@ td{
   text-align: center;
 }
 
+
+
 .container{
   display:flex;
   flex-wrap:wrap;
@@ -175,6 +177,11 @@ p{
   padding-left: 2em;
   text-indent: -1em;
   margin-top: 0.5em
+}
+
+.imgcentre{
+  margin-left: 0;
+  margin-right: 0;
 }
 
 
