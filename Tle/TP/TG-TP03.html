@@ -1,52 +1,221 @@
 <!DOCTYPE html>
 <html>
-   <head>
-       <meta charset="utf-8" />
-           <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-       <link rel="stylesheet" href="../../style.css" />
-       <title>SPC|Tle TP03</title>
-       <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-       <script id="MathJax-script" async
-               src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-       </script>
-   </head>
-   
 
-    <body>
-        <div class="main">
-            <div class="d"></div>
-            <div class="d">
-                <div class="sans-margin entete">
-                    Lycée Taiarapu Nui<br> 
-                    Terminale Générale<br> 
-                    Spécialité Physique – Chimie<br>
-                    2020-2021  
-                    <hr>
-                </div> 
-                <h5 class="sans-margin">Act. 3 Dosage par étalonnage mesure de la conductance</h5>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../style.css" />
+    <title>SPC|Tle TP03</title>
+    <script>
+        MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']]
+
+            },
+            svg: {
+                fontCache: 'global'
+            }
+        };
+    </script>
+
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+</head>
+<!-- ************************************************************************ -->
+<!-- ************************************************************************ -->
+
+<body>
+    <!-- ************************************************************************ -->
+    <div class="main">
+        <!-- ************************************************************************ -->
+        <div class="d" style="background-color: #f1f1f1;">
+            <!---------------------------------------------------------------->
+
+            <a href="https://www.mathjax.org">
+                <img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif"
+                    alt="Powered by MathJax" />
+            </a>
+        </div>
+        <!-- ************************************************************************ -->
+        <div class="d" style="margin: 10pt;">
+            <div class="sans-margin entete">
+                Lycée Taiarapu Nui<br>
+                Terminale Générale<br>
+                Spécialité Physique – Chimie<br>
+                2020-2021
+
                 <hr>
-                <p class="sans-margin italique">
-                    Mesurer une conductance et tracer une courbe d’étalonnage pour déterminer 
-                    une concentration.
-                </p>
-                <p class=" italique">
-                    <u>Capacités expérimentales</u> :
-                    <ul class="simple italique">
-                        <li>
-                            Respecter les règles de sécurité liées au travail en 
-                            laboratoire</li>
-                        <li>Préparer une solution par dissolution ou par dilution en 
-                            choisissant le matériel adapté</li>
-                        <li >Réaliser des mesures d’absorbance, de pH, de 
-                            conductivité en s’aidant d’une notice</li>
-                        <li>Tracer une courbe d’étalonnage pour déterminer une concentration</li>    
+            </div>
+
+            <h5 class="sans-margin centrer">Act.3 Dosage par étalonnage par mesure de
+                la conductance</h5>
+            <hr>
+
+
+
+            <p class="sans-margin italique">
+                Mesurer une conductance et tracer une courbe d’étalonnage pour 
+                déterminer une concentration.
+            </p>
+            <p class=" italique">
+                <u>Capacités expérimentales</u> :
+                <ul class="simple italique sans-margin">
+                    <li>Respecter les règles de sécurité liées au travail en laboratoire
+                    </li>
+                    <li>
+                        Préparer une solution par dissolution ou par dilution en 
+                        choisissant le matériel adapté
+                    </li>
+                    <li>
+                        Réaliser des mesures <s>d’absorbance, de pH,</s> de 
+                        conductivité en s’aidant d’une notice
+                    </li>
+                    <li>Tracer une courbe d’étalonnage pour déterminer une concentration</li>
+                </ul>
+            </p>
+
+            <div>  <!--------------------------------------->
+                <h4>1. Qu'est-ce que la conductance ?</h4>
+                
+                <p class="gras"><u>Matériel</u> : </p>
+                <p class="sans-margin">
+                    <ul class="tiret">
+                        <li>1 bécher de 100 mL</li>
+                        <li>Chlorure de sodium ($M=58,4 g.mol^{-1}$)</li>
+                        <li>1 balance</li>
+                        <li>1 spatule</li>
+                        <li>1 fiole jaugée de 50 mL</li>
+                        <li>1 pissette d’eau distillée</li>
+                        <li>1 ohmmètre</li>
+                        <li>2 plaques métalliques</li>
+                        <li>2 pinces crocodiles</li>
+                        <li>2 fils</li>
+                        <li>1 éprouvette graduée de 25 mL</li>
+
+                    </ul>
+
+                <p class="gras"><u>Protocole</u> : </p>
+                    <ul class="TP">
+                        <li>Préparer $50 \ mL$ d’une solution de chlorure de sodium de concentration 
+                            molaire $0,5 \ mol.L^{-1}$.</li>
+                        <li>Verser $25 \ mL$ de cette solution dans le bécher de $100 \ mL$. </li>
+                        <li>Placer les plaques métalliques de manière verticale, en vis-à-vis, 
+                            dans le bécher de $100 \ mL$.</li>
+                        <li>Brancher l’ohmmètre et mesurer la résistance $R$</li> 
                     </ul>
                 </p>
+                <p class="question">1) Mesurer la résistance de la solution.</p>
+                <p class="question">2)	Verser le reste de la solution de chlorure de sodium dans 
+                    le bécher et mesurer à nouveau la résistance. Que peut-on conclure ?</p>
+                <p class="question">3)	Que se passe-t-il lorsqu’on approche les électrodes entre elles. </p>
+                <p class="question">4)	Proposer un protocole permettant de montrer que la résistance de la 
+                    solution dépend de sa concentration.</p>
+                <p class="question">5)	Compléter les phrases suivantes:</p>
+                <p class="sans-margin">
+                    Plus la solution est concentrée et plus la résistance est ………………… <br>
+                    Plus la ………………………….. des électrodes est grande et plus 
+                    la résistance est …………………. <br>
+                    Plus la distance entre les électrodes est grande et plus la 
+                    résistance est ………………….
+                </p>
+
+                <div class="cadre" style="margin-top: 1em;">
+                    <h5 class="sans-margin">
+                        Document 1 – La conductance
+                    </h5>
+                        L’ohmmètre permet de mesurer la résistance en ohm ($Ω$). La résistance $R$ 
+                        est la capacité d’un matériau ou d’une solution à s’opposer au passage 
+                        du courant électrique. Plus la résistance est grande et plus le matériau 
+                        s’oppose au courant.
+                        La conductance est la grandeur noté $G$, définie comme l’inverse de la 
+                        résistance. Elle s’exprime en siemens ($S$).
+                </div>
+                <p class="question">6)	À partir du document 1, donner la relation entre la 
+                    conductance $G$ et la résistance $R$. </p>
+                <p class="question">7)	Pour une solution, de quoi va dépendre la conductance ?</p>
+                <p class="question">8)	D’après vous, un autre groupe ayant son propre matériel 
+                    trouvera-t-il la même conductance que vous ? Justifier.</p>
+            </div>
+            <div>  <!--------------------------------------->
+                <h4>2. Mesure de la conductivité</h4>
+                <div class="cadre" style="margin-top: 1em;">
+                    <h5 class="sans-margin">
+                        Document 2 – La conductivité
+                    </h5>
+                    La valeur de la conductance G dépend de plusieurs paramètres. 
+                    On montre qu’elle peut s’écrire ainsi :
+                    \[G=\frac{σ.S}{l} \]
+                    avec $G$ en siemens ($S$), $S$ en mètre carrées ($m²$), $l$ en mètre ($m$) et $σ$ la 
+                    conductivité. <br>
+                    La conductivité $σ$ de la solution dépend de la :
+                    <ul class="sans-margin" style="padding-left: 3em;">  
+                        <li>concentration des ions ;</li>
+                        <li>nature de la solution ionique(les différents types d’ions qu’elle 
+                        contient) ;</li>
+                        <li>température.</li>
+                    </ul>
+                    On utilise un conductimètre pour mesurer la conductivité. 
+                    Il est généralement composé d’une sonde (conductimétrique) relié à 
+                    un boitier. Tout comme le pH-mètre, il faut effectuer un étalonnage 
+                    avant de pouvoir effectuer des mesures.
+
+                 </div>   
+                 
+                 <div>   
+                    <p class="question">9) À partir du document 2, donner l’unité de la 
+                        conductivité $σ$.</p>
+                    <p class="question">10) Estimer les valeurs de la surface immergée $S$ 
+                        (en mètre carré) des électrodes ainsi que la distance $l$ (en mètre) 
+                        les séparant.</p>
+                    <p class="question">11) Calculer votre valeur de la conductivité $σ$.</p>
+                    <p class="question">12)	À l’aide du conductimètre préalablement 
+                        étalonné, mesurer la conductivité.     </p>
+                    </div>
+
+
+
+            </div>
             
-                       
+            <div>  <!--------------------------------------->
+                <h4>3. Dosage par étalonnage par mesure de la conductance</h4>
+                
+                <div class="sans-margin" style="margin-bottom: 0.5em;">Un dosage est une technique permettant de déterminer la 
+                quantité ou la concentration d’une espèce dans un mélange. 
+                </div>
+            
+                <div class="cadre">
+                    <h5 class="sans-margin">Document 3 – Dosage par étalonnage</h5>
+                    Le dosage par étalonnage consiste à effectuer un dosage pour déterminer 
+                    la concentration d’une espèce en utilisant des solutions étalons. 
+                    Une solution étalon est une solution contenant l’espèce qui nous 
+                    intéresse et dont on connait la concentration. 
+
+                </div>
+            </div>
+ 
+
+  
+
+
+            
+
+
+        </div>
+        <!-- ************************************************************************ -->
+
+
+
+        <div class="d" style="background-color: #f1f1f1;" style="margin-bottom: 10pt; ">
+            
+        </div>
+        <!-------------------------------------------->
 
     </div>
-    <div class="d"></div>
+
     </div>
-    </body>
+
+</body>
+
 </html>
