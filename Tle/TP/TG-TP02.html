@@ -27,18 +27,16 @@
 
 
 <body>
+   
+    <div class="main" style="margin: 0pt; ">
 
-
-
-    </a>
-    <div class="main">
-        <div class="d" style="background-color: #f1f1f1;">
-            
-
+        <div class="d">
+            <div style="margin: 10pt;">
             <a href="https://www.mathjax.org">
                 <img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif"
                     alt="Powered by MathJax" />
             </a>
+        </div>
         </div>
         <!-- ************************** -->
         <div class="d" style="margin: 10pt;">
@@ -289,25 +287,25 @@
                     langage de programmation
                 </h4>
                 <div>
-                    De manière générale, il faut réaliser les étapes suivantes : 
+                    De manière générale, il faut réaliser les étapes suivantes :
                     <ul>
                         <li>
-                            Exporter les données du pointage au format CSV 
-                            (un fichier au format CSV est un fichier contenant du texte). 
+                            Exporter les données du pointage au format CSV
+                            (un fichier au format CSV est un fichier contenant du texte).
                         </li>
                         <li>
                             Faire attention à la manière dont les données ont été écrites
-                             (le séparateur décimal est-il un point ou une virgule ? 
-                             le séparateur des données est-il un point ou un point-virgule ?)
+                            (le séparateur décimal est-il un point ou une virgule ?
+                            le séparateur des données est-il un point ou un point-virgule ?)
                         </li>
-                        <li> Faire une boucle permettant de remplir de remplir deux listes x 
-                        et y par exemple.
+                        <li> Faire une boucle permettant de remplir de remplir deux listes x
+                            et y par exemple.
                         </li>
                         <li>Convertir les variables textes des listes en variables décimales.
                         </li>
                         <li> Faire des calculs ; afficher des graphiques.
                         </li>
-                        
+
                     </ul>
                 </div>
                 <p style="margin: 0.5em;"></p>
@@ -316,48 +314,48 @@
                     </span> <br>
                     <div class="console">
                         <p>
-                        <span class="consoleb">import</span> csv <br>
-                        <span class="consoleb">import</span> matplotlib.pyplot 
-                        <span class="consoleb" >as</span> plt <br>
+                            <span class="consoleb">import</span> csv <br>
+                            <span class="consoleb">import</span> matplotlib.pyplot
+                            <span class="consoleb">as</span> plt <br>
                         </p>
                         <p>
-                        f = open('nomDuFichierCsv.csv')  <br>
-                        fichierCSV = csv.reader(f, delimiter=';')  <br>
-                        
-                         
-                        X = [ ] <br>
-                        Y = [ ] <br>
+                            f = open('nomDuFichierCsv.csv') <br>
+                            fichierCSV = csv.reader(f, delimiter=';') <br>
+
+
+                            X = [ ] <br>
+                            Y = [ ] <br>
                         </p>
-                        <p style="padding-bottom: 0; margin-bottom: 0;"> 
-                            <span class="consoleb">for </span>  ligne <span class="consoleb">in </span>  fichierCSV : <br>
-                        </p> 
-                                <p style="padding-left: 1em; margin-top: 0;">
-                                
-                                    ligne[0]=ligne[0].replace(",", ".")  <br>
-                                    ligne[1]=ligne[1].replace(",", ".") <br>
-                                
-                                    x=float(ligne[0]) <br>
-                                    y=float(ligne[1]) <br>
+                        <p style="padding-bottom: 0; margin-bottom: 0;">
+                            <span class="consoleb">for </span> ligne <span class="consoleb">in </span> fichierCSV : <br>
+                        </p>
+                        <p style="padding-left: 1em; margin-top: 0;">
 
-                                
-                                    X.append(x) <br>
-                                    Y.append(y) <br>
+                            ligne[0]=ligne[0].replace(",", ".") <br>
+                            ligne[1]=ligne[1].replace(",", ".") <br>
 
-                                </p>
+                            x=float(ligne[0]) <br>
+                            y=float(ligne[1]) <br>
+
+
+                            X.append(x) <br>
+                            Y.append(y) <br>
+
+                        </p>
                         <p>
-                        fig = plt.figure("monTitre") <br>
-                        plt.axis() <br>
-                        plt.title("Y=f(X)") <br>
-                        plt.xlabel("X(m)") <br>
-                        plt.ylabel("Y(m)") <br>
-                        plt.plot(X,Y,"bx-") <br>
+                            fig = plt.figure("monTitre") <br>
+                            plt.axis() <br>
+                            plt.title("Y=f(X)") <br>
+                            plt.xlabel("X(m)") <br>
+                            plt.ylabel("Y(m)") <br>
+                            plt.plot(X,Y,"bx-") <br>
 
-                        plt.show(fig) <br>
+                            plt.show(fig) <br>
                         </p>
                     </div>
-                     
+
                 </div>
-                
+
 
             </div>
 
@@ -366,22 +364,23 @@
         <!-- Fin -->
 
 
-        <div class="d" style="background-color: #f1f1f1;" style="margin-bottom: 10pt; "> <!----------------------------------->
-            <div class="cadre">
+        <div class="d">
+            <!----------------------------------->
+            <div class="cadre" style="margin:10px";>
                 <a href="https://www.python.org/">
-                    <img title="Python" src="https://www.python.org/static/img/python-logo.png"
-                    alt="Python"
-                    width="200";/>
+                    <img title="Python" src="https://www.python.org/static/img/python-logo.png" alt="Python" width="200"
+                        ; />
                 </a>
                 <h4 class="sans-margin">
-                    Langage python 
-                   
+                    Langage python
+
                 </h4>
                 <h5 class="sans-margin">Quelques notions à retenir.</h5>
             </div>
-        </div> <!-------------------------------------------->
-
         </div>
+        <!-------------------------------------------->
+
+    </div>
 
     </div>
 

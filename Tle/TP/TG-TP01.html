@@ -27,11 +27,15 @@
     <div class="main" style="margin: 0pt; ">
        
         <!-- ----------------------------------------------------- -->
-        <div class="d" style="background-color: #f1f1f1;">
+        <div class="d">
+            <!-- Logo MATHJAX ---------------------------------------->
+            <div style="margin: 10pt;">
             <a href="https://www.mathjax.org">
                 <img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax" />
             </a>
-            <div class="cadre" style="margin-bottom: 10pt;">
+            </div>
+            <!-- ------------------------------------------------- -->
+            <div class="cadre" style="margin: 10pt;">
                 <h4 class="sans-margin">
                     La sécurité au laboratoire
                 </h4>
@@ -54,7 +58,7 @@
                 </ul>
             </div>
 
-            <div class="cadre sans-margin">
+            <div class="cadre" style="margin: 10pt;">
                 <h4 class="sans-margin">Pictogrammes</h4>
                 <div class="flex-container sans-margin">
                     <div class="container centrer sans-margin">
@@ -402,53 +406,56 @@
         </div>
 
         <div class="d">
-        <div class="cadre" style="margin-bottom: 10pt;background-color: #f1f1f1;">
-            <h4 class="sans-margin">
-                Comment calculer le logarithme décimal ?
-            </h4>
-            <h5 class="sans-margin " style="padding-top: 0.5em;"><u>Calculatrice</u></h5>
-            <p class="sans-margin ">
-                La fonction logarithme décimal $log$ (notée parfois $log_{10}$) est généralement associée à la touche
-                $10^x$
-                <span class="zoom">
-                    <span class="image">
-                        <img src="TP01/TP01-img-log.png" width="15" ; />
+           
+                <div class="cadre" style="margin: 10pt;">
+                <h4 class="sans-margin">
+                    Comment calculer le logarithme décimal ?
+                </h4>
+                <h5 class="sans-margin " style="padding-top: 0.5em;"><u>Calculatrice</u></h5>
+                <p class="sans-margin ">
+                    La fonction logarithme décimal $log$ (notée parfois $log_{10}$) est généralement associée à la touche
+                    $10^x$
+                    <span class="zoom">
+                        <span class="image">
+                            <img src="TP01/TP01-img-log.png" width="15" ; />
+                        </span>
                     </span>
-                </span>
-            </p>
+                </p>
 
-            <h5 class="sans-margin" style="padding-top: 0.5em;">
-                <u>python</u>
-                <a href="https://docs.python.org/fr/3.5/library/math.html">
-                    <img src="https://docs.python.org/3/_static/py.png" alt="logo python.org" title="Site python.org" />
-                </a>
-            </h5>
-            Le module <span class="consoleb"> math </span>
-            contient la fonction logarithme décimal $log$. Pour utiliser la
-            fonction il faut écrire : <span class="console">math.log10(<em>nombre</em>)</span>
-            et mettre la valeur que l'on souhaite calculer dans les parenthèses<br>
-            Par exemple :
+                <h5 class="sans-margin" style="padding-top: 0.5em;">
+                    <u>python</u>
+                    <a href="https://docs.python.org/fr/3.5/library/math.html">
+                        <img src="https://docs.python.org/3/_static/py.png" alt="logo python.org" title="Site python.org" />
+                    </a>
+                </h5>
+                Le module <span class="consoleb"> math </span>
+                contient la fonction logarithme décimal $log$. Pour utiliser la
+                fonction il faut écrire : <span class="console">math.log10(<em>nombre</em>)</span>
+                et mettre la valeur que l'on souhaite calculer dans les parenthèses<br>
+                Par exemple :
 
-            <div class="bg console">
+                <div class="bg console">
 
-                <span class="consoleb">import</span> math <br>
-                print (math.log10(1e2))
+                    <span class="consoleb">import</span> math <br>
+                    print (math.log10(1e2))
 
+                </div>
+                affiche <span class="console">2.0</span>. Noter que $10^x$ (dix puissance $x$)
+                s'écrit <span class="console">1ex</span>.<br>
+
+                <h5 class="sans-margin" style="padding-top: 0.5em;">
+                    <u> Excel</u>
+                </h5>
+                La fonction <span class="console">log10(<em>nombre</em>)</span> permet de
+                calculer le logarithme décimal de <span class="console"><em>nombre</em></span>.
+
+                <h5 class="sans-margin" style="padding-top: 0.5em;">
+                    <u> Regressi</u>
+                </h5>
+                La fonction <span class="console">log(<em>nombre</em>)</span> permet de
+                calculer le logarithme décimal de <span class="console"> <em>nombre</em></span>.
             </div>
-            affiche <span class="console">2.0</span>. Noter que $10^x$ (dix puissance $x$)
-            s'écrit <span class="console">1ex</span>.<br>
-
-            <h5 class="sans-margin" style="padding-top: 0.5em;">
-                <u> Excel</u>
-            </h5>
-            La fonction <span class="console">log10(<em>nombre</em>)</span> permet de
-            calculer le logarithme décimal de <span class="console"><em>nombre</em></span>.
-
-            <h5 class="sans-margin" style="padding-top: 0.5em;">
-                <u> Regressi</u>
-            </h5>
-            La fonction <span class="console">log(<em>nombre</em>)</span> permet de
-            calculer le logarithme décimal de <span class="console"> <em>nombre</em></span>.
+            </div>
         </div>
 
 

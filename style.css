@@ -87,8 +87,12 @@ encradrement
 
   
 }
-
-
+/*------------------------------------------- 
+paragraphe
+--------------------------------------------*/
+.section{
+  margin: 10px;
+}
 /*réduire une image
 */
 
@@ -399,9 +403,11 @@ ol.al > li:before {
 }
 .d:nth-child(1) {
   flex:1;
+  background-color: #f1f1f1;
 }
 .d:nth-child(3) {
   flex:1;
+  background-color: #f1f1f1;
 }
 
 @media screen and (max-width: 1200px) {
