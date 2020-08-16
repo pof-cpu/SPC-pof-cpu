@@ -48,12 +48,10 @@
 @font-face{
   font-family:'consola';
   src:url('/Fonts/consola.ttf');
-  
 }
 @font-face{
   font-family:'consolab';
   src:url('/Fonts/consolab.ttf');
-  
 }
 
 @font-face{
@@ -204,7 +202,13 @@ encradrement
   border : 1px solid; 
   padding-left: 5px;
   padding-right: 5px;
-  } 
+  }
+  .cadreblanc{
+    border : 1px solid white; 
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  
 .gris{
   background:rgb(242,242,242);
 }
