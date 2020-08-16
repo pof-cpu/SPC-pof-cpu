@@ -16,8 +16,8 @@
 /* Image avec effet zoom */
 /* ----------------------------------- */
 .zoom {
-  width: 320px;
-  height: 240px;
+  /* width: 320px;
+  height: 240px; */
   }
   .image {
   width: 100%;
@@ -194,6 +194,24 @@ ul {
 .condense{
   letter-spacing: -1px;
 }
+
+
+/* info ! ou astuce */
+/* <p id="exciting"> */
+#exciting {
+  background: linear-gradient(to bottom, #ffffff,rgb(255, 194, 137));
+  border: 1px solid #696969;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px rgb(87, 87, 87);
+}
+
+#exciting:before {
+  content: "ℹ️";
+  margin-right: 5px;
+}
+
+
 
 
 /* .cadre{
