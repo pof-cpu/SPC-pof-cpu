@@ -180,6 +180,9 @@ ul {
 .gauche{
   text-align: left;
 }
+.droite{
+    text-align: right;
+  }
 
 .titre {
   border-bottom:1px solid black;
