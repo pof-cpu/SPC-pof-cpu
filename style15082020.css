@@ -46,32 +46,32 @@
 /* fonts */
 /* ---------------------------------- */
 @font-face{
-  font-family:'consola';
+  font-family:"consola";
   src:url('/Fonts/consola.ttf');
 }
 @font-face{
-  font-family:'consolab';
+  font-family:"consolab";
   src:url('/Fonts/consolab.ttf');
 }
 
 @font-face{
-  font-family:'caveat';
+  font-family:"caveat";
   src:url('/Fonts/Caveat-Regular.ttf');
 }
 
 /* ----------------------------------- */
 
 .console{
-  font-family: 'consola';
+  font-family: "consola";
   /* letter-spacing: -.8px;  */
 }
 .consoleb{
-  font-family: 'consolab';
+  font-family: "consolab";
   letter-spacing: 0px; 
 }
 
 .caveatfont{
-  font-family: 'caveat';
+  font-family: "caveat";
   /* font-size: 1em; */
 }
 
