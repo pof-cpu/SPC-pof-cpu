@@ -130,6 +130,7 @@ div{
 }
 
 /* activité--/exercice--------------- */
+/* Données */
 div.activite{
     margin: 0;
     padding-left: 10px;
@@ -141,7 +142,11 @@ div.exercice{
     margin-top:10px;
     background:rgb(234, 241, 221);
     font-weight: bold;
-    font-size: medium;
+    font-size: 0.96em;
+}
+.données{
+  margin-top:0.5em;
+  margin-bottom:0.5em;
 }
 /* ------------------------- */
 
@@ -176,6 +181,9 @@ ul {
 }
 .italique{
   font-style: italic;
+}
+.souligner{
+  text-decoration: underline;
 }
 .centrer{
   text-align:center
@@ -242,10 +250,10 @@ encradrement
 table.tcadre{
 padding: 0;
 border-collapse: collapse;
-margin: 1em;
+/* margin: 1em; */
 font-size: 1em;
 }
-table.centrer{
+table.tcentrer{
   margin-left: auto;
   margin-right: auto;
 }
