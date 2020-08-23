@@ -22,22 +22,23 @@
   .image {
   width: 100%;
   height: 100%;
+  
   }
   .image img {
   /* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
-  -webkit-transition: all 0.4s ease; /* Safari et Chrome */
-  -moz-transition: all 0.4s ease; /* Firefox */
-  -ms-transition: all 0.4s ease; /* Internet Explorer 9 */
-  -o-transition: all 0.4s ease; /* Opera */
   transition: all 0.4s ease;
   }
   .image:hover img {
   /* L'image est grossie de 25% */
-  -webkit-transform:scale(2.25); /* Safari et Chrome */
-  -moz-transform:scale(2.25); /* Firefox */
-  -ms-transform:scale(2.25); /* Internet Explorer 9 */
-  -o-transform:scale(2.25); /* Opera */
-  transform:scale(2.25);
+  transform:scale(2.25) translate(25%, 25%);
+   
+  /*
+  -webkit-transform:scale(2.25); 
+  -moz-transform:scale(2.25); 
+  -ms-transform:scale(2.25); 
+  -o-transform:scale(2.25); 
+    transform:scale(2.25);
+  */
   }
 
 
@@ -110,6 +111,7 @@ img.reduire  hover {
   width :20px;
 }
 
+
 .petit{
  font-size: small; 
 }
@@ -130,6 +132,7 @@ h5{
 div{
   font-size: 0.96em;
 }
+
 
 .correction{
   margin: 0 0;
@@ -156,7 +159,11 @@ p.entredoc{
   margin:8px;
 }
 
-
+.espacehaut{
+  margin-top: 0.3em;
+  /* margin-top: 5px; */
+  margin-bottom: 0;
+}
 
 
 
@@ -172,14 +179,11 @@ p.entredoc{
 .sans-padding{
   padding:0,0;
 }
-.doc{
-  font-size:  medium;
-  font-weight: bold;
-}
+
 
 
 ul {
-  font-size: medium;
+  font-size: 0.96em;
   margin:0 0;
   margin-top: 8px;
 }
@@ -217,6 +221,10 @@ ul {
 
 .condense{
   letter-spacing: -1px;
+}
+.doc{
+    font-weight: bold;
+    padding-bottom: 5px;
 }
 
 
@@ -312,6 +320,21 @@ border-bottom: 1px solid black;
   margin-left: 0;
   margin-right: 0;
 }
+.mcontainer{
+  position:relative;
+ 
+  
+  padding-left: 5px;
+  padding-right: 5px;
+   
+ 
+}
+.habillage{
+  /* background-size: 50%; */
+  float:left;
+  /* border-radius: 20px; */
+}
+
 
 
 /* liste ordonnée avec parenthèse avec lettre minuscule
@@ -487,4 +510,14 @@ ol.al > li:before {
   /* text-align: left; */
   /* line-height: 75px; */
   font-size: normal;
+}
+
+.conteneur{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content:flex-start;
+  align-content: stretch;
+}
+.conteneur.div{
+  margin: 10px;
 }
