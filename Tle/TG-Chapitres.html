@@ -6,19 +6,23 @@
        <link rel="stylesheet" href="../style.css" />
        <title>SPC|Tle/Chapitres</title>
        <script>
-        MathJax = {
-            tex: {
-                inlineMath: [['$', '$'], ['\\(', '\\)']]
-            },
-            svg: {
-                fontCache: 'global'
-            }
-        };
-    </script>
-       <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-       <script id="MathJax-script" async
-               src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-       </script>
+            MathJax = {
+                tex: {
+                    inlineMath: [['$', '$'], ['\\(', '\\)']]
+                },
+                svg: {
+                    fontCache: 'global'
+                }
+            };
+        </script>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script id="MathJax-script" async
+                src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+        </script>
+
+        <script src="../Tle/JS/madate.js"></script>
+
+
    </head>
    
 
@@ -83,6 +87,10 @@
     <div class="d">
         <h5 class="sans-margin">Période en cours</h5>
         <hr>
+        <div>
+            Aujourd'hui 
+            <span class="gras"><script>document.write(date)</script></span>
+        </div>
         <div class="centrer";> 
             <img src="..\Calendrier\Août2020.png" alt="Août 2020">
             <img src="..\Calendrier\Septembre2020.png" alt="Septembre 2020">
