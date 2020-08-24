@@ -333,6 +333,8 @@ border-bottom: 1px solid black;
 .habillage{
   /* background-size: 50%; */
   float:left;
+  margin-right:10px;
+  
   /* border-radius: 20px; */
 }
 
