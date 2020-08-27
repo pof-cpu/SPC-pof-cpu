@@ -277,6 +277,11 @@ encradrement
 .gris{
   background:rgb(242,242,242);
 }
+.blanc{
+  background:rgb(255, 255, 255);
+}
+
+
 /* Couleur du texte----------------------- */
 .rouge{
   color:rgb(204, 0, 0); 
@@ -333,9 +338,11 @@ border-bottom: 1px solid black;
   margin-top: 0.5em
 }
 
-.imgcentre{
-  margin-left: 0;
-  margin-right: 0;
+.habillagecentre{
+  float:left;
+  
+  margin-left:auto;
+  margin-right:auto;
 }
 .mcontainer{
   position:relative;

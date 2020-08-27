@@ -205,7 +205,7 @@
                     </ul>
                 </div>
 
-                <div>
+                <div  class="habillagecentre">
                     <img src="TP02/TP02-img1.png" width="280" />
                 </div>
             </div>
@@ -418,7 +418,7 @@
                 </h5>
                 <div class="espacehaut">
                     <p>
-                    <em>Pour plus d'informations <a href="https://matplotlib.org/api/">https://matplotlib.org/api/</a> </em>
+                    <em>Pour plus d'informations <a href="https://matplotlib.org/api/" target="_blanck">https://matplotlib.org/api/</a> </em>
                     </p>
                     <span class="souligner">Rappel</span> : Python tient compte de <em>l'indentation</em> (le retrait par rapport à la marge).
                 </div>
@@ -483,11 +483,10 @@
 
                 <p class="entredoc"></p>
 
-                <div class="cadre"> <!--Document 2-->
+                <div class="cadre"> <!--Document 3-->
                     <div class="doc">Le tracé de la courbe</div>
                     
                     <div class="sans-margin">
-                     Il n'y a pas besoin de configurer les axes, mais on peut le faire grâce aux commandes suivantes :             
                     </div>
                     <div class="console espacehaut margegauche">
                         plt<span class="bleu">.plot</span>(<span class="rouge">X</span>,<span class="rouge">Y</span>,<span class="rouge">"bx-"</span>) <br>
@@ -495,10 +494,100 @@
                     </div>
 
                     <div class="espacehaut">
-                         
+                        <span class="bleu">plot</span> place un point aux coordonnées
+                        <span class="rouge">X</span>,<span class="rouge">Y</span>.<br>
+                        Si <span class="rouge">X</span> et <span class="rouge">Y</span> sont 
+                        des listes, cela trace la courbe. <br>
+                    </div>
+                    <div class="espacehaut">
+                        
+                        La partie entre guillement " " correspond au type de point et de tracé. Dans l'ordre on a :
+                        la couleur <span class="rouge">b</span> , le type de point
+                        <span class="rouge">x</span>, le type de tracé <span class="rouge">-</span>.
+                    </div>
+                    <table class="tcadre " style="border: solid 1px; font-size: 0.8em;">
+                        <tr>
+                            <td class="cadre gris centrer" colspan="6">Couleur </td>
+                        </tr>
+                        <tr>
+                            <td class="cadre centrer blanc">r</td>
+                            <td class="cadre centrer blanc">g</td>
+                            <td class="cadre centrer blanc">b</td>
+                            <td class="cadre centrer blanc">m</td>
+                            <td class="cadre centrer blanc">c</td>
+                            <td class="cadre centrer blanc">k</td>
+                        </tr>
+                        <tr>
+                            <td class="cadre centrer blanc">rouge</td>
+                            <td class="cadre centrer blanc">vert</td>
+                            <td class="cadre centrer blanc">bleu</td>
+                            <td class="cadre centrer blanc">magenta</td>
+                            <td class="cadre centrer blanc">cyan</td>
+                            <td class="cadre centrer blanc">noir</td>
+                        </tr>
+                    </table>
+
+                    <table class="tcadre  espacehaut" style="border: solid 1px; font-size: 0.8em;">
+                        <tr>
+                            <td class="cadre gris centrer" colspan="6">Type de point </td>
+                        </tr>
+                        <tr>
+                            <td class="cadre centrer blanc">x</td>
+                            <td class="cadre centrer blanc">+</td>
+                            <td class="cadre centrer blanc">.</td>
+                            <td class="cadre centrer blanc">o</td>
+                            <td class="cadre centrer blanc">v</td>
+                            
+                        </tr>
+                        <tr>
+                            <td class="cadre centrer blanc">croix</td>
+                            <td class="cadre centrer blanc">croix</td>
+                            <td class="cadre centrer blanc">petit point</td>
+                            <td class="cadre centrer blanc">grand point</td>
+                            <td class="cadre centrer blanc">triangle</td>   
+                        </tr>
+                     </table>
+                     <table class="tcadre  espacehaut" style="border: solid 1px; font-size: 0.8em;">
+                        <tr>
+                            <td class="cadre gris centrer" colspan="6">Type de tracé </td>
+                        </tr>
+                        <tr>
+                            <td class="cadre centrer blanc">-</td>
+                            <td class="cadre centrer blanc">--</td>
+                        </tr>
+                        <tr>
+                            <td class="cadre centrer blanc">trait plein</td>
+                            <td class="cadre centrer blanc">pointillés</td>  
+                        </tr>
+                     </table>
+                    <p class="entredoc"></p>
+
+
+
+                    <p class="entredoc"></p>
+                </div> <!--fin doc 3-->
+
+                <p class="entredoc"></p>
+
+                <div class="cadre"> <!--Document 4-->
+                    <div class="doc">Afficher le graphique</div>
+                    
+                    <div class="sans-margin">
+                                  
+                    </div>
+                    <div class="console espacehaut margegauche">
+                        plt<span class="bleu">.show</span>(<span class="rouge">fig</span>) <br>
+                        
+               
+                    </div>
+
+                    <div class="espacehaut">
+                        <span class="bleu">show</span>(<span class="rouge">fig</span>) Affiche la fenêtre 
+                        nommée <span class="rouge">fig</span>. <br>
+                        
                     </div>
                     <p class="entredoc"></p>
-                </div> <!--fin doc 2-->
+                </div> <!--fin doc 4-->
                 <p class="entredoc"></p>
 
             </div> <!--Fin document -->
