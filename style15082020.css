@@ -69,14 +69,14 @@
 
 .console{
   font-family:"consola";
-  letter-spacing: -0.2px; 
+  /* letter-spacing: -0.2px;  */
   font-size:.85em;
  
 
 }
 .consoleb{
   font-family:"consolab";
-  letter-spacing: -0.2px;
+  /* letter-spacing: -0.2px; */
  
 }
 
