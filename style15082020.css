@@ -69,11 +69,15 @@
 
 .console{
   font-family:"consola";
-  /* letter-spacing: -.8px;  */
+  letter-spacing: -0.5px; 
+  font-size:.85em;
+ 
+
 }
 .consoleb{
   font-family:"consolab";
-  letter-spacing: 0px; 
+  letter-spacing: -0.5px;
+ 
 }
 
 .caveatfont{
@@ -100,6 +104,9 @@ paragraphe
 --------------------------------------------*/
 .section{
   margin: 1em;
+}
+.margegauche{
+  padding-left: 1em;
 }
 
 /* ----------------------------------- */
@@ -225,7 +232,7 @@ ul {
 }
 .doc{
     font-weight: bold;
-    padding-bottom: 5px;
+    padding-bottom: 3px;
 }
 
 
@@ -265,10 +272,19 @@ encradrement
     padding-left: 5px;
     padding-right: 5px;
   }
-  
+
+/* Fond gris----------------------- */
 .gris{
   background:rgb(242,242,242);
 }
+/* Couleur du texte----------------------- */
+.rouge{
+  color:rgb(204, 0, 0); 
+}
+.bleu{
+  color:rgb(4, 0, 240); 
+}
+
 /* --------------------------------------- */
 /* Tableaux */
 /* ---------------------------------------- */
