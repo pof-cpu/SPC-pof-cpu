@@ -27,15 +27,44 @@
 <body>
     <!-- ************************************************************************ -->
     <div class="main">
+
+
+
+
         <!-- ************************************************************************ -->
-        <div class="d">
+        <div id="debut" class="d" style="margin: 10pt;">
             <!---------------------------------------------------------------->
-            <div class="section">
-            <a href="https://www.mathjax.org">
-                <img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif"
-                    alt="Powered by MathJax" />
-            </a>
-        </div>
+             <!-- Logo MATHJAX ---------------------------------------->
+             <div style="margin: 10pt;">
+                <a href="https://www.mathjax.org">
+                    <img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax" />
+                </a>
+            </div>
+            <div style="margin: 10pt;">
+                <!-- <span class="gras"><u>Sommaire</u></span> <br> -->
+                 <!-- <a href="#Activité 1">Activité 1</a><br>
+                <br>
+                <a href="#Exercice 1">Exercice 1</a><br> -->
+                <!--
+                <a href="#Exercice 2">Exercice 2</a><br>
+                <a href="#Exercice 3">Exercice 3</a><br>
+                <br>
+                <a href="#Activité 2">Activité 2</a><br>
+                <br>
+                <a href="#Exercice 4">Exercice 4</a><br>
+                <br>
+                <a href="#Activité 3">Activité 3</a><br>
+                <a href="#Activité 4">Activité 4</a><br>
+                <br>
+                <a href="#Exercice 5">Exercice 5</a><br>
+                <br> -->
+                <p></p>
+                <a href="#fin">Aller à la fin</a>
+            </div>
+            <!-- ------------------------------------------------- -->
+
+
+            
         </div>
         <!-- ************************************************************************ -->
         <div class="d" style="margin: 10pt;">
@@ -319,7 +348,9 @@
             </div>
  
 
-  
+            <div id="fin" class="droite">
+                <a href="#debut">Début</a>
+            </div>
 
 
             
@@ -328,12 +359,35 @@
         </div>
         <!-- ************************************************************************ -->
 
-
-
-        <div class="d">
-            
+        <!-- ----------------Début de la section de droite -->
+        <div class="d" style="margin: 10pt;">
+         
+            <!-- ----------------------Début document---------------- -->
+            <div id="incertitude-type" class="cadre" style="margin:10px";>
+                <p class="entredoc"></p>
+                <div >
+                     <div class="doc">
+                        Incertitude-type
+                    </div>
+                    L’incertitude-type $u(G)$ associé à une grandeur mesurée $G$ donne une estimation 
+                    de l’étendue des valeurs que peut prendre la grandeur $G$. Il existe plusieurs 
+                    méthodes pour l’évaluer
+                    <p class="entredoc"></p>
+                    <span class="souligner">Évaluation de type A d’une incertitude-type</span> : <br>
+                    On effectue $n$ mesures d’une grandeur $G$. On a alors
+                     
+                    \[u(G)=\frac{\sigma_{n-1}}{\sqrt{n}} \]
+                    avec $\sigma_{n-1}$ l'écart-type expérimentale (noté aussi $S_{exp}$)
+                     
+                    \[ \sigma_{n-1} = \sqrt{\frac{1}{n-1}\displaystyle\sum_{i=1}^{n} (m_i-\overline{m})² }\]
+                     
+ 
+                </div>
+        
+            </div>
+            <!-- ----------------------Fin document------------------- -->
         </div>
-        <!-------------------------------------------->
+        <!-------------------Fin de la section de droite------------------------->
 
     </div>
 
