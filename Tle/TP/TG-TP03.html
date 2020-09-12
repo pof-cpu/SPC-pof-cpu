@@ -330,6 +330,18 @@
                      de sérum physiologique diluée 20 fois.
                 </div>
 
+                <div class="question">
+                    5) À l’aide d’un tableur ou de votre calculatrice tracer la courbe $σ=f(C)$.
+                </div>
+                <div class="question">
+                    6) Faire une régression linéaire pour déterminer l’équation de droite.
+                </div>
+                <div class="question">
+                    7) En déduire la valeur de la concentration de la solution commerciale
+                     en $mol.L^{-1}$ puis en $g.L^{-1}$.   
+                </div>
+
+
                 <p class="entredoc"></p>
                 <div class="cadre"> <!------------------Document 5---------------------->
                     
@@ -345,12 +357,14 @@
                 </div> <!---------------fin doc5-------------------------->
 
                 <div class="question">
-                    5)	En supposant que les ions présents sont les ions sodium et les ions chlorure, 
+                    8)	En supposant que les ions présents sont les ions sodium et les ions chlorure, 
                     proposer un protocole pour déterminer de manière précise la concentration molaire
                      de chlorure de sodium de l’échantillon d’eau de mer.
                 </div>
+                
+
             </div>
- 
+            <!-- ------------------Fin section d --------------------------------- -->
 
             <div id="fin" class="droite">
                 <a href="#debut">Début</a>
@@ -373,14 +387,25 @@
                      <div class="doc">
                         Incertitude-type
                     </div>
-                    L’incertitude-type $u(G)$ associé à une grandeur mesurée $G$ donne une estimation 
-                    de l’étendue des valeurs que peut prendre la grandeur $G$. Il existe plusieurs 
-                    méthodes pour l’évaluer
-                    <p class="entredoc"></p>
+                    L’incertitude-type $u(x)$ associé à une grandeur mesurée $x$ donne une estimation 
+                    de l’étendue des valeurs que peut prendre la grandeur $x$.<br>
+                    L'écriture du résultat d'une mesure doit faire apparaître l'incertitude : <br>
+                    <div class="centrer">$x= \overline{x} \pm u(x) $</div>
+                    La meilleur estimation de la grandeur est la moyenne $\overline{x}$.
+                    
+
+                    Il existe plusieurs méthodes pour évaluer l'incertitude $u(x)$ .
+                    <p class="entredoc"></p><p class="entredoc"></p>
                     <span class="souligner">Évaluation de type A d’une incertitude-type</span> : <br>
-                    On effectue $n$ mesures d’une grandeur $G$. On a alors
+                    On effectue $n$ mesures d’une grandeur $x$ : $ \left\{ x_1, x_2, ..., x_n \right\}  $ 
+                    <br>
+                    Calculer la moyenne :
+                    \[\overline{x}= \frac{x_1 + x_2 +...+x_n}{n}= 
+                    \displaystyle\sum_{i=1}^{n} \frac{x_i}{n} \]
+                    <br>
+                    On a alors
                      
-                    \[u(G)=\frac{\sigma_{n-1}}{\sqrt{n}} \]
+                    \[u(x)=\frac{\sigma_{n-1}}{\sqrt{n}} \]
                     avec $\sigma_{n-1}$ l'écart-type expérimentale (noté aussi $S_{exp}$)
                      
                     \[ \sigma_{n-1} = \sqrt{\frac{1}{n-1}\displaystyle\sum_{i=1}^{n} (m_i-\overline{m})² }\]
