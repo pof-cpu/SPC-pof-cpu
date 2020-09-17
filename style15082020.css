@@ -139,6 +139,10 @@ h5{
 div{
   font-size: 0.96em;
 }
+p{
+  font-size: 0.96em;
+}
+ 
 
 
 .correction{
@@ -335,7 +339,8 @@ border-bottom: 1px solid black;
 .question{
   padding-left: 2em;
   text-indent: -1em;
-  margin-top: 0.5em
+  margin-top: 0.5em;
+ font-size:0.96em;
 }
 
 .habillagecentre{
@@ -360,6 +365,10 @@ border-bottom: 1px solid black;
   
   /* border-radius: 20px; */
 }
+img.hq{
+  image-rendering: high-quality;
+}
+ 
 
 
 
@@ -382,7 +391,7 @@ ol > li:before {
 .TP{
   /* font-family: Cambria;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
- /* font-family: Arial /*, sans-serif*/;
+ /* font-family: Arial /*, sans-serif*/
   /* Cambria, Cochin, Georgia, Times, 'Times New Roman',  */
   /* font-stretch: 50%; */
    letter-spacing: -.8px; 
