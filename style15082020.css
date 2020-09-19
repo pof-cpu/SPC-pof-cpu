@@ -398,6 +398,13 @@ ol > li:before {
    margin:0;
 
 }
+
+.protocole{
+  font-stretch: condensed;
+  margin:0;
+  padding-left: 1em;
+  /* text-indent: 2em; */
+}
 ul.TP >li{
   list-style-type: none;
   font-stretch: condensed;

@@ -1,62 +1,281 @@
 <!DOCTYPE html>
 <html>
-   <head>
-       <meta charset="utf-8" />
-           <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-       <link rel="stylesheet" href="../../style.css" />
-       <title>SPC|Tle TP04</title>
-       <script>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../style15082020.css" />
+    <title>SPC|Tle TP04</title>
+    <script>
         MathJax = {
             tex: {
                 inlineMath: [['$', '$'], ['\\(', '\\)']]
 
+            },
+            chtml:{
+                scale: 0.85
             },
             svg: {
                 fontCache: 'global'
             }
         };
     </script>
-       <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-       <script id="MathJax-script" async
-               src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-       </script>
-   </head>
-   
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+</head>
+<!-- ************************************************************************ -->
+<!-- ************************************************************************ -->
 
-    <body>
-        <div class="main">
-            <div class="d"></div>
+<body>
+    <!-- ************************************************************************ -->
+    <div class="main">
 
-            <div class="d">
-                <div class="sans-margin entete">
-                    Lycée Taiarapu Nui<br> 
-                    Terminale Générale<br> 
-                    Spécialité Physique – Chimie<br>
-                    2020-2021  
-                    <hr>
-                </div> 
-                <h5 class="sans-margin">Act. 4  Étude du mouvement - aspect énergétique</h5>
-                <hr>
-                <p class="sans-margin italique">
-                    Utiliser des capteurs ou une vidéo pour déterminer les équations horaires 
-                    du mouvement du centre de masse d’un système dans un champ uniforme. 
-                    Étudier l’évolution des énergies cinétique, potentielle et mécanique.
-                </p>
-                <p class=" italique">
-                    <u><a href="../TG-Capacités.html" target="_blank">Capacités expérimentales </a></u> :
-                    <ul class="simple italique">
-                        <li>
-                            Mettre en œuvre un dispositif d’acquisition et de traitement 
-                            de données : <s>microcontrôleur, interface d’acquisition,</s> tableur, langage de programmation</li>
-                        <li >Collecter des données sur un mouvement (vidéo, chronophotographie, etc.).</li>
-                        
-                    </ul>
-                </p>
+
+
+
+        <!-- ************************************************************************ -->
+        <div id="debut" class="d" style="margin: 10pt;">
+            <!---------------------------------------------------------------->
+             <!-- Logo MATHJAX ---------------------------------------->
+             <div style="margin: 10pt;">
+                <a href="https://www.mathjax.org">
+                    <img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax" />
+                </a>
+            </div>
+            <div style="margin: 10pt;">
+                <!-- <span class="gras"><u>Sommaire</u></span> <br> -->
+                 <!-- <a href="#Activité 1">Activité 1</a><br>
+                <br>
+                <a href="#Exercice 1">Exercice 1</a><br> -->
+                <!--
+                <a href="#Exercice 2">Exercice 2</a><br>
+                <a href="#Exercice 3">Exercice 3</a><br>
+                <br>
+                <a href="#Activité 2">Activité 2</a><br>
+                <br>
+                <a href="#Exercice 4">Exercice 4</a><br>
+                <br>
+                <a href="#Activité 3">Activité 3</a><br>
+                <a href="#Activité 4">Activité 4</a><br>
+                <br>
+                <a href="#Exercice 5">Exercice 5</a><br>
+                <br> -->
+                <p></p>
+                <a href="#fin">Aller à la fin</a>
+            </div>
+            <!-- ------------------------------------------------- -->
+
+
             
-                       
+        </div>
+        <!-- ************************************************************************ -->
+
+        <div class="d" style="margin: 10pt;"> <!----------Début de la partie centrale ----------->
+            <div class="sans-margin entete">
+                Lycée Taiarapu Nui<br>
+                Terminale Générale<br>
+                Spécialité Physique – Chimie<br>
+                2020-2021
+
+                <hr>
+            </div>
+
+            <!-- --------------------------TITRE----------------------------------------------- -->
+            <h5 class="sans-margin centrer">Act.4 Étude du mouvement : aspect énergétique</h5>
+            <hr>
+            <!-- --------------------------Fin titre------------------------------------------- -->
+
+            <!--  -------------------------Introduction---------------------------------------- -->
+            <p class="sans-margin italique">
+                Utiliser des capteurs ou une vidéo pour déterminer les équations horaires du mouvement 
+                du centre de masse d’un système dans un champ uniforme. <br> 
+                Étudier l’évolution des énergies cinétique, potentielle et mécanique.
+            </p>
+            <p class=" italique">
+                <u> <a href="../TG-Capacités.html" target="_blank">Capacités expérimentales </a></u> :
+                <ul class="simple italique sans-margin">
+                    <li>Mettre en œuvre un dispositif <s>d’acquisition et</s> de traitement 
+                        de données : <s>microcontrôleur,</s> <s>interface d’acquisition</s>, tableur, 
+                        <s>langage de programmation</s>
+                    </li>
+                    <li>
+                        Collecter des données sur un mouvement (vidéo, chronophotographie, etc.).
+                    </li>
+                    <li>
+                        Calculer l’énergie mécanique, l’énergie potentielle et l’énergie cinétique.
+                    </li>
+                     
+                </ul>
+            </p>
+            <!-- ---------------------------Fin introduction----------------------------------- -->
+            
+            <!---------------------------------paragraphe 1--------------------------------------->
+            <div>   
+                <h4>1. Équations horaires du mouvement</h4>
+                
+                <div class="sans-margin" style="margin-bottom: 0.5em;">
+                    <span class="souligner">Objectif</span> : Établir les équations horaires 
+                    du mouvement.
+
+                </div>
+                
+                <p class="entredoc"></p>
+                <!-----------------------------Matériel---------------------------------------  -->
+                <p class="sans-margin">
+                    <span class="gras souligner">Matériel</span> :
+                    <ul class="tiret">
+                        <li>PC</li>
+                        <li>Logiciel Latis Pro</li>
+                        <li>Fichier vidéo à étudier : <em>TP1SChutVert.avi</em></li>
+                    </ul>
+                </p> 
+                   <!---------------------------Fin matériel----------------------------------  -->
+               
+                <!-----------------------------Protocole---------------------------------------  -->
+                <p class="protocole">
+                    <span class="gras souligner">Protocole</span> : <br>
+                    &#x2713; Lancer Latis Pro <br>
+                    &check; Cliquer : Lecture des séquences AVI <br>
+                    <img src="TP04/Icone lecture des séquences AVI.png"> <br>
+                    &check; Ouvrir la vidéo dans le dossier : Eurosmart/LatisPro/Videos/ <br>
+                    &check; Si la vidéo se lance automatiquement, la remettre au début. <br>
+                    &check; Cliquer les différents boutons : <br>
+                    <img class="habillage" width="150px" 
+                    src="/Tle/TP/TP04/Paramètres.png" alt="Paramètres"
+                    title=" ">
+                     </a> 
+                    <br>
+                    Mettre l'origine en bas sur le carton (voir éventuellement la dernière image). 
+                    <br>
+                    Régler l'étalon sur 1m <br>
+                    <br> 
+                
+                    <br>
+                    Choisir le sens x vers la droite y vers le haut
+                    <br> 
+                    <br>
+                    <br>
+                    <br> 
+                    <br>
+                    <br>
+                    Cliquer sélection manuelle des points et faire le pointage
+                    <br>
+                    <br>
+                    &check; Cliquer sur courbes (en haut à droite) : <br>
+                    <img src="TP04/Courbes.png"> <br>
+                    &check; Tracer les courbes : Cliquer déplacer et relâcher sur la zone. <br>
+                    <img src="TP04/Tracer les courbes.png"><br>
+                    &check; Cliquer droit sur le nom de la courbe et cliquer sur propriété pour renommer
+                             la courbe en « X ». <br>
+                    &check; Faire la même chose pour la courbe Mouvement Y à renommer en « Y ». <br>
+                    &check; Cliquer « modélisation » et cliquer déplacer la courbe X et 
+                    relâcher dans le cadre « courbe à modéliser ».<br>
+                    <img src="TP04/Icone lecture des séquences AVI.png"> <br>
+                    <img src="TP04/Courbe à modéliser.png"> <br>
+                    
+                    &check; Choisir le modèle qui convient, puis cliquer « calculer le modèle ». 
+                            Cliquer le bouton ≫ pour avoir les valeurs.
+                    <img src="TP04/Calculer le modèle.png"> <br>
+
+                </p> 
+                   <!---------------------------Fin Protocole----------------------------------  -->
+
+               
+                <div class="question">
+                 
+                </div>
+             
+
+
+                <p class="entredoc"></p>
+                <div class="cadre"> <!------------------Document 5---------------------->
+                    
+                    <div class="doc">Document 3 &minus; Eau de mer</div>  
+                    <!-- <a class="habillage";
+                    href="C03/Acide carminique.jpg" 
+                    target="_blank"><img width="150px" 
+                    src="C03/Acide carminique.jpg" alt="Acide carminique"
+                    title="Cliquer pour agrandir">
+                     </a>             -->
+                     L’eau de mer a une salinité comprise entre $30$ et $35\ g/L$.                    
+                </div> <!---------------fin doc5-------------------------->
+
+                <div class="question">
+                    8)	En supposant que les ions présents sont les ions sodium et les ions chlorure, 
+                    proposer un protocole pour déterminer de manière précise la concentration molaire
+                     de chlorure de sodium de l’échantillon d’eau de mer.
+                </div>
+                
+
+            </div>
+             
+
+            <div id="fin" class="droite"> 
+                <a href="#debut">Début</a>
+
+            </div>
+
+
+            
+
+
+        </div><!-------------------------Fin de la partie centrale ---------------------------->
+        <!-- ********************************************************************************* -->
+
+        
+        <div class="d" style="margin: 10pt;"><!-- ---------Début de la section de droite --------->
+         
+            <!-- ----------------------Début document---------------- -->
+            <div id="incertitude-type" class="cadre" style="margin:10px";>
+                <p class="entredoc"></p>
+                <div >
+                     <div class="doc">
+                        Incertitude-type
+                    </div>
+                    L’incertitude-type $u(x)$ associé à une grandeur mesurée $x$ donne une estimation 
+                    de l’étendue des valeurs que peut prendre la grandeur $x$.<br>
+                    L'écriture du résultat d'une mesure doit faire apparaître l'incertitude : <br>
+                    <div class="centrer">$x= \overline{x} \pm u(x) $</div>
+                    La meilleur estimation de la grandeur est la moyenne $\overline{x}$.
+                    
+
+                    Il existe plusieurs méthodes pour évaluer l'incertitude $u(x)$ .
+                    <p class="entredoc"></p><p class="entredoc"></p>
+                    <span class="souligner">Évaluation de type A d’une incertitude-type</span> : <br>
+                    On effectue $n$ mesures d’une grandeur $x$ : $ \left\{ x_1, x_2, ..., x_n \right\}  $ 
+                    <br>
+                    Calcul de la moyenne :
+                    \[\overline{x}= \frac{x_1 + x_2 +...+x_n}{n}= 
+                    \displaystyle\sum_{i=1}^{n} \frac{x_i}{n} \]
+                    <br>
+                    On a alors
+                     
+                    \[u(x)=\frac{\sigma_{n-1}}{\sqrt{n}} \]
+                    avec $\sigma_{n-1}$ l'écart-type expérimentale ou écart-type de l'échantillon 
+                    (noté aussi $S_{exp}$ ou $S_x$) <br>
+                    Pour en savoir plus voir :
+                    <a href="https://en.wikipedia.org/wiki/Standard_deviation"
+                    target="_blank">
+                     Sample standard deviation
+                    </a>
+                     
+                    \[ \sigma_{n-1} = \sqrt{\frac{1}{n-1}\displaystyle\sum_{i=1}^{n} (m_i-\overline{m})² }\]
+                     
+                    Avec les calculs précédants et en écrivant $x= \overline{x} \pm u(x) $ le niveau de 
+                    confiance est de 68%. C'est à dire que l'intervalle donnée a 68% de chance d'être juste.
+ 
+                </div>
+        
+            </div>
+            <!-- ----------------------Fin document------------------- -->
+        </div>
+        <!-------------------Fin de la section de droite------------------------->
 
     </div>
-    <div class="d"></div>
+
     </div>
-    </body>
+
+</body>
+
 </html>
