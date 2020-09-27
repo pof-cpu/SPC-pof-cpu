@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../style15082020.css" />
+    <title>SPC|Tle TP05</title>
+    <script>
+        MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']]
+
+            },
+            chtml:{
+                scale: 0.96
+            },
+            svg: {
+                fontCache: 'global'
+            }
+        };
+    </script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+</head>
+<!-- ************************************************************************ -->
+<!-- ************************************************************************ -->
+
+<body>
+    <!-- ************************************************************************ -->
+    <div class="main">
+
+
+
+
+        <!-- ************************************************************************ -->
+        <div id="debut" class="d" style="margin: 10pt;">
+            <!---------------------------------------------------------------->
+             <!-- Logo MATHJAX ---------------------------------------->
+             <div style="margin: 10pt;">
+                <a href="https://www.mathjax.org">
+                    <img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax" />
+                </a>
+            </div>
+            <div style="margin: 10pt;">
+                <!-- <span class="gras"><u>Sommaire</u></span> <br> -->
+                 <!-- <a href="#Activité 1">Activité 1</a><br>
+                <br>
+                <a href="#Exercice 1">Exercice 1</a><br> -->
+                <!--
+                <a href="#Exercice 2">Exercice 2</a><br>
+                <a href="#Exercice 3">Exercice 3</a><br>
+                <br>
+                <a href="#Activité 2">Activité 2</a><br>
+                <br>
+                <a href="#Exercice 4">Exercice 4</a><br>
+                <br>
+                <a href="#Activité 3">Activité 3</a><br>
+                <a href="#Activité 4">Activité 4</a><br>
+                <br> -->
+                <!--<a href="#Travail supplémentaire">Travail supplémentaire</a><br>
+                <a href="#Incertitude_type_A">Incertitude de type A</a><br>
+                <br>  
+                <p></p>
+                <a href="#fin">Aller à la fin</a> -->
+            </div> 
+            <!-- ------------------------------------------------- -->
+
+
+            
+        </div><!-- ******************************************************************** -->
+        
+
+        <div class="d" style="margin: 10pt;"> <!----------Début de la partie centrale ----------->
+            <div class="sans-margin entete">
+                Lycée Taiarapu Nui<br>
+                Terminale Générale<br>
+                Spécialité Physique – Chimie<br>
+                2020-2021
+
+                <hr>
+            </div>
+
+            <!-- --------------------------TITRE----------------------------------------------- -->
+            <h5 class="sans-margin centrer">TP.5 Titrage pH-métrique</h5>
+            <hr>
+            <!-- --------------------------Fin titre------------------------------------------- -->
+
+            <!--  -------------------------Introduction---------------------------------------- -->
+            <p class="sans-margin italique">
+                Mettre en œuvre le suivi pH-métrique d’un titrage ayant pour support une 
+                réaction acide-base.
+            </p>
+            <p class=" italique">
+                <u> <a href="../TG-Capacités.html" target="_blank">Capacités expérimentales </a></u> :
+                <ul class="simple italique sans-margin">
+                    <li>
+                        Respecter les règles de sécurité liées au travail en laboratoire.
+                    </li>
+                    <li>
+                        Réaliser des mesures <s>d’absorbance</s>, de pH, <s>de conductivité</s> en s’aidant 
+                        d’une notice.
+                    </li>
+                    <li>
+                        Mettre en œuvre le protocole expérimental d’un titrage.
+                    </li>
+                     
+                </ul>
+                
+            </p>
+            <div class="gras italique">
+                Comment déterminer la concentration en acide éthanoïque dans le vinaigre ?
+            </div>
+            <!-- ---------------------------Fin introduction----------------------------------- -->
+            
+            <!---------------------------------paragraphe 1--------------------------------------->
+            <div>   
+                <h4>1. Qu'est-ce qu'un titrage pH-métrique ?</h4><!-- Titre §-->
+                
+                <div class="sans-margin" style="margin-bottom: 0.5em;">
+                   
+
+                </div>
+                
+                <p class="entredoc"></p> <!--- Fin titre §---------------------------------------->
+               
+                <div class="cadre"> <!----------------------Document 1--------------------------->
+                    
+                    <div class="doc">Document 1 &minus; Principe du titrage pH-métrique</div>  
+                    Le titrage est une technique qui permet de déterminer la concentration 
+                    d’une espèce chimique en se reposant sur une réaction chimique totale 
+                    et rapide entre une espèce titrée (celle que dont on cherche la 
+                    concentration) et une espèce titrante (de concentration connue).<br>
+                    En classe de 1ère cette technique a été utilisé dans le cadre d’un
+                    titrage colorimétrique. Ici, il s’agit de suivre l’évolution de 
+                    la réaction en mesurant le pH.<br>
+                    Lorsqu’on ajoute la solution titrante il se produit une réaction 
+                    acide-base ce qui modifie le pH. <br>
+                    L’équivalence est atteinte lorsque les réactifs sont introduits 
+                    dans les proportions stœchiométriques. À ce moment-là, le pH 
+                    varie brusquement (saut de pH). <br>
+                    Le volume équivalent $V_E$ est déterminé en utilisant la méthode 
+                    des tangentes parallèles ou celle de la dérivée.
+                      
+                </div> <!---------------------------------fin document 1-------------------------->
+                <p class="entredoc"></p>
+
+                <div class="cadre"> <!----------------------Document 2--------------------------->
+                    
+                    <div class="doc">Document 2 &minus; Schéma du montage</div>  
+                    <a class="habillage hq";
+                    href="TP05/Titrage.svg" 
+                    target="_blank"><img width="140px" 
+                    src="TP05/Titrage.svg" alt="Acide carminique"
+                    title="Cliquer pour agrandir">
+                     </a> 
+                
+                <p>
+                    <span class="gras souligner">Solution titrante</span> : <br>
+                    Soude de concentration <br>
+                    $c=0,100 \ mol.L^{-1}$
+                </p> 
+                <p>
+                    <span class="gras souligner">Solution titrée</span> : <br>
+                    Soude de vinaigre <br>
+                    $V_A=20,0\ mL$ <br>
+                </p> 
+                <p>
+                    La solution de vinaigre est diluée 20 fois.
+                </p>
+                <br>
+               
+                </div> <!---------------------------------fin document 2-------------------------->
+                <p class="entredoc"></p>
+
+                <!-- --------------------------------------Données ------------------------------->
+                <p class="petit">
+                    Données :<br>
+                    Couples acide/base : $CH_3COOH(aq)/CH_3COO^-(aq)$ | <br>
+                    $H_3O^+(aq)/H_2O(l)$ | $H_2O(l)/HO^-(aq)$.<br>
+                    Masse molaire de l'acide éthanoïque $M=60,1\ g.mol^{-1}$<br>
+                    Soude : $Na^+(aq)$ et $HO^-(aq)$. 
+                </p>
+                <!-- ---------------------------------Fin Données ------------------------------->
+
+                <!-----------------------------Matériel---------------------------------------  -->
+                <p class="sans-margin">
+                    <span class="gras souligner">Matériel</span> :
+                    <ul class="tiret">
+                        <li>Burette graduée 25mL avec potence, pince, noix</li>
+                        <li>2 béchers de 250 mL</li>
+                        <li>1 Pipette jaugée de 20 mL</li>
+                        <li>1 Fiole jaugée de 100 mL avec bouchon</li>
+                        <li>1 pissette d’eau distillée</li>
+                        <li>pH-mètre étalonné</li>
+                        <li>Vinaigre entre 6 et 8%</li>
+                        <li>Solution de soude</li>
+                        <li>Verre à pied</li>
+                        <li>PC + Regressi</li>
+                    </ul>
+                </p> 
+                   <!---------------------------Fin matériel----------------------------------  -->
+
+            </div> <!----------------------------------Fin paragraphe 1----------------------- -->
+            
+
+            <div> <!----------------------------------Début paragraphe 2---------------------- -->
+                <h4>
+                    2. Titrage et détermination du volume équivalent
+                </h4>
+                
+               
+                <div class="cadre"> <!----------------------Document 3--------------------------->
+                    
+                    <div class="doc">Document 3 &minus; Méthode des tangentes</div>  
+                    <a class="habillage hq";
+                    href="TP05/Méthode des tangentes.svg" 
+                    target="_blank"><img class="hq" width="170px" 
+                    src="TP05/Méthode des tangentes.svg" alt="Acide carminique"
+                    title="Cliquer pour agrandir">
+                     </a> 
+                
+                    <p>
+                        Tracer les tangentes de manière qu’elles soient parallèles.
+                        Tracer la perpendiculaire aux tangentes ; elle forme un segment
+                        entre les deux tangentes. <br>
+                        Tracer la médiatrice de ce segment. Elle coupe la courbe au 
+                        point équivalent. 
+   
+                    </p> 
+                    <br>
+                    <br>
+
+                </div> <!---------------------------------fin document 3-------------------------->
+                <p class="entredoc"></p>
+
+                <div class="cadre"> <!----------------------Document 4--------------------------->
+                    
+                    <div class="doc">Document 4 &minus; Méthode de la dérivée</div>  
+                                  
+                    <p>
+                        À l’aide d’un logiciel, on trace la courbe $pH=f(V)$. On trace la 
+                        courbe $\frac{dpH}{dV}=f(V)$  (courbe de la dérivée du pH en fonction du 
+                        volume).<br>
+                        L’abscisse du maximum de cette courbe correspond au volume 
+                        équivalent.
+
+   
+                    </p> 
+
+                </div> <!---------------------------------fin document 4-------------------------->
+                <p class="entredoc"></p>
+
+                <div class="cadre"> <!----------------------Document 5--------------------------->
+                    
+                    <div class="doc">Document 5 &minus; Pourcentage massique </div>  
+                                  
+                    <p>
+                        La concentration d’un vinaigre est noté en ° ou %. Cela correspond 
+                        à la masse d’acide éthanoïque pour 100 g de solution.<br>
+                        Pour le vinaigre la masse volumique est quasiment la même que 
+                        pour l’eau.
+                    </p> 
+
+                </div> <!---------------------------------fin document 5-------------------------->
+                <p class="entredoc"></p>
+
+                 <!--Questions-->
+                <div class="question">
+                    1)	Rédiger un protocole permettant de réaliser la solution de vinaigre 
+                    diluée 20 fois. Appeler le professeur pour valider.
+                </div>
+                <div class="question">
+                    2)	Écrire l’équation de la réaction support du titrage entre l’acide éthanoïque 
+                    et la soude.
+                </div>
+                <div class="question">
+                    3)	Mesurer et noter le pH de la solution après chaque ajout de soude, 
+                    mL par mL, jusqu’à 25 mL. Lorsque le volume de soude versé se trouve 
+                    proche de l’équivalence (entre 13 mL et 17,5 mL), effectuer des ajouts de 0,2 mL.
+                </div>
+                 <div class="question">
+                    4) Tracer la courbe $pH=f(V)$ (avec V le volume de soude versé) et déterminer le 
+                    volume à l’équivalence $V_E$.
+                </div>
+                <div class="question">
+                    5)	En déduire la concentration en masse d’acide éthanoïque dans la solution 
+                    diluée puis dans le vinaigre. 
+                </div>
+                <!--Fin questions-->
+
+            </div> <!----------------------------------Fin paragraphe 2----------------------- -->
+             
+
+
+            <div id="fin" class="droite"> 
+                <a href="#debut">Début</a>
+
+            </div>
+
+
+            
+
+
+        </div><!-------------------------Fin de la partie centrale ---------------------------->
+        <!-- ********************************************************************************* -->
+
+        
+        <div class="d" style="margin: 10pt;"><!-- ---------Début de la section de droite --------->
+         
+           
+        </div>
+        <!-------------------Fin de la section de droite------------------------->
+
+    </div>
+
+    </div>
+
+</body>
+
+</html>
