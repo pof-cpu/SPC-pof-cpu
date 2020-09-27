@@ -284,6 +284,9 @@ encradrement
 .blanc{
   background:rgb(255, 255, 255);
 }
+.jaune{
+  background: rgb(255,255,204) ;
+}
 
 
 /* Couleur du texte----------------------- */
