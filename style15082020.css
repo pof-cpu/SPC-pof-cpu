@@ -54,8 +54,8 @@
 
 @font-face{
   font-family:"caveat";
-  src:url('https://fonts.googleapis.com/css2?family=Caveat&display=swap';)
-  /*src:url('/Fonts/Caveat-Regular.ttf'); */
+  /* src:url('https://fonts.googleapis.com/css2?family=Caveat&display=swap';) */
+  src:url('/Fonts/Caveat-Regular.ttf');
 }
 
 
