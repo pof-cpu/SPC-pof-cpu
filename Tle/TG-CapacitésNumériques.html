@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style15082020.css" />
+    <title>SPC|Tle Capacités numériques</title>
+
+    <script>
+        MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']]
+            },
+            chtml:{
+                scale: 0.9
+            },
+            svg: {
+                fontCache: 'global'
+                
+            }
+        };
+    </script>
+  
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async 
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+</head>
+
+
+<body>
+    <div class="main" style="margin: 0pt; "> <!-- ---------------Main----------------------------- -->
+       
+        
+        <div id="debut" class="d" style="margin: 10pt;"> <!-- ----Début section d de gauche ----------->
+            <!-- -------------------------------Logo MATHJAX ---------------------------------------->
+            <div style="margin: 10pt;">
+                <a href="https://www.mathjax.org">
+                    <img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax" />
+                </a>
+            </div>
+            <!-- Fin logo MATHJAX------------------------------------------------------------------ -->
+            
+            
+            <div style="margin: 10pt;"> <!-- ------------------------Lien vers balises----------------->
+                <span class="gras"><u>Sommaire</u></span> <br>
+                    <div style="margin-left: 2em;">
+                        <a href="#Les courbes">Les courbes</a><br>
+                        
+                        <p class="entredoc"></p>
+                        
+                    </div>
+            </div> <!-- ------------------------Fin Lien vers balises---------------------------------->
+            
+            
+           
+
+        </div> <!----------------------------------------Fin de la section "d" gauche------------------>
+
+        <div class="d" style="margin: 10pt;">
+
+            <div class="sans-margin entete">
+                Lycée Taiarapu Nui<br>
+                Terminale Générale<br>
+                Spécialité Physique – Chimie<br>
+                2020-2021
+                <!-- <hr size="1" color="black"> -->
+            </div>
+
+            <h3 class="titre">A l'aide d'un langage de programmation ...</h3>
+
+
+                 <!-- Début document -->
+            <div id="Les courbes" class="cadre" style="margin:10px";>
+                <a href="https://www.python.org/">
+                    <img title="Python" src="https://www.python.org/static/img/python-logo.png" alt="Python" width="200"
+                        ; />
+                </a>
+                <h4 class="sans-margin">
+                    Langage python
+                </h4>
+
+                <h5 class="sans-margin">Quelques notions à retenir concernant 
+                    les courbes.
+                </h5>
+                <div class="espacehaut">
+                    <p>
+                    <em>Pour plus d'informations <a href="https://matplotlib.org/api/" target="_blanck">https://matplotlib.org/api/</a> </em>
+                    </p>
+                    <span class="souligner">Rappel</span> : Python tient compte de <em>l'indentation</em> (le retrait par rapport à la marge).
+                </div>
+                
+                <div class="cadre"> <!--Document 1-->
+                    <div class="doc">Le module matplotlib</div>
+                    
+                    <div class="sans-margin">
+                        Les courbes se tracent avec la bibliothèque (ou module) 
+                        <span class="consoleb">
+                        matplotlib</span>. Le début du code pour afficher un graphique 
+                        va comment ainsi :                  
+                    </div>
+                    <!-- code -->
+                    <div class="console espacehaut margegauche">
+                        <span class="consoleb">import</span> <span class="rouge consoleb">
+                        matplotlib.pyplot </span>
+                        <span class="consoleb">as</span> <span class="rouge consoleb">
+                        plt</span>  <br>
+                        fig = plt<span class="bleu">.figure</span>("monTitre")
+                    </div>
+                    <!-- fin code -->
+                    <div class="espacehaut">
+                        <span class="rouge console">plt</span> est <em>l'alias</em>, 
+                        on peut mettre autre chose que plt. <br>
+                        <span class="bleu">figure</span> permet de créer la fenêtre ayant pour nom "monTitre".
+
+                    </div>
+                    <p class="entredoc"></p>
+                </div> <!--fin doc1-->
+
+                <p class="entredoc"></p>
+                 
+                <div class="cadre"> <!--Document 2-->
+                    <div class="doc">Les axes et leurs noms</div>
+                    
+                    <div class="sans-margin">
+                     Il n'y a pas besoin de configurer les axes, mais on peut le faire grâce aux commandes suivantes :             
+                    </div>
+                    <div class="console espacehaut margegauche">
+                        plt<span class="bleu">.axis([<span class="rouge">Xmin</span>,
+                        <span class="rouge">Xmax</span>,
+                        <span class="rouge">Ymin</span>,
+                        <span class="rouge">Ymax</span>
+                        ])</span> <br>
+                        plt<span class="bleu">.title</span>("titre du graphique") <br>
+                        plt<span class="bleu">.xlabel</span>("nom axe x") <br>
+                        plt<span class="bleu">.ylabel</span>("nom axe y") <br>
+               
+                    </div>
+
+                    <div class="espacehaut">
+                        <span class="bleu">axis</span> définit les valeurs minimales et maximales des axes. <br>
+                        <span class="bleu">title</span> définit le nom du graphique. <br>
+                        <span class="bleu">xlabel</span> définit le nom de l'axe x. <br>
+                        <span class="bleu">ylabel</span> définit le nom de l'axe y. <br>
+                    </div>
+                    <p class="entredoc"></p>
+                </div> <!--fin doc 2-->
+                
+              
+
+                <p class="entredoc"></p>
+
+                <div class="cadre"> <!--Document 3-->
+                    <div class="doc">Le tracé de la courbe</div>
+                    
+                    <div class="sans-margin">
+                    </div>
+                    <div class="console espacehaut margegauche">
+                        plt<span class="bleu">.plot</span>(<span class="rouge">X</span>,<span class="rouge">Y</span>,<span class="rouge">"bx-"</span>) <br>
+               
+                    </div>
+
+                    <div class="espacehaut">
+                        <span class="bleu">plot</span> place un point aux coordonnées
+                        <span class="rouge">X</span>,<span class="rouge">Y</span>.<br>
+                        Si <span class="rouge">X</span> et <span class="rouge">Y</span> sont 
+                        des listes, cela trace la courbe. <br>
+                    </div>
+                    <div class="espacehaut">
+                        
+                        La partie entre guillement " " correspond au type de point et de tracé. Dans l'ordre on a :
+                        la couleur <span class="rouge">b</span> , le type de point
+                        <span class="rouge">x</span>, le type de tracé <span class="rouge">-</span>.
+                    </div>
+                    <table class="tcadre " style="border: solid 1px; font-size: 0.8em;">
+                        <tr>
+                            <td class="cadre gris centrer" colspan="6">Couleur </td>
+                        </tr>
+                        <tr>
+                            <td class="cadre centrer blanc">r</td>
+                            <td class="cadre centrer blanc">g</td>
+                            <td class="cadre centrer blanc">b</td>
+                            <td class="cadre centrer blanc">m</td>
+                            <td class="cadre centrer blanc">c</td>
+                            <td class="cadre centrer blanc">k</td>
+                        </tr>
+                        <tr>
+                            <td class="cadre centrer blanc">rouge</td>
+                            <td class="cadre centrer blanc">vert</td>
+                            <td class="cadre centrer blanc">bleu</td>
+                            <td class="cadre centrer blanc">magenta</td>
+                            <td class="cadre centrer blanc">cyan</td>
+                            <td class="cadre centrer blanc">noir</td>
+                        </tr>
+                    </table>
+
+                    <table class="tcadre  espacehaut" style="border: solid 1px; font-size: 0.8em;">
+                        <tr>
+                            <td class="cadre gris centrer" colspan="6">Type de point </td>
+                        </tr>
+                        <tr>
+                            <td class="cadre centrer blanc">x</td>
+                            <td class="cadre centrer blanc">+</td>
+                            <td class="cadre centrer blanc">.</td>
+                            <td class="cadre centrer blanc">o</td>
+                            <td class="cadre centrer blanc">v</td>
+                            
+                        </tr>
+                        <tr>
+                            <td class="cadre centrer blanc">croix</td>
+                            <td class="cadre centrer blanc">croix</td>
+                            <td class="cadre centrer blanc">petit point</td>
+                            <td class="cadre centrer blanc">grand point</td>
+                            <td class="cadre centrer blanc">triangle</td>   
+                        </tr>
+                     </table>
+                     <table class="tcadre  espacehaut" style="border: solid 1px; font-size: 0.8em;">
+                        <tr>
+                            <td class="cadre gris centrer" colspan="6">Type de tracé </td>
+                        </tr>
+                        <tr>
+                            <td class="cadre centrer blanc">-</td>
+                            <td class="cadre centrer blanc">--</td>
+                        </tr>
+                        <tr>
+                            <td class="cadre centrer blanc">trait plein</td>
+                            <td class="cadre centrer blanc">pointillés</td>  
+                        </tr>
+                     </table>
+                    <p class="entredoc"></p>
+
+
+
+                    <p class="entredoc"></p>
+                </div> <!--fin doc 3-->
+
+                <p class="entredoc"></p>
+
+                <div class="cadre"> <!--Document 4-->
+                    <div class="doc">Afficher le graphique</div>
+                    
+                    <div class="sans-margin">
+                                  
+                    </div>
+                    <div class="console espacehaut margegauche">
+                        plt<span class="bleu">.show</span>(<span class="rouge">fig</span>) <br>
+                        
+               
+                    </div>
+
+                    <div class="espacehaut">
+                        <span class="bleu">show</span>(<span class="rouge">fig</span>) Affiche la fenêtre 
+                        nommée <span class="rouge">fig</span>. <br>
+                        
+                    </div>
+                    <p class="entredoc"></p>
+                </div> <!--fin doc 4-->
+                <p class="entredoc"></p>
+
+            </div> <!--Fin document -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- Début Exercice 1 -->
+            <div id="Exercice 1" class="exercice ">Exercice 1
+            </div>
+            
+            <div class="question">
+                1)	Utiliser la loi de Kepler sur les périodes, appliquée au mouvement circulaire pour 
+                déterminer la masse de la Terre à partir des observations de la Lune. On suppose 
+                que la Lune a une trajectoire circulaire de rayon $r=384 000\ km$ et de période 
+                $T=27,32\ j$. <br>
+                 Donnée : $G=6,67×10^{-11}\ N.m^2.kg^{-2}$    
+            </div>
+            <div class="question">
+                2) Les mesures actuelles donnent une masse de la Terre égale à $5,972×10^{24}\  kg$. 
+                Sachant que la période de rotation de la Terre est de $T=23\ h\ 56\ min\ 4\ s$ calculer 
+                le rayon de l’orbite d’un satellite géostationnaire puis en déduire son altitude 
+                en kilomètre. (Rayon de la Terre $6300\ km$).  
+            </div>
+
+         
+        <!-- Fin Exercice 1 --> 
+
+
+
+        <!-- Début Exercice 2 -->
+        <div id="Exercice 2" class="exercice ">Exercice 2
+        </div>
+        <a class="habillage" style="margin-right: 20px;"
+                href="C06/GRaphique_T2_en_fonction_de_R3.png" 
+                target="_blank"><img class="hq" width="250px" 
+                src="C06/GRaphique_T2_en_fonction_de_R3.png" alt="Courbe"
+                >
+        </a> 
+        <div><!--Début texte-->
+            L’astéroïde (87)Sylvia est l’un des plus grands astéroïdes de la ceinture
+            principale (entre Mars et Jupiter). C’est le premier astéroïde découvert à 
+            posséder deux satellites naturels baptisés Remus et Romulus.
+            On s’intéresse au mouvement du centre de masse P de l’astéroïde Sylvia qui décrit autour du 
+            Soleil une orbite assimilée à un cercle de rayon $r$. L’étude se fait dans le référentiel 
+            héliocentrique considéré comme galiléen. <br>
+            Donnée : Constante de gravitation : 
+            $G=6,67×10^{-11}\ N.m^2.kg^{-2}$
+  
+        </div><!-- Fin texte-->
+        <div class="question">
+            3) Montrer que dans le cas d’un mouvement circulaire, le mouvement de l’astéroïde Sylvia 
+            de masse M, autour du Soleil de masse $M_S$, est uniforme.  
+        </div>
+        <div class="question">
+            4) Établir l’expression de la valeur $v$ de la vitesse de l’astéroïde Sylvia 
+            sur son orbite, puis donner son expression vectorielle $\vec{v}$.	       
+        </div>
+        <div class="question">
+            5) Établir la troisième loi de Kepler dans le référentiel héliocentrique.       
+        </div>
+        <div class="question">
+            6)	Le graphique ci-contre a été tracé en prenant en compte les paramètres 
+            caractéristiques de trois planètes du système solaire dont la trajectoire autour 
+            du Soleil est quasi circulaire. Ce graphique traduit-il la troisième loi de Kepler ?	       
+        </div>
+        <div class="question">
+            7)	L’astéroïde Sylvia gravite autour du Soleil avec une période de révolution 
+            de $6,521\ ans$. Déterminer le rayon $r$ de l’orbite de l’astéroïde Sylvia.       
+        </div>
+        <div class="question">
+            8)	Les deux satellites Romulus et Remus décrivent une orbite circulaire. 
+            Les distances entre chaque satellite et Sylvia sont $710\ km$ pour Remus 
+            et $1360\ km$ pour Romulus. En appliquant la troisième loi de Kepler, déterminer 
+            la masse de l’astéroïde Sylvia dans le cadre de l’hypothèse d’un mouvement 
+            circulaire.       
+        </div>
+
+    <!-- Fin exercice 2-- -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           
+            <div  id="Attendus" class="caveatfont">
+                <span>Attendus</span> <br>
+                Vous devez être capable : <br>
+                <div style="margin-left: 2em;";>
+                    # de définir une orbite géostationnaire <br>
+                    # d'exprimer l'accélération à partir de la 2e loi de Newton et du repère de Frenet <br>
+                    # d'exprimer la vitesse en fonction de la masse de l'astre et du rayon 
+                    dans le cas d'une trajectroire circulaire <br>
+                    # d'énoncer les trois lois de Kepler <br>
+                    # de démonter la 3ème loi de Kepler pour une trajectoire circulaire 
+
+                </div>
+            </div>
+          
+     
+            
+            <p style="margin:8px;"></p>
+            
+            
+
+            <p></p>
+
+     
+
+
+            <div id="fin" class="droite">
+                <a href="#debut">Début</a>
+            </div>
+
+        </div> <!----------------------Fin de section "d"---------------------------------->
+        
+
+        <div class="d" style="margin: 10pt;">
+           
+                <!-- <div class="cadre" style="margin: 10pt;">
+                    <h4 class="sans-margin">
+                        titre
+                    </h4>
+                    <h5 class="sans-margin "  >Sous-Titre</h5>
+                
+                </div> -->
+                <div style="margin:5px">
+                    <!-- <div id   ="exciting">Acide carboxylique
+                        <div class="zoom" style="text-align: left; padding-left: 30px;">
+                            <div class="image">
+                                <img src="C01/SVG/Acide carboxylique.svg" width="75" ; />
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+                    <!-- <div>
+                         <br>
+                        <div class="zoom centrer">
+                            <span class="image">
+                                <img src="C01/SVG/Acide carboxylique.svg" width="75" ; />
+                            </span>
+                        </div>
+                    </div> -->
+                    <!-- <div>
+                        Ion carboxylate<br>
+                       <div class="zoom centrer">
+                           <span class="image">
+                               <img src="C01/SVG/Ion carboxylate.svg" width="75" ; />
+                           </span>
+                       </div>
+                   </div> -->
+                
+        </div> <!--Fin de la section "d"-->
+
+
+
+    </div> <!--fin du conteneur de "d"-->
+
+
+</body>
+
+</html>
