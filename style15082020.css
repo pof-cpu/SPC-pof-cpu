@@ -298,6 +298,36 @@ encradrement
   color:rgb(4, 0, 240); 
 }
 
+
+
+/* **************************************/
+/* Mise ne page code */ 
+/* ************************************ */
+ 
+
+.b{  /*Bibliothèque */
+  color:rgb(197, 137, 192);
+}
+.couleurnombre{   /*nombres ou variables */
+  color:rgb(181, 206, 160);
+}
+.couleurcommentaire{
+  color:rgb(65, 110, 65);
+}
+.n {
+  color:"black";
+}
+.t{  /* texte entre quillemets */
+  color:rgb(197, 95, 37);
+}
+.f{    /* fonction  */
+  color:rgb(136, 220, 253);
+}
+/* *********************************** */
+
+
+
+
 /* --------------------------------------- */
 /* Tableaux */
 /* ---------------------------------------- */
@@ -401,6 +431,15 @@ ol > li:before {
    letter-spacing: -.8px; 
    margin:0;
 
+}
+ul.check >li{
+  list-style-type: none;
+  margin:0;
+  padding-left: 0em;
+  text-indent: -1em;
+}
+ul.check >li:before{
+  content:"\2713  ";
 }
 
 .protocole{
