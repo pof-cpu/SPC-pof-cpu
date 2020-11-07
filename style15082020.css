@@ -259,10 +259,11 @@ ul {
 
 
 
-/* .cadre{
-  border: 0.5px solid;
-
-} */
+.cadre_code{
+  
+  border: thin silver solid;
+  border-radius: 5px;
+}
 
 /*---------------------------------------- 
 encradrement
@@ -306,19 +307,20 @@ encradrement
  
 
 .b{  /*Bibliothèque */
-  color:rgb(197, 137, 192);
+  color:rgb(194, 77, 184);
+  
 }
 .couleurnombre{   /*nombres ou variables */
-  color:rgb(181, 206, 160);
+  color:rgb(125, 172, 87);
 }
 .couleurcommentaire{
-  color:rgb(65, 110, 65);
+  color:green;
 }
 .n {
   color:"black";
 }
 .t{  /* texte entre quillemets */
-  color:rgb(197, 95, 37);
+  color:#A31515;
 }
 .f{    /* fonction  */
   color:rgb(136, 220, 253);
