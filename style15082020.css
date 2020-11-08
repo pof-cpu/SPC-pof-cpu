@@ -185,6 +185,20 @@ p.petitentredoc{
   margin-bottom:0.5em;
 }
 /* ------------------------- */
+.normal_titre{
+  margin:0 0;
+  
+  margin-bottom: 0em;
+  margin-top: 0.5em;
+}
+.normal{ /*à utiliser à la place de sans-margin*/
+  margin:0 0;
+}
+.normal_paragraphe{
+  margin:0 0;
+  margin-bottom: .5em;
+  margin-top: .5em;
+}
 
 .sans-margin{
   margin:0 0;
