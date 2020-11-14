@@ -419,7 +419,7 @@
                 <div>
                     <ul class="check">
                         <li>
-                            Importer les bibliothèques suivants :
+                            Importer les bibliothèques suivantes :
                         </li>
                     </ul>
                     <!-- &#x2713;  -->
@@ -428,7 +428,7 @@
                     <span class="b">import </span>math <span class="b">as </span>mt <br>
                     <span class="b">import</span> matplotlib.pyplot <span class="b">as</span> plt <br>
                     <span class="b">import</span> numpy <span class="b">as</span> np <br>
-                    <span class="b">from</span> scipy.stats <span class="b">import</span> linregress<br>
+                    <!-- <span class="b">from</span> scipy.stats <span class="b">import</span> linregress<br> -->
                 </code>
                     </figure>
                 </div>
@@ -446,8 +446,8 @@
                     <!-- ----------------------------------Début code -------------------------- -->
                     <figure class="cadre_code">
                         <code>
-                    liste_temps=[<span class="couleurnombre">0.0,10.0,20.0,30.0,60.0,90.0</span>]<br>    
-                    liste_concentration=[<span class="couleurnombre">124.0,92.0,68.0,50.0,20.0,8.0</span>]
+                    liste_temps=[<span class="couleurnombre">0, 10, 20, 30, 60, 90</span>]<br>    
+                    liste_concentration=[<span class="couleurnombre">124, 92, 68, 50, 20, 8</span>]
                     </code>
                         <!-- <span class="couleurcommentaire"># Première ligne à compléter</span> -->
                     </figure>
@@ -455,7 +455,7 @@
                         Le temps est en minute et la concentration en $mmol.L^-1$ <br>
                         <p><u>Remarque</u> : On parle de code <em>pythonique</em> lorsque ce dernier respecte les
                             règles d'écriture définies par la communauté Python mais aussi les règles d'usage du
-                            langage.<br>
+                            langage. 
                             La PEP (<span class="italique">
                                 <a href="https://www.python.org/dev/peps/pep-0008/#naming-conventions" target="_blank">
                                     Python Enhancement Proposal</a></span>)
@@ -467,7 +467,7 @@
                             <code contenteditable="true" spellcheck="false">
                     <span class="cadre_code">
                     <span class="b">for</span> <b>i</b> <span class="b">in</span> range(len(my_list)):</code>
-                            </span>
+                            </span>.
                         </p>
                     </div>
                     <p class="entredoc"></p>
@@ -495,8 +495,11 @@
                                 <code class="cadre_code">liste_concentration</code>, permettant de
                                 vérifier que la réaction est d'ordre 1. <br>
                                 Indice : Créer la liste <code class="cadre_code">nouvelle_liste</code> vide,
-                                puis la remplire avec des valeurs calculées
-                                à partir de la liste <code class="cadre_code">liste_concentration</code>.
+                                puis la remplire avec des valeurs calculées (il faut calculer $ln(c)$)
+                                à partir de la liste <code class="cadre_code">liste_concentration</code>. <br>
+                                <p> <u>Remarque</u> : Pour ajouter la valeur <code>val</code> dans la liste 
+                                <code>L</code> on écrit : <br>
+                                <code class="cadre_code">L.append(val)</code></p>
                             </li>
                         </ul>
                     </div>
@@ -587,7 +590,10 @@
                             <code class="cadre_code">np.array([])</code><br>
                             Par exemple :  <br>
                             <code class="cadre_code">x_exp=np.array([0,1,2,3])</code><br>
-                            <code class="cadre_code">y_exp=np.array([0,2,4,6])</code>
+                            <code class="cadre_code">y_exp=np.array([0,2,4,6])</code> <br>
+                            ou bien directement : <br>
+                            <code class="cadre_code">x_exp=[0,1,2,3]</code> <br>
+                            <code class="cadre_code">y_exp=[0,2,4,6]</code> 
                         </p>
                         <p  class="normal_paragraphe">
                             La fonction <code class="cadre_code">polyfit</code> permet de calculer
