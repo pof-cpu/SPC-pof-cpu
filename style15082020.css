@@ -160,9 +160,11 @@ div.activite{
 }
 div.exercice{
     margin-top:10px;
+    padding-left: 10px;
     background:rgb(234, 241, 221);
     font-weight: bold;
     font-size: 0.96em;
+    
 }
 p.entredoc{
   margin:8px;

@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style15082020.css" />
+    <title>SPC|Tle C08</title>
+
+    <script>
+        MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']]
+            },
+            chtml:{
+                scale: 1
+            },
+            svg: {
+                fontCache: 'global'
+                
+            }
+        };
+    </script>
+  
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async 
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+</head>
+
+
+<body>
+    <div class="main" style="margin: 0pt; "> <!-- ---------------Main----------------------------- -->
+       
+        
+        <div id="debut" class="d" style="margin: 10pt;"> <!-- ----Début section d de gauche ----------->
+            <!-- -------------------------------Logo MATHJAX ---------------------------------------->
+            <div style="margin: 10pt;">
+                <a href="https://www.mathjax.org">
+                    <img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax" />
+                </a>
+            </div>
+            <!-- Fin logo MATHJAX------------------------------------------------------------------ -->
+            
+            
+            <div style="margin: 10pt;"> <!-- ------------------------Lien vers balises----------------->
+                <span class="gras"><u>Sommaire</u></span> <br>
+                <a href="#Activité 1">Activité 1</a><br>
+                <a href="#Activité 2">Activité 2</a><br>
+                <p class="entredoc"></p>
+                <a href="#Exercice 1">Exercice 1</a><br>
+                <a href="#Exercice 2">Exercice 2</a><br>
+                <p class="entredoc"></p>
+                <a href="#Activité 3">Activité 3</a><br>
+                <p class="entredoc"></p>
+                <a href="#Exercice 3">Exercice 3</a><br>
+                <!-- <a href="#Attendus"><span class="caveatfont">Attendus</span></a><br> -->
+                 
+        <!--
+                
+                
+                
+                <a href="#Exercice 4">Exercice 4</a><br>
+                
+                
+                <p class="entredoc"></p>
+                <a href="#Exercice 5">Exercice 5</a><br>
+                <p></p>
+                <a href="#fin">Fin</a>
+        -->
+            </div> <!-- ------------------------Fin Lien vers balises---------------------------------->
+            
+            
+           
+
+        </div> <!----------------------------------------Fin de la section "d" gauche------------------>
+
+        <div class="d" style="margin: 10pt;">
+
+            <div class="sans-margin entete">
+                Lycée Taiarapu Nui<br>
+                Terminale Générale<br>
+                Spécialité Physique – Chimie<br>
+                2020-2021
+                <!-- <hr size="1" color="black"> -->
+            </div>
+
+            <h3 class="titre">C8. Propagation des ondes</h3>
+
+            
+            <!-- -----------------------------------------Début activité 1 --------------------------------- -->
+            <div id="Activité 1" class="activite">Activité 1 </div>
+             <div class="cadre">
+                 <div class="doc">Document 1 - Intensité sonore </div>
+             
+                <div>
+                    Une source sonore placée en O émet un son d’une puissance sonore 
+                    $P=10,0 W$ dans toutes les directions. Un point M est situé à une 
+                    distance R de O. L’aire de sphère de centre O et de rayon R est $A=4 \pi R^2$.
+                </div>
+            </div>
+            <div class="question">
+                1) Calculer la puissance par mètre carré reçu au point M lorsque $R=1,0\ m$ et lorsque $R=2,0\ m$. 
+                Comparer.
+            </div>
+            <!-- -----------------------------------------  Fin activité 1 --------------------------------- -->
+
+            <!-- -----------------------------------------Début activité 2 --------------------------------- -->
+            <div id="Activité 2" class="activite">Activité 2 
+            </div>
+             <div class="cadre">
+                 <div class="doc">Document 2 - Le niveau sonore </div>
+             
+                <div>
+                    L’intensité sonore audible sensible à l’oreille humaine s’étend sur une plage 
+                    très large (de $10^{-12}$  à $1\ W.m^{-2}$), on utilise une autre grandeur appelée niveau sonore 
+                    dont la plage de valeurs est plus adaptée pour comparer différent son : <br>
+                    
+                    <table class="  tcentrer"  rules="cols">
+                        <tr>
+                            <td class="tcadre">
+                                $L=10\log \left(\dfrac{I}{I_0}\right) $
+                            </td>
+                            <td>$ L$ : niveau sonore en décibel (dB) <br>
+                                $ I$ : intensité sonore en $W.m^{-2}$ <br>
+                                $ I_0$ : intensité de référence (seuil audible) 
+                                $ I_0=1,0×10^{-12}\ W.m^{-2}$
+                                
+    
+                            </td>     
+                        </tr>
+                    </table>      
+                </div>
+            </div>
+            
+            <p class="entredoc"></p>
+
+            <div class="cadre">
+                <div class="doc">Document 3 - Logarithme décimal </div>
+            
+               <div> 
+                La fonction logarithme décimal n’est pas défini 
+                pour 0. <br>
+                   <table class="  tcentrer" rules="cols";  >
+                       <tr>
+                           <td class="tcadre" >
+                           
+                            $log⁡(1)=0$ <br>
+                            $∀x∈R^*$, <br>
+                            $log⁡ (x)=\dfrac{ln(⁡x)}{ln(⁡10)}$ <br>
+                            $10^{log⁡(x)} =x$
+                            
+                           </td>
+                           <td>
+                            $∀\ a∈R^*$ et $∀\ b∈R^*$, <br>
+                            $log⁡(a×b)=log⁡(a)+log⁡(b)$  <br>
+                            $log⁡ \left( \dfrac{a}{b} \right)=log⁡(a)-log⁡ (b)$
+                           </td>     
+                       </tr>
+                   </table>      
+               </div>
+           </div>
+            
+           <div>Une source sonore produit un son d’intensité sonore $I=2,0×10^{-6}\  W.m^{-2}$.
+
+           </div>
+            <div class="question">
+                2)	Calculer le niveau sonore correspondant.
+            </div>
+            <div class="question">
+                3)	On place une deuxième source sonore identique à côté de la première source. 
+                L’intensité sonore est maintenant le double. Calculer le niveau sonore des deux sources.    
+            </div>
+            <div class="question">
+                4)	On mesure un niveau sonore de 76dB. Calculer l’intensité sonore de la source.
+            </div>
+
+            <div class="cadre">
+                <div class="doc">Document 4 – Atténuation </div>
+            
+               <div>
+                Lorsqu’un son passe à travers un obstacle ou lorsqu’on s’éloigne de la source, son 
+                intensité diminue. Le niveau sonore passe de $L$ à $L’$. L’atténuation A est égale à $L-L’$.        
+               </div>
+           </div>
+           <div class="question">
+                5) Les intensités sonores correspondantes à $L$ et $L'$ sont respectivement $I$ et  $I'$. Montrer que 
+                l’atténuation peut se mettre sous la forme : $A=10\ log \left(\dfrac{I}{I_0}\right) $.
+            </div>
+            <div class="question">
+                 6) Calculer l’atténuation pour $I'=0,1\ I$.
+            </div>
+
+            
+
+            <!-- -----------------------------------------  Fin activité 2 --------------------------------- -->
+
+               <!-- -------------------------------------------Attendus ------------------------------------ -->
+        <div class="caveatfont">
+            <span>Attendus</span> <br>
+            Vous êtes capable : <br>
+            <div style="margin-left: 2em;";>
+                #	d’exploiter l’expression du niveau d’intensité sonore <br>
+                #	de définir l’atténuation comme étant la différence de deux niveaux d’intensité sonore. <br>	
+            </div>
+        </div>
+        <!-- -----------------------------------------------Fin attendus ------------------------------------ -->
+
+
+            <!------------------------------------------- Début Exercice 1 ------------------------------------->
+            <div id="Exercice 1" class="exercice">Exercice 1
+            </div>
+
+            <!-- <a class="habillage" style="margin-right: 20px;"
+                href="C07/ex1_courbes.jpg" 
+                target="_blank"><img class="hq" width="210px" 
+                src="C07/ex1_courbes.jpg" alt="Courbes"
+            >
+            </a>  -->
+
+            <div>
+                Un navire utilise un sonar pour cartographier le fond marin. Le signal émis en surface 
+                avec une intensité de $0,7\ mW.m^{-2}$. Lorsqu’il atteint le fond, à $1700\ m$ de profondeur, 
+                son intensité est de $0,6\ mW.m^{-2}$.
+            </div>
+            <div class="question">
+                7) Calculer l’atténuation A correspondante en dB.
+            </div>
+            <div class="question">
+                8) En déduire le coefficient linéaire d’atténuation α en $dB.m^{-1}$ de l’eau pour cette onde. 
+            </div>
+            <div class="question">
+                9)	Calculer la distance au bout de laquelle une onde radar subit la même atténuation. Commenter.
+            </div>
+            <div class="données">
+                Donnée : coefficient linéaire d’atténuation des ondes radar dans l’eau de mer : 
+                $α=6\ dB.cm^{-1}$.  
+            </div>
+         
+        <!----------------------------------------------- Fin Exercice 1 -------------------------------------> 
+
+        
+            <!------------------------------------------- Début Exercice 2 ------------------------------------->
+            <div id="Exercice 2" class="exercice">Exercice 2
+            </div>
+
+            <!-- <a class="habillage" style="margin-right: 20px;"
+                href="C07/ex1_courbes.jpg" 
+                target="_blank"><img class="hq" width="210px" 
+                src="C07/ex1_courbes.jpg" alt="Courbes"
+            >
+            </a>  -->
+
+            <div>
+                Un home cinéma est composé de trois enceintes à l’avant et de deux à l’arrière. Un technicien 
+                règle séparément les enceintes pour recevoir 70 dB dans la zone d’écoute. Puis il met les 
+                cinq enceintes en marche simultanément.
+            </div>
+            <div class="donnees">
+                Donnée : Seuil audible : $I_0=10^{-12}\ W.m^{-2}$ | Niveau d’intensité sonore 
+                à risque : $85\ dB$.  
+            </div>
+
+            <div class="question">
+                10)	Calculer l’intensité sonore dans la zone d’écoute lorsqu’une seule enceinte est en marche.
+            </div>
+            <div class="question">
+                11) En déduire la puissance sonore P produite par une enceinte avant située à une 
+                distance $d=3,0\ m$ de la zone d’écoute.
+            </div>
+            <div class="question">
+                12)	Calculer le niveau d’intensité sonore lorsque les cinq enceintes sont mises en marche en même temps.
+            </div>
+            <div class="question">
+                13)	Préciser si ce niveau d’intensité sonore présente un danger.
+            </div>
+         
+        <!----------------------------------------------- Fin Exercice 2 -------------------------------------> 
+    <!-- -----------------------------------------Début activité 3 --------------------------------- -->
+    <div id="Activité 3" class="activite">Activité 3 </div>
+
+    <!-- -------------------------------------------- Debut document 3 ----------------------------------- -->
+    <div class="cadre">
+        <div class="doc">Document 3 - Description du phénomène </div>
+        <a class="habillage" style="margin-right: 20px;"
+                href="C08/Effet_Doppler.jpg" 
+                target="_blank"><img class="hq" width="150px" 
+                src="C08/Effet_Doppler.jpg" alt="Effet Doppler"
+            >
+            </a> 
+       <div>
+        Pour simplifier la compréhension on choisit une source sonore E (émetteur) qui émet un « bip » 
+        à intervalles de temps réguliers : toutes les T secondes. Les sons se propagent dans toutes les 
+        directions comme une bulle qui grandit. Une personne R (le récepteur) située à une certaine 
+        écoute les sons émis par E.
+       </div>
+       <table class="tcadre tcentrer" style="border: solid 1px; font-size: 0.8em;">
+            <tr>
+                <td class="cadre">Bip </td>
+                <td class="cadre centrer">1</td>
+                <td class="cadre centrer">2</td>
+                <td class="cadre centrer">3</td>
+    
+            </tr>
+            <tr>
+                <td class="cadre  ">Distance à parcourir</td>
+                <td class="cadre centrer">$d_1$</td>
+                <td class="cadre centrer">$d_2 = d_1 $</td>
+                <td class="cadre centrer">$d_3 = d_1$</td>
+            </tr>
+            <tr>
+                <td class="cadre ">Date de réception</td>
+                <td class="cadre centrer">$t_1$</td>
+                <td class="cadre centrer">$t_2$</td>
+                <td class="cadre centrer">$t_3$</td>
+            </tr>
+        </table>
+        <p class="normal_paragraphe souligner">
+            Cas où la distance est fixe entre l’émetteur E et le récepteur R est fixe. 
+        </p>
+        <table class="tcadre tcentrer" style="border: solid 1px; font-size: 0.8em;">
+            <tr>
+                <td > </td>
+                <td class="cadre  centrer">Bips 1 et 2</td>
+                <td class="cadre  centrer">Bips 2 et 3</td>
+            </tr>
+            <tr>
+                <td class="cadre  ">Durée entre les bips</td>
+                <td class="cadre centrer">$t_2-t_1=T $</td>
+                <td class="cadre centrer">$t_3-t_2=T $</td>
+            </tr>
+          
+        </table>
+        <div>
+            R entend les bips à la même fréquence que l’émetteur.
+        </div>
+        <p class="normal_paragraphe">
+            <span class="souligner">Cas où la distance entre E et R diminue</span> (par exemple E se rapproche de R).
+        </p>
+        <table class="tcadre tcentrer" style="border: solid 1px; font-size: 0.8em;">
+            <tr>
+                <td > </td>
+                <td class="cadre  centrer">Bips 1 et 2</td>
+                <td class="cadre  centrer">Bips 2 et 3</td>
+            </tr>
+            <tr>
+                <td class="cadre  ">Durée entre les bips</td>
+                <td class="cadre centrer">$t_2 -t_1 &lt T $</td>
+                <td class="cadre centrer">$t_3-t_2 &lt T $</td>
+            </tr>
+          
+        </table>
+        <p class="entredoc"></p>
+    </div>
+    <!-- ----------------------------------------------Fin document 3 ----------------------------------- -->
+    <div>
+            <a class="habillage" style="margin-right: 20px;"
+                href="C08/schema.jpg" 
+                target="_blank"><img class="hq" width="170px" 
+                src="C08/schema.jpg"  alt="Effet Doppler"
+                >
+            </a> 
+    </div>
+    <div>
+            Une source E se déplace sur l’axe (Ox) dans le sens de x croissant à la vitesse v inférieure à la 
+            célérité c de l’onde. <br>
+            E émet une onde de fréquence $f_e$. Le récepteur est fixe sur l’axe $(Ox)$. Pour simplifier on 
+            assimile l’onde à une succession de « bips ». <br>
+            La période des bips est $T_e=\dfrac{1}{f_e}$ .<br>
+            À l’instant $t=0\ s$, l’émetteur est au point O et émet son premier bip. Le récepteur R est situé 
+            à une distance D de O.
+
+    </div>
+    <div class="question">
+        14) Le premier bip arrive en R à l’instant $t_1$. Exprimer $t_1$ en fonction de D et c.
+    </div>
+    <div class="question">
+        15) Le deuxième bip est émis à l’instant $T_e$. Exprimer à quelle distance $d_{T_e}$ de O 
+        se trouve l’émetteur E en fonction de la vitesse $v$ de $T_e$. 
+        En déduire la distance $d$ restant à parcourir en fonction de $D$, $v$ et $T_e$.
+    </div>
+    <div class="question">
+        16) Le deuxième bip émis à l’instant $T_e$ arrive à R à l’instant $t_2$. 
+        Monter que $t_2$ peut se mettre sous la forme :<br>
+        $t_2= \dfrac{D}{c}+ \left( 1-\dfrac{v}{c} \right)T_e $ <br>
+        <span class="petit">(Indice :  réduire au même dénominateur) </span>
+    </div>
+    <div class="question">
+        17) La durée à laquelle R reçoit les bips est : $T_r=t_2-t_1$. Exprimer $T_r$ en 
+        fonction de $v$, $c$ et $T_e$.
+    </div>
+    <div class="question">
+        18) Exprimer alors la fréquence $f_r$ à laquelle R reçoit les bips en 
+        fonction de $v$, $c$ et $f_e$. Comparer $f_r$ et $f_e$. 
+    </div>
+   <!-- -----------------------------------------  Fin activité 3 --------------------------------- -->
+
+
+       
+        <br>
+        <!-- ------------------------------Attendus ------------------------------------ -->
+        <div class="caveatfont">
+            <span>Attendus</span> <br>
+            Vous êtes capable : <br>
+            <div style="margin-left: 2em;";>
+                # d’établir l’expression du décalage Doppler dans le cas d’un observateur fixe, 
+                    d’un émetteur mobile et dans une configuration à une dimension.	  <br>
+                #	d'exploiter l’expression du décalage Doppler dans des situations 
+                    variées utilisant des ondes acoustiques ou des ondes électromagnétiques.  <br>	
+              
+            </div>
+        </div>
+        <!-- --------------------------------Fin attendus ------------------------------- -->
+
+
+                <!-- Début Exercice 3 -->
+                <div id="Exercice 3" class="exercice ">Exercice 3
+                </div>
+               
+                <div><!--Début texte-->                   
+                    
+                    <a class="habillage" style="margin-right: 20px;"
+                    href="C08/vélocimétrie.jpg" 
+                    target="_blank"><img class="hq" width="210px" 
+                    src="C08/vélocimétrie.jpg" alt="Vélocimétrie"
+                    >
+                    </a>
+                    <a class="habillage" style="margin-right: 20px;"
+                    href="C08/graphe_ex3.jpg" 
+                    target="_blank"><img class="hq" width="210px" 
+                    src="C08/graphe_ex3.jpg"  alt="Graphe"
+                    >
+                    </a>
+
+
+                </div><!-- Fin texte-->
+         
+                <div>
+                    La vélocimétrie est une technique qui permet de mesurer la vitesse d’écoulement du sang 
+                    dans les vaisseaux sanguins. <br>
+                    La sonde émet une onde ultrasonore de fréquence $f_E$. L’onde est diffusée par les 
+                    globules rouges qui se déplacent dans le vaisseau sanguin à la vitesse $v$.
+                    La sonde reçoit une partie de l’onde diffusée avec une fréquence légèrement 
+                    différente $f_R$.
+
+                </div>
+                <div class="données petit">
+                    <u>Données :</u> <br>
+                    La relation du décalage Doppler et la vitesse est :<br>
+                    $Δf=2 \cos{θ}.f_E.\dfrac{v}{v_{ultrasons}}$ <br>
+                    Vitesse des ultrasons dans le corps : $v_{ultrason}=1500\ m.s^{-1}$ <br>
+                    $θ=45°$
+
+                </div>
+                <div class="question">
+                    19)	À partir du sens de déplacement des globules rouges, déterminer la fréquence des 
+                    ondes émises par la sonde.
+                </div>
+                <div class="question">
+                    20)	Déterminer le décalage Doppler.
+                </div>
+                <div class="question">
+                    21) Calculer la valeur de la vitesse $v$ des globules rouges.
+                </div>
+                 
+              
+        
+            <!----------------------------------- Fin exercice 3------------------------- -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           
+          
+          
+     
+            
+            <p style="margin:8px;"></p>
+            
+            
+
+            <p></p>
+
+     
+
+
+            <div id="fin" class="droite">
+                <a href="#debut">Début</a>
+            </div>
+
+        </div> <!----------------------Fin de section "d"---------------------------------->
+        
+
+        <div class="d" style="margin: 10pt;">
+           
+                <!-- <div class="cadre" style="margin: 10pt;">
+                    <h4 class="sans-margin">
+                        titre
+                    </h4>
+                    <h5 class="sans-margin "  >Sous-Titre</h5>
+                
+                </div> -->
+                <div style="margin:5px">
+                    <!-- <div id   ="exciting">Acide carboxylique
+                        <div class="zoom" style="text-align: left; padding-left: 30px;">
+                            <div class="image">
+                                <img src="C01/SVG/Acide carboxylique.svg" width="75" ; />
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+                    <!-- <div>
+                         <br>
+                        <div class="zoom centrer">
+                            <span class="image">
+                                <img src="C01/SVG/Acide carboxylique.svg" width="75" ; />
+                            </span>
+                        </div>
+                    </div> -->
+                    <!-- <div>
+                        Ion carboxylate<br>
+                       <div class="zoom centrer">
+                           <span class="image">
+                               <img src="C01/SVG/Ion carboxylate.svg" width="75" ; />
+                           </span>
+                       </div>
+                   </div> -->
+                
+        </div> <!--Fin de la section "d"-->
+
+
+
+    </div> <!--fin du conteneur de "d"-->
+
+
+</body>
+
+</html>
