@@ -202,6 +202,11 @@ p.petitentredoc{
   margin-top: .5em;
 }
 
+.normal_retrait{
+  margin:0 0;
+  margin-left: 10px;
+}
+
 .sans-margin{
   margin:0 0;
 }

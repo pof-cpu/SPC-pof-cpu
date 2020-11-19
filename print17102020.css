@@ -12,12 +12,17 @@
     header, footer, aside, nav, form, iframe, .menu, .hero, .adslot {
         display: none;
     }
-      
+@page{
+  size: portrait;
+  margin-top: 1,5 cm;
+  margin-bottom: 2cm;
+} 
     body{
-        margin-top:1cm;
+        margin-top:1.5cm;
         margin-left: 1.8cm;
         margin-right: 1.8cm;
         margin-bottom:2cm;
+
         
         /* padding :3em; */
     }  
