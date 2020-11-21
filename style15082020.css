@@ -5,6 +5,13 @@
   
 }
 */
+
+
+.attendus{
+    font-family:"caveat";
+    font-size: 0.95em;
+}
+
 .svg-content{
   display:inline-block;
   position:absolute;
@@ -185,6 +192,7 @@ p.petitentredoc{
 .données{
   margin-top:0.5em;
   margin-bottom:0.5em;
+  font-size: 0.9em;
 }
 /* ------------------------- */
 .normal_titre{
