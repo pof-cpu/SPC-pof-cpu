@@ -327,15 +327,108 @@
             src="TP08/Oscilloscope.svg" alt="Courbes"
         >
         </a>  -->
-
+            <div>
              <!-- ----------------------Début document---------------- -->
-             <a class="habillage" style="margin-right: 20px;"
-                href="TP08/oscilloscope.jpg" 
+             <a 
+                href="TP08/Oscilloscope.svg"
                 target="_blank">
                 Oscilloscope
-                <!-- <img class="hq" width="500px" src="TP08/oscilloscope.jpg" alt="HM400"> -->
+                <img class="hq" width="300px" src="TP08/Oscilloscope.svg" alt="HM400">
             </a> 
             <!-- ----------------------Fin document------------------- -->
+            </div>
+           
+            <p>
+                Ici, l'oscilloscope possède deux entrées (INPUTS) : la voie 1 (CH1) et la voie 2 (CH2). Activer l'une des deux voies
+                en appuyant CH1 ou CH2 ou les deux DUAL.<br>
+                
+            </p>
+            <p class="normal_paragraphe">
+                <h6 class="normal_paragraphe">
+                    Réglage du spot
+                </h6> 
+                
+                <ul>
+                    <li>
+                        Afficher une ligne en tournant la base de temps TIME/DIV dans le sens horaire.
+                    </li>
+                    <li>
+                       Appuyer ADJUST et SELECT pour régler l'intensité du spot et la netteté.  
+                    </li>
+                    <li>
+                        Appuyer GND (ground) de la voie 1, puis ajuster la position de la ligne au centre de l'écran avec 
+                        le bouton de POSITION 1.<br>
+                        Réappuyer sur GND.
+                    </li>
+                    <li>
+                        Même chose pour la voie 2.<br>
+                    </li>
+                    
+                </ul>
+                Brancher les fiches BNC sur les bornes INPUTS et relier les fils pour faire les mesures.
+            </p>
+
+            <p class="normal_paragraphe">
+                <h6 class="normal_paragraphe">
+                    Réglage du signal
+                </h6>
+                Les mesures se font habituellement en couplage DC. Le couplage AC, enlève la composante continue d'un signal.
+               
+                <ul>
+                    <li>
+                       Pour régler la hauteur (verticale) du signal, il faut ajuster le bouton de sensibilité verticale VOLTS/DIV 
+                (sens horaire pour "zoomer")
+                    </li>
+                    <li>
+                      Pour régler la largeur (horizontale) du signal, il faut ajuster le bouton de la base de temps TIME/DIV 
+                (sens horaire pour "zoomer")  
+                    </li>
+                    <li>
+                        Décaller éventuellement le signal vers la gauche ou la droite avec le bouton X-POSITION. <br>
+                        (Le signal doit commencer sur l'axe central et sur un trait vertical)
+                    </li>
+                </ul>
+                              
+            </p>
+            
+            <p class="normal_paragraphe">
+                <h6 class="normal_paragraphe">
+                    Faire une mesure de durée
+                </h6> 
+                Pour plus de précision, mesurer la durée de plusieurs périodes puis en déduire la période.
+                <ul>
+                    <li>
+                       Compter le nombre de divisions (carreaux). Chaque petite graduation correspond à 0,2 division.
+                    </li>
+                    <li>
+                      Multiplier le nombre de divisions par la base de temps.  <br>
+                      <span class="cadre">DURÉE = nb de division × base de temps </span>
+                    </li>
+                </ul>
+                              
+            </p>
+            <p class="normal_paragraphe">
+                <h6 class="normal_paragraphe">
+                    Faire une mesure de tension
+                </h6> 
+            
+                <ul>
+                    <li>
+                       Compter le nombre de divisions (carreaux). Chaque petite graduation correspond à 0,2 division.
+                    </li>
+                    <li>
+                      Multiplier le nombre de divisions par la sensibilité verticale.  <br>
+                      <span class="cadre">DURÉE = nb de division × sensibilité verticale </span>
+                    </li>
+                </ul>
+                              
+            </p>
+
+            <p>
+                Exemple :
+            </p>
+
+            
         </aside>
         <!-------------------Fin de la section de droite------------------------->
 
