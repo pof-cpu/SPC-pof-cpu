@@ -1,0 +1,9 @@
+@media print {
+    body{
+        margin:1.8 cm;
+        background-color: #fff;
+    }
+    header, footer, aside, nav, form, iframe, .menu, .hero, .adslot {
+        display: none;
+
+}

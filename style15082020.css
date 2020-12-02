@@ -599,6 +599,7 @@ ol.al > li:before {
 
 .d:nth-child(2) {
   flex:1.2;
+  margin:10pt;
 }
 .d:nth-child(1) {
   flex:1;
