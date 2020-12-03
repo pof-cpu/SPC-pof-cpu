@@ -612,8 +612,9 @@ ol.al > li:before {
 
 @media screen and (max-width: 1200px) {
   .main {   
-    flex-direction: column;
+    flex-direction: column;  
   }
+  
 }
 /* ********************************* */
 
