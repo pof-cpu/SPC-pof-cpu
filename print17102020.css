@@ -54,7 +54,7 @@
         ul, ol, dl  { page-break-before:avoid }
           
         a[href]{
-          display:none;
+          /* display:none; */
           font-style: italic;
           text-decoration: none;
           color:black;
