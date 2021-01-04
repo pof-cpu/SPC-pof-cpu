@@ -17,6 +17,7 @@
       margin-top: 1,5 cm;
       margin-bottom: 2cm;
     }  */
+
         body{
             /* margin-top:1.5cm;
             margin-left: 1.8cm;
@@ -66,3 +67,6 @@
 
   
  
+#col {
+  column-count: 2;
+}

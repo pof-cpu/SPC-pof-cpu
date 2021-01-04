@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="../../style15082020.css" /> -->
+    <link rel="stylesheet" media="screen" href="../../style15082020.css" />
+    <link rel="stylesheet" media="print" href="../../print03012021.css">
+    <title>
+        SPC|Tle TP11
+    </title>
+
+    <script>
+        MathJax = {
+            tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] },
+            chtml: { scale: 0.96 },
+            svg: { fontCache: 'global' }
+        };
+    </script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6">
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+</head>
+
+
+<body>
+    <div class="main">
+
+
+        <!-- *******************************Début cadre de gauche **********************************-->
+        <div id="debut" class="d" style="margin: 10pt;">
+            <!----------------------------------- Logo MATHJAX ---------------------------------------->
+            <div style="margin: 10pt;">
+                <a href="https://www.mathjax.org">
+                    <img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif"
+                        alt="Powered by MathJax" />
+                </a>
+            </div>
+            <!-- ----------------------------------Fin logo MATHJAX-------------------------------- -->
+
+
+            <!-- -----------------------------------Sommaire--------------------------------------- -->
+            <div style="margin: 10pt;">
+                <p>
+                    <span class="gras"><u>Sommaire</u></span> <br>
+                </p>
+                <p>
+                    <!-- <a href="#Activité 1">Activité 1</a><br> -->
+                </p>
+                <!-- <a href="#Capacités numériques">Capacités numériques</a><br> -->
+                <p></p>
+                <a href="#fin">Aller à la fin</a>
+            </div>
+            <!-- ------------------------------------Fin Sommaire--------------------------------- -->
+        </div>
+        <!-- ***------**************************** Fin cadre de gauche *************************** -->
+
+        <!-- *******************************Début cadre central **********************************-->
+        <div class="d" style="margin: 10pt;">
+            <!-- ------------------------------------Début entête--------------------------------- -->
+            <div class="sans-margin entete">
+                Lycée Taiarapu Nui<br>
+                Terminale Générale<br>
+                Spécialité Physique – Chimie<br>
+                2020-2021
+            </div>
+            <!-- ------------------------------------ Fin entête--------------------------------- -->
+            <!-- --------------------------------------- TITRE ---------------------------------- -->
+            <hr>
+            <h5 class="sans-margin centrer">TP.11 Diffraction</h5>
+            <hr>
+            <!-- ------------------------------------ Fin titre --------------------------------- -->
+
+            <!--  -------------------------------- Introduction --------------------------------- -->
+            <div>
+               
+                <!-- Liste des capacités expérimentales  -->
+                <p class=" italique">
+                    <u> <a href="../TG-Capacités.html" target="_blank">Capacités expérimentales </a></u> :
+                    <ul class="simple italique sans-margin">
+                    <li>
+                        Mettre en œuvre des dispositifs permettant d’étudier les phénomènes de 
+                        diffraction et d’interférences.
+                    </li>
+                    <li>
+                        Respecter les règles de sécurité préconisées lors de l’utilisation de 
+                        sources lumineuses.
+                    </li>
+                </ul>
+                </p>
+                <!-- Fin de la liste des capacités expérimentales -->
+            </div>
+            <!-------------------------------------- Problématique --------------------------------->
+            <div class=" italique sans-marging">
+                Comment la mesure de l’angle caractéristique de diffraction permet-il de mesurer 
+                l’épaisseur d’un cheveu ?
+            </div>
+         
+            <!-- -------------------------------- Fin introduction ------------------------------ -->
+
+            <!-- ----------------------Paragraphe sur plusieurs colonnes à l'impression ------------- -->
+            <div id="col" class="sans-marging sans-padding">
+                <!----------------------------------- Paragraphe 1 ------------------------------------->
+                <div class="sans-marging">
+                    <!-- ----------------------------- Titre du paragraphe -------------------------- -->
+                    <div class="sans-marging">
+                        <h4>1. Rayonnement laser</h4>
+                        <div class="sans-margin" style="margin-bottom: 0.5em;">
+                        </div>
+                        <p class="entredoc"></p>
+                    </div>
+                    <!--------------------------------- Fin titre § ------------------------------------->
+                    <!--------------------------------- Document 1 -------------------------------------->
+                    <div class="cadre">
+                        <div class="doc">Document 1 &minus; Le laser</div>
+                        <p class="sans-margin">
+                            Laser est un acronyme issu de l'anglais light amplification by stimulated 
+                            emission of radiation signifiant « amplification de la lumière par émission 
+                            stimulée de radiation ». <br>
+                            Le laser produit et amplifie une onde lumineuse. Cette onde est monochromatique 
+                            (une seule longueur d’onde émise) et peut se située dans l’infrarouge, 
+                            le visible ou l’ultraviolet.<br>
+                            Les lasers sont classés selon leur dangerosité. Le port de lunettes de protection 
+                            et de gants ininflammables est indispensable lors de l’emploi d’un laser de classe 
+                            élevée.
+                        </p>
+
+                    </div>
+                    <!--------------------------------- Fin document 1 ---------------------------------->
+                    <p class="entredoc"></p>
+                    <!--------------------------------- Document 2 -------------------------------------->
+                    <div class="cadre">
+                        <div class="doc">Document 2 &minus; Les classes de laser</div>
+                        <p class="sans-margin">
+                            <span class="gras">Classe 1</span>  : la puissance de sortie ne peut pas entraîner 
+                            de lésions oculaires.<br>
+                            <span class="gras">Classe 2</span> : la puissance de sortie est inférieure à 1 mW. 
+                            En cas d'exposition, 
+                            le réflexe naturel de cligner des yeux et de détourner la tête suffit à protéger 
+                            du risque de lésion.<br>
+                            <span class="gras"> Classe 3A </span>: la puissance de sortie est inférieure à 5 mW, 
+                            ce qui limite la 
+                            puissance atteignant la rétine à 1 mW lorsque la pupille est dilatée. Par 
+                            conséquent, l'exposition accidentelle à un laser de classe 3A ne devrait pas 
+                            être plus dangereuse que l'exposition à un laser de classe 2.<br>
+                            <span class="gras"> Classe 3B</span> : la puissance de sortie est inférieure à 500 mW, 
+                            suffisante pour 
+                            provoquer des lésions oculaires.<br>
+                            <span class="gras"> Classe 4 </span>: la puissance de sortie est supérieure à 500 mW. 
+                            Ces lasers peuvent 
+                            causer des lésions oculaires et cutanées et même provoquer l'inflammation 
+                            des objets sur lesquels ils sont dirigés.<br><br>
+                            En France (et Tahiti), la fabrication, l'importation et la vente d'appareils à laser de 
+                            classe supérieure à 2 est strictement limitée.
+                            
+                        </p>
+
+                    </div>
+                    <!--------------------------------- Fin document 2 ---------------------------------->
+                    <p class="entredoc"></p>
+
+                    <!--Questions-->
+                    <div class="question">
+                        1)	Le laser utilisé en classe doit-il faire l’objet de précautions particulières ?
+                    </div>
+
+                    <!--Fin questions-->
+                </div>    
+                    <!----------------------------------- Fin Paragraphe 1 ---------------------------------->
+
+
+                        <!----------------------------------- Paragraphe 1 ------------------------------------->
+                <div>
+                    <!-- ----------------------------- Titre du paragraphe -------------------------- -->
+                    <div>
+                        <h4>2. Étude de la largeur de la tâche de diffraction par une fente</h4>
+                        <div class="sans-margin" style="margin-bottom: 0.5em;">
+                        </div>
+                        <p class="entredoc"></p>
+                </div>
+                    <!--------------------------------- Fin titre § ------------------------------------->
+
+                    <!--------------------------------- Matériel ---------------------------------------->
+                    <p class="sans-margin">
+                        <span class="gras souligner">Matériel</span> :
+                    <ul class="tiret">
+                        <li>Laser (longueur d’onde λ connue)</li>
+                        <li>Fentes calibrées (=largeurs connues)</li>
+                        <li>Support de fente + écran </li>
+                        <li>Mètre </li>
+                        <li>PC + tableur + salsaj </li>
+                    </ul>
+                    </p>
+                    <!--------------------------------- Fin Matériel ----------------------------------->
+
+                    <!-- ------------------------------ Début protocole -------------------------------->
+                    
+                    <p class="sans-margin">
+                        <span class="gras souligner">Protocole</span> :
+                    <ul class="TP">
+                        <li>Préparer les 6 solutions en commençant par la solution
+                            la moins concentrée.</li>
+                        <li>Placer la première fente calibrée dans le support </li>
+                        <li>Positionner l’écran à une distance $D=3,00\ m$ de la fente.</li>
+                        <li>Mesurer la largeur $\ell$ de la tâche centrale brillante 
+                            (voir le document : comment mesurer la tâche centrale ?).</li>
+                        <li>Vérifier que la largeur des tâches secondaires vaut $\ell$/2 .</li>
+                         <li>Faire la même chose avec les autres fentes calibrées.</li>
+                            
+                    </ul>
+                    
+                    <!--------------------------------- Fin protocole ----------------------------------->
+
+                    <!--------------------------------- Schéma ------ ----------------------------------->
+                       <!-- <a class="habillage" style="margin-right: 20px;" -->
+                        <a    
+                        href="../TP/TP11/Diffraction_schéma_ex1.svg" 
+                        target="_blank"><img class="hq" width="300px" 
+                        src="../TP/TP11/Diffraction_schéma_ex1.svg" alt="Schéma"
+                          >
+                         </a> 
+                         <!-- <p class="gras"><u>Schéma du montage</u> : </p>
+                         <img width="300px" src="../TP/TP11/Diffraction_schéma_ex1.svg" alt="Schéma">
+                         <br>
+                         <a class="lien" href="../TP/TP11/Diffraction_schéma_ex1.svg" 
+                        target="_blank">Cliquer pour agrandir</a> -->
+                    <!--------------------------------- FIN  Schéma ------------------------------------->
+                    
+                    <!--------------------------------- Document 3 -------------------------------------->
+                     <div class="cadre">
+                        <div class="doc">Document 3 &minus; Comment mesurer la tâche centrale ?</div>
+                        <p class="sans-margin">
+                            <a    
+                            href="../TP/TP11/Intensité lumineuse diffraction.svg" 
+                            target="_blank"><img class="hq" width="300px" 
+                            src="../TP/TP11/Intensité lumineuse diffraction.svg" alt="Intensité lumineuse"
+                              >
+                             </a> 
+                        </p>
+
+                    </div>
+                    <!--------------------------------- Fin document 3 ---------------------------------->
+
+                    <!--Questions-->
+                    <div class="question">
+                        2)	Réaliser le protocole.
+                    </div>
+                    <div class="question">
+                        3) Montrer que $\tan⁡ \theta=\frac{\ell}{2D}$. Pour la suite, comme l’angle $\theta$ 
+                        est « petit » on fera l’approximation $\tan ⁡\theta \approx \theta$.
+                    </div>
+                    <div class="question">
+                        4) Pour chaque fente de largeur $a$, à l’aide d’un tableur, calculer $\theta=\frac{\ell}{2D}$ et $1/a$.
+                    </div>
+                    <div class="question">
+                        5) Tracer la courbe représentant $\theta=f(1/a)$. 
+                    </div>
+                    <div class="question">
+                        6) Vérifier que le coefficient directeur est proche de $\lambda$.
+                    </div>
+                    <div class="question">
+                        7) Modéliser la courbe et en déduire une relation entre $\theta,\lambda$ et $a$. 
+                    </div>
+                    <div class="question">
+                        8) Un cheveu de diamètre $d$ forme une figure de diffraction analogue à une 
+                        fente de largeur identique. <br>
+                        Mesurer la largeur $\ell$ de la tâche centrale de diffraction 
+                        obtenue en plaçant le cheveu à la place de la fente.
+                    </div>
+                    <div class="question">
+                        9) Les incertitudes de mesures sont : $u(\ell)=1\ mm$ ; $u(D)=2\ mm$. 
+                        Calculer l’incertitude sur $d$ : 
+                        $u(d)=d.\sqrt{\left(\dfrac{u(\ell)}{\ell} \right)^2+\left(\dfrac{u(D)}{D}\right)^2 }$
+
+                    </div>
+                    <!--Fin questions-->
+
+
+
+
+
+                    <!-- ------------------------------ Lien vers le début --------------------------- -->
+                    <div id="fin" class="droite"> 
+                        <a class="lien" href="#debut">Début</a>
+                    </div> 
+                    <!-- ------------------------------ Fin Lien vers le début ----------------------- -->
+
+                </div><!--du paragraphe-->
+                <!----------------------------------- Fin Paragraphe 1 ---------------------------------->
+            
+            </div> <!-- ------FIN ------Paragraphe sur plusieurs colonnes à l'impression ------------- -->
+
+        </div> <!--du cadre central-->
+        <!--------------------------------------- Fin du cadre centrale ----------------------------->
+        <!-- ************************************************************************************* -->
+
+
+
+        <!-- ------------------------------------ Début de la section de droite --------------------->
+        <div class="d" style="margin: 10pt;">
+
+
+
+        </div> <!--section de droite-->
+        <!--------------------------------------- Fin de la section de droite ----------------------->
+
+    </div> <!--main-->
+
+     
+
+</body>
+
+</html>
