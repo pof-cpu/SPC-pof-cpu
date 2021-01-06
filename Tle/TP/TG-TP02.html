@@ -4,7 +4,10 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../../style15082020.css" />
+    <!-- <link rel="stylesheet" href="../../style15082020.css" /> -->
+    <link rel="stylesheet" media="screen" href="../../style15082020.css" />
+    <link rel="stylesheet" media="screen" href="../../prism-default.css" />
+    <link rel="stylesheet" media="print" href="../../print03012021.css">
     <title>SPC|Tle TP02</title>
     <script>
         MathJax = {
@@ -19,7 +22,8 @@
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
     </script>
-
+    <script src="../../prism.js"></script>
+    
 
 
 
@@ -346,7 +350,32 @@
                 <div class="cadre">
                     <span class="gras">Document 4 – En langage python
                     </span> <br>
-                    <div class="console margegauche">
+<figure>
+<pre class="no-whitespace-normalization"><code class="language-python, line-numbers" 
+     data-start="1" style="white-space:pre-line;">import csv 
+import matplotlib.pyplot as plt
+f = open('nomDuFichierCsv.csv')
+fichierCSV = csv.reader(f, delimiter=';')
+X = [ ]
+Y = [ ]
+for ligne in fichierCSV :
+ligne[0]=ligne[0].replace(",", ".")
+ligne[1]=ligne[1].replace(",", ".")
+x=float(ligne[0])
+y=float(ligne[1])
+X.append(x)
+Y.append(y)
+fig = plt.figure("monTitre")
+plt.axis()
+plt.title("Y=f(X)")
+plt.xlabel("X(m)")
+plt.ylabel("Y(m)")
+plt.plot(X,Y,"bx-")
+plt.show(fig)
+
+</code></pre>
+</figure>
+                    <!-- <div class="console margegauche"> 
                         <p>
                             <span class="consoleb">import</span><span class="rouge">
                                  csv</span> <br>
@@ -388,7 +417,7 @@
 
                             plt.show(fig) <br>
                         </p>
-                    </div>
+                    </div>  -->
 
                 </div>
                 <!-- Fin document 4 -->
@@ -431,6 +460,7 @@
                         matplotlib</span>. Le début du code pour afficher un graphique 
                         va comment ainsi :                  
                     </div>
+
                     <!-- code -->
                     <div class="console espacehaut margegauche">
                         <span class="consoleb">import</span> <span class="rouge consoleb">
@@ -440,6 +470,9 @@
                         fig = plt<span class="bleu">.figure</span>("monTitre")
                     </div>
                     <!-- fin code -->
+
+
+
                     <div class="espacehaut">
                         <span class="rouge console">plt</span> est <em>l'alias</em>, 
                         on peut mettre autre chose que plt. <br>
