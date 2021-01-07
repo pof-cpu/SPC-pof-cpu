@@ -5,16 +5,82 @@
   
 }
 */
-#col {
-  column-count: 1;
-}
- 
+
+
+@media print {
+  #col {
+    /* column-count: 2; */
+    columns:2;
+  }
+
+    header, footer, aside, nav, form, iframe, .menu, .hero, .adslot {
+        display: none;
+        }
+    /* @page{
+      size: portrait;
+      margin-top: 1,5 cm;
+      margin-bottom: 2cm;
+    }  */
+
+        body{
+            /* margin-top:1.5cm;
+            margin-left: 1.8cm;
+            margin-right: 1.8cm;
+            margin-bottom:2cm; */
+            /* display: block; */
+            width: 100%;
+            
+            /* padding :3em; */
+        }  
+        .main {   
+          flex-direction: column;
+        }
+        
+        .d:nth-child(2) {
+          flex:1.2; 
+          margin-left:1.5cm;
+          margin-right:1.5cm;
+          
+        }
+        .d:nth-child(1) {
+          flex:1;
+          background-color: #f1f1f1;
+          display: none;
+        }
+        .d:nth-child(3) {
+          flex:1;
+          background-color: #f1f1f1;
+          display:none;
+        }
+        
+        img { page-break-inside:avoid; 
+            page-break-after:avoid; }
+        table, pre { page-break-inside:avoid }
+        ul, ol, dl  { page-break-before:avoid }
+          
+        a[href]{
+          font-style: italic;
+          text-decoration: none;
+          color:black;
+        } 
+        a.lien{
+          display:none;  
+        }
+        
+        /* a::after {
+          content: " (" attr(href) ")";
+        } */
+} 
+
 
 @media screen and (max-width: 1200px) {
   .main {   
     flex-direction: column;  
+   
   }
-  
+  /* col {
+    column-count: 2;
+  } */
 }
 
 
@@ -434,7 +500,7 @@ border-bottom: 1px solid black;
 
 
 .question{
-  padding-left: 2em;
+  padding-left: 1.8em;
   text-indent: -1em;
   margin-top: 0.5em;
  font-size:0.96em;
