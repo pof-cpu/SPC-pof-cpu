@@ -10,7 +10,7 @@
     <link rel="stylesheet" media="screen" href="../prism-default.css" />
     <link rel="stylesheet" media="print" href="../print03012021.css">
 
-    <title>SPC|Fiche 05 Lire des données provenant du port série en python</title>
+    <title>SPC|Fiche 06 Envoyer des données sur le port série à partir d'une carte micro:bit</title>
 
     <script>
         MathJax = {
@@ -94,20 +94,20 @@
                 </div>
             </div>
 
-            <h3 class="titre">Lire des données provenant du port série en python</h3>
+            <h3 class="titre">Envoyer des données sur le port série à partir d'une carte micro:bit</h3>
 
             
                <!-- Début document -->
             <div id="python"  style="margin:10px";>
                 <a href="https://www.python.org/">
-                    <img title="Python" src="https://www.python.org/static/img/python-logo.png" alt="Python" width="200"
+                    <img title="microbit" src="https://cdn.sanity.io/images/ajwvhvgo/production/f9683dec8c8b0cbf3186bc450ac3d43756638607-150x89.svg?w=435&q=80&fit=max&auto=format" alt="microbit" width="180"
                         ; />
                 </a>
 
                 <div class="espacehaut">
                     <p>
-                        La librairie <em>pyserial</em> de python doit être installée.<br>
-                    <em>Pour plus d'informations <a href="https://pypi.org/project/pyserial/" target="_blanck">https://pypi.org/project/pyserial/</a> </em><br>
+                    <em>Pour plus d'informations <a href="https://support.microbit.org/support/solutions/articles/19000022103-outputing-serial-data-from-the-micro-bit-to-a-computer" 
+                        target="_blanck">https://support.microbit.org/support/</a> </em><br>
                     
                     </p>
                     <!-- <span class="souligner">Rappel</span> : Python tient compte de <em>l'indentation</em> (le retrait par rapport à la marge). -->
@@ -119,34 +119,20 @@
                 <div class="cadre">
                     
                     <div class="normal">
-                        Des données sont envoyées sur le port série COM5 de l'ordinnateur. Le format des données est
+                        Les données sont envoyées sur le port série avec la commande 
+                        <code class="language-python">print()</code>. Le format des données est
                         : $x_i$ , $y_i$. Chaque valeur est séparée par une virgule ",".
                     </div>
                     <div class="doc">
-                        Exemple de script :
+                        Exemple de script à lancer sur la carte micro:bit :
                     </div>
                 <figure>
-                    <pre class="no-whitespace-normalization"><code class="language-python">import serial
-import matplotlib.pyplot as plt
-
-ser = serial.Serial('COM5', baudrate = 115200, timeout = 1)
-print("Port série ouvert : " + str(ser.name))
-count = 0
-x = []
-y = []
-
-while True:
-    line = ser.readline().decode()
-    if len(line) != 0 :
-        val=line.split(',') # La ligne est coupée à la virgule
-        if len(val) == 2 :
-            x.append(float(val[1]))
-            y.append(float(val[0]))
-        count = 1
-    if count == 1 and len(line)==0 :
-        break
-ser.close()
-print("port série fermé")
+                    <pre class="no-whitespace-normalization"><code class="language-python">from microbit import *
+i = 0
+while i < 10 :
+    print(i,",",temperature())
+    i+=1
+    sleep(20)
                         </pre>
                     </code>
                 </figure>
