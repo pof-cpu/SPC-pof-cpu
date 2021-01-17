@@ -10,7 +10,9 @@
 @media print {
   #col {
     /* column-count: 2; */
+    
     columns:2;
+    column-rule: .25pt solid rgb(75, 70, 74);
   }
 
     header, footer, aside, nav, form, iframe, .menu, .hero, .adslot {
@@ -53,8 +55,8 @@
           display:none;
         }
         
-        img { page-break-inside:avoid; 
-            page-break-after:avoid; }
+        img, figure { break-inside:avoid; 
+            break-after:avoid; }
         table, pre { page-break-inside:avoid }
         ul, ol, dl  { page-break-before:avoid }
           
@@ -122,6 +124,23 @@
   */
   }
 
+  figure {
+    /* border: thin #c0c0c0 solid; */
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    /* max-width: 220px; */
+    margin: auto;
+}
+
+
+  figcaption {
+    /* background-color: #222; */
+    /* color: #fff; */
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
 
 
 /* ----------------------------------- */

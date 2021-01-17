@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="../style15082020.css" />
+    <link rel="stylesheet" media="print" href="../../print17102020.css"/> -->
+    <link rel="stylesheet" href="../style20210106.css" />
+    <link rel="stylesheet" media="screen" href="../prism-default.css" />
+     
+
+    <title>SPC|Fiche 07 Utiliser un tableur et obtenir l'équation d'une droite</title>
+
+    <script>
+        MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']]
+            },
+            chtml:{
+                scale: .9
+            },
+            svg: {
+                fontCache: 'global'
+                
+            }
+        };
+    </script>
+  
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async 
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+    <script src="../prism.js"></script>
+</head>
+
+
+<body>
+    <div class="main" style="margin: 0pt; "> <!-- ---------------Main----------------------------- -->
+       
+        
+        <div id="debut" class="d" style="margin: 10pt;"> <!-- ----Début section d de gauche ----------->
+            <!-- -------------------------------Logo MATHJAX ---------------------------------------->
+            <div style="margin: 10pt;">
+                <a href="https://www.mathjax.org">
+                    <img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax" />
+                </a>
+            </div>
+            <!-- Fin logo MATHJAX------------------------------------------------------------------ -->
+            
+            
+            <div style="margin: 10pt;"> <!-- ------------------------Lien vers balises----------------->
+                <span class="gras"><u>Sommaire</u></span> <br>
+                <!-- <a href="#Activité 1">Activité 1</a><br>
+                <a href="#Activité 2">Activité 2</a><br>
+                <p class="entredoc"></p>
+                <a href="#Exercice 1">Exercice 1</a><br>
+                <a href="#Exercice 2">Exercice 2</a><br>
+                <p class="entredoc"></p>
+                <a href="#Activité 3">Activité 3</a><br>
+                <p class="entredoc"></p>
+                <a href="#Exercice 3">Exercice 3</a><br> -->
+                <!-- <a href="#Attendus"><span class="caveatfont">Attendus</span></a><br> -->
+                 
+        <!--
+                
+                
+                
+                <a href="#Exercice 4">Exercice 4</a><br>
+                
+                
+                <p class="entredoc"></p>
+                <a href="#Exercice 5">Exercice 5</a><br>
+                <p></p>
+                <a href="#fin">Fin</a>
+        -->
+            </div> <!-- ------------------------Fin Lien vers balises---------------------------------->
+            
+            
+           
+
+        </div> <!----------------------------------------Fin de la section "d" gauche------------------>
+
+        <div class="d" style="margin: 10pt;">
+
+            <div class="entete">
+                <div>
+                     Lycée Taiarapu Nui<br>
+                     Terminale Générale<br>
+                </div>
+                <div class="droite">
+                     Spécialité Physique – Chimie<br>
+                     2020-2021
+                </div>
+            </div>
+
+            <h3 class="titre">Utiliser un tableur et obtenir l'équation d'une droite</h3>
+
+            
+               <!-- Début document -->
+            <div style="margin:10px";>
+                <!-- <a href="https://www.python.org/">
+                    <img title="microbit" src="https://cdn.sanity.io/images/ajwvhvgo/production/f9683dec8c8b0cbf3186bc450ac3d43756638607-150x89.svg?w=435&q=80&fit=max&auto=format" alt="microbit" width="180"
+                        ; />
+                </a> -->
+
+                <div class="espacehaut">
+                    <!-- <p>
+                    <em>Pour plus d'informations <a href="https://support.microbit.org/support/solutions/articles/19000022103-outputing-serial-data-from-the-micro-bit-to-a-computer" 
+                        target="_blanck">https://support.microbit.org/support/</a> </em><br>
+                    
+                    </p> -->
+                    <!-- <span class="souligner">Rappel</span> : Python tient compte de <em>l'indentation</em> (le retrait par rapport à la marge). -->
+                </div>
+                
+
+
+                <p class="entredoc"></p>
+                <div class="cadre">
+                    
+                   <div class="doc">
+                       Énoncé :
+                   </div>
+                    <div>
+                        On mesure la largeur $\ell$ de la tâche centrale d'une figure de diffraction obtenue
+                        en faisant passer un faisceau laser sur un fil de diamètre $a$.<br>
+                        On dispose de plusieurs fils de diamètres différents (en $\mu m$) : 40, 60, 80, 100, 120.  <br>
+                        On montre que $\theta = \dfrac{\ell}{2D}$, avec $D=1,80\ m$. <br>
+                        <div class="question">
+                            1) À l'aide d'un tableur, créer le tableau ci-dessous : 
+                        </div>
+
+                            <table class="tcadre tcentrer" >
+                                <tr>
+                                    <td class="cadre centrer">$a(\mu m)$</td>
+                                    <td class="cadre centrer">$a(m)$</td>
+                                    <td class="cadre centrer">$1/a$  $(m^{-1})$</td>
+                                    <td class="cadre centrer">$\ell (cm)$</td>
+                                    <td class="cadre centrer"> $\theta$ </td>
+                                </tr>
+                                <tr>
+                                    <td class="cadre centrer">40</td>
+                                    <td class="cadre centrer"></td>
+                                    <td class="cadre centrer"></td>
+                                    <td class="cadre centrer">5,7</td>
+                                    <td class="cadre centrer"></td>
+                                </tr>
+                                <tr>
+                                    <td class="cadre centrer">60</td>
+                                    <td class="cadre centrer"></td>
+                                    <td class="cadre centrer"></td>
+                                    <td class="cadre centrer">3,8</td>
+                                    <td class="cadre centrer"></td>
+                                </tr>
+                                <tr>
+                                    <td class="cadre centrer">80</td>
+                                    <td class="cadre centrer"></td>
+                                    <td class="cadre centrer"></td>
+                                    <td class="cadre centrer">2,8</td>
+                                    <td class="cadre centrer"></td>
+                                </tr>
+                                <tr>
+                                    <td class="cadre centrer">100</td>
+                                    <td class="cadre centrer"></td>
+                                    <td class="cadre centrer"></td>
+                                    <td class="cadre centrer">2,3</td>
+                                    <td class="cadre centrer"></td>
+                                </tr>
+                                <tr>
+                                    <td class="cadre centrer">120</td>
+                                    <td class="cadre centrer"></td>
+                                    <td class="cadre centrer"></td>
+                                    <td class="cadre centrer">1,9</td>
+                                    <td class="cadre centrer"></td>
+                                </tr>
+                            </table>
+
+                        <div class="question">
+                            2) Tracer $\theta = f(\dfrac{1}{a})$
+                        </div>
+                        <div class="question">
+                            3) Déterminer l'équation de la droite.
+                        </div>
+
+                    </div>
+         
+                </div>
+                <p class="entredoc"></p>
+                <!-- -------------------------------------------------------------------------------------- -->
+                <div id="col" class="sans-marging sans-padding"> <!-- Impression sur plusieurs colonnes-->
+                
+                    
+                    <section>       
+                        <h6 class="espacehaut">   
+                                La colonne $a(\mu m)$ :
+                        </h6>    
+                            ○ Pour aller plus vite : rentrer les deux premières valeurs (40 et 60)
+                            puis les selectionner. <br>
+                            ○ Un cadre apparait avec un "petit carré" un bas à droite du cadre de sélection.<br>
+                            ○ Cliquer le "petit carré" et étirer jusqu'à la valeur 120. <br>
+                            <em>(Puisque l'écart entre les 2 cellules est de 20, les cellules créés auront 
+                                un écart de 20)</em> <br>
+                            <figure>
+                                <div  class="centrer">
+                                <img  src="F07/1.png" width="100px">
+                                <figcaption>"petit carré".</figcaption>
+                            </div>
+                            </figure>
+                      
+                            <figure>
+                                <div  class="centrer">
+                                <img  src="F07/2.png" width="100px">
+                                <figcaption>Étirer jusqu'à 120.</figcaption>
+                            </div>
+                            </figure>
+                            <!-- <img src="F07/2.png" width="98px"> <br> -->
+             
+                        
+                         
+                        <h6 class="espacehaut">La colonne $a(m)$ :</h6>   
+                            À côté, remplir une colonne pour $a$ exprimer en $m$ :<br>
+                            ○ Dans la 1ère cellule, remplir avec : = A2*1e-6 <br>
+                            <em>(Il ne faut pas écrire "A2" mais cliquer sur la cellule A2)</em><br>
+                            <figure>
+                                <div  class="centrer">
+                                <img  src="F07/3.png" width="130px">
+                                <figcaption>Remplir la formule avec le signe égale  "="</figcaption>
+                            </div>
+                            </figure>
+                            <!-- <img class="hq" src="F07/3.png" width="130px"><br> -->
+                            ○ Appuyer "entrer"<br>
+                            ○ Ensuite étirer le cadre comme précédemment (en cliquant le "petit carré") : <br>
+                            <figure>
+                                <div  class="centrer">
+                                <img  src="F07/4.png" width="130px">
+                                <figcaption>Étirer le "petit carré"...</figcaption>
+                                </div>
+                            </figure>
+                            <figure>
+                                <div  class="centrer">
+                                <img  src="F07/5.png" width="130px">
+                                <figcaption>....puis relacher.</figcaption>
+                            </div>
+                            </figure>
+                            <!-- <img class="hq" src="F07/4.png" width="130px"><br>
+                            <img class="hq" src="F07/5.png" width="130px"><br> -->
+                        
+
+                        <h6 class="espacehaut">   
+                                La colonne $1/a$ $(m^{-1})$ :
+                        </h6> 
+                            ○ Dans la 1ère cellule, remplir avec : = 1/B2 <br>
+                            <em>(Cliquer sur la cellule B12 !)</em> <br>
+                            <figure>
+                                <div  class="centrer">
+                                <img  src="F07/6.png" width="150px">
+                                <figcaption>Cliquer sur la cellule B12.</figcaption>
+                            </div>
+                            </figure>
+                            ○ Étirer le "petit carré".<br>
+                            <figure>
+                                <div  class="centrer">
+                                <img  src="F07/7.png" width="150px">
+                                <figcaption>Étirer le "petit carré"</figcaption>
+                            </div>
+                            </figure>
+
+                        <h6 class="espacehaut">   
+                                La colonne $\ell (cm)$ :
+                        </h6>
+                        ○ Remplir avec les valeurs mesurées.
+                        <figure>
+                            <div  class="centrer">
+                                <img  src="F07/8.png" width="200px">
+                                <figcaption>Remplir la colonne $\ell$.</figcaption>
+                            </div>
+                        </figure>
+
+                        <h6 class="espacehaut">   
+                            Cellule $D(m)$ : 
+                        </h6>
+                        <em>(Laisser de la place pour la colonne $\theta$</em> <br>
+                        ○ Remplir une cellule avec la valeur de D.
+                        <figure>
+                            <div  class="centrer">
+                                <img  src="F07/9.png" width="300px">
+                                <figcaption>Valeur de $D$.</figcaption>
+                            </div>
+                        </figure>
+
+                        <h6 class="espacehaut">   
+                            Colonne $\theta$ : 
+                        </h6>
+                        ○ Dans la 1ère cellule, remplir avec : = D2*1e-2/(2*\$G\$2)  <br>
+                        <em>(le symbole "\$" permet de fixer la valeur dans une formule)</em>
+                        <figure>
+                            <div  class="centrer">
+                                <img  src="F07/11.png" width="230px">
+                                <figcaption>Colonne $\theta$ et utilisation du "\$".</figcaption>
+                            </div>
+                        </figure>
+                        ○ Étirer le "petit carré" vers le bas.
+                        <figure>
+                            <div  class="centrer">
+                                <img  src="F07/12.png" width="250px">
+                                <figcaption>Tableau final.</figcaption>
+                            </div>
+                        </figure>
+
+                        <h6 class="espacehaut">Selectionner les données pour le graphique :</h6>
+                        ○ Sélectionner d'abord les valeurs de $1/a$ puis en maintenant la touche CTRL,
+                        sélectionner les valeurs de $\theta$.
+                        <figure>
+                            <div  class="centrer">
+                                <img  src="F07/13.png" width="250px">
+                                <figcaption>Sélection des données.</figcaption>
+                            </div>
+                        </figure>
+                        
+                        <h6 class="espacehaut">Inserer le graphique :</h6>
+                        ○ Insérer un graphique en choisissant le "nuage de points". <br>
+                        <figure>
+                            <div class="centrer">
+                                <img  src="F07/14.png" width="220px">
+                                <figcaption>Sélection des données.</figcaption>
+                            </div>
+                        </figure>
+                        <div >
+                        ○ Faire un clic droit sur la courbe et choisir : "ajouter une courbe de tendance"<br>
+                        ○ Dans les options, choisir : linéaire. <br>
+                        ○ Cocher la case "définir l'interception" et définir la valeur à 0.0 <br>
+                        ○ Cocher la cases "Afficher l'équation sur le graphique" <br>
+                        ○ Cocher la case "Afficher le coefficient de détermination (R²)sur le graphique" <br>
+                        </div>
+
+                        <figure>
+                            <div  class="centrer">
+                                <img  src="F07/15.png" width="220px">
+                                <figcaption>Options de la courbe de tendance.</figcaption>
+                            </div>
+                        </figure> <br>
+                        ○ Arranger la graphique (titre, nom des axes, etc.) <br>
+                        <figure>
+                            <div  class="centrer">
+                                <img  src="F07/Graphique.svg" width="250px">
+                                <figcaption>Graphique.</figcaption>
+                            </div>
+                        </figure> <br>
+
+                     </section>
+                </div>
+                <p class="entredoc"></p>
+                <!-- <div class="cadre"> Document 1 -->
+                    <!-- <div class="doc">Le module matplotlib</div>
+                    
+                    <div class="sans-margin">
+                        Les courbes se tracent avec la bibliothèque (ou module) 
+                        <span class="consoleb">
+                        matplotlib</span>. Le début du code pour afficher un graphique 
+                        va commencer ainsi :                   -->
+            </div>
+            
+                   
+        
+                       
+            <footer id="fin" class="droite">
+                <a class="lien" href="#debut">Début</a>
+            </footer>
+
+        </div> <!----------------------Fin de section "d"---------------------------------->
+        
+        <!-- -----------------------------Section de droite---------------------------------------- -->
+        <div class="d" style="margin: 10pt;">
+        
+                
+             
+                
+        </div> <!--Fin de la section "d"-->
+
+
+
+    </div> <!--fin du conteneur de "d"-->
+
+
+</body>
+
+</html>
