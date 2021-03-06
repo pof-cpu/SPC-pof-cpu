@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 127.78 57.1">
+  <defs>
+    <style>
+      .cls-1, .cls-4, .cls-6 {
+        fill: none;
+      }
+
+      .cls-1, .cls-3 {
+        stroke: #1d1d1b;
+      }
+
+      .cls-1, .cls-3, .cls-6 {
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 0.71px;
+      }
+
+      .cls-10, .cls-2, .cls-8, .cls-9 {
+        fill: #1d1d1b;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-11, .cls-5 {
+        fill: #e30613;
+      }
+
+      .cls-6 {
+        stroke: #2d509f;
+      }
+
+      .cls-12, .cls-7 {
+        fill: #2d509f;
+      }
+
+      .cls-10, .cls-11, .cls-12, .cls-8, .cls-9 {
+        font-size: 6px;
+      }
+
+      .cls-8 {
+        font-family: TimesNewRomanPSMT, Times New Roman;
+      }
+
+      .cls-10, .cls-11, .cls-12, .cls-9 {
+        font-family: TimesNewRomanPS-ItalicMT, Times New Roman;
+        font-style: italic;
+      }
+
+      .cls-10 {
+        letter-spacing: -0.02em;
+      }
+    </style>
+  </defs>
+  <g id="Calque_1" data-name="Calque 1">
+    <line class="cls-1" x1="22.36" y1="34.17" x2="22.36" y2="52.66"/>
+    <line class="cls-1" x1="22.36" y1="11.23" x2="22.36" y2="29.84"/>
+    <g>
+      <line class="cls-1" x1="63.35" y1="16.12" x2="63.35" y2="29.84"/>
+      <circle class="cls-2" cx="63.35" cy="16.12" r="0.8"/>
+    </g>
+    <line class="cls-1" x1="111.77" y1="11.23" x2="111.77" y2="52.66"/>
+    <g>
+      <line class="cls-1" x1="63.35" y1="52.66" x2="63.35" y2="33.9"/>
+      <circle class="cls-2" cx="63.35" cy="52.66" r="0.8"/>
+    </g>
+    <g>
+      <line class="cls-1" x1="22.36" y1="11.23" x2="58.42" y2="11.23"/>
+      <path class="cls-2" d="M67.07,61.46a.8.8,0,1,0-.8-.8A.8.8,0,0,0,67.07,61.46Z" transform="translate(-8.65 -49.43)"/>
+    </g>
+    <g>
+      <line class="cls-1" x1="68.25" y1="11.23" x2="111.77" y2="11.23"/>
+      <path class="cls-2" d="M76.9,61.46a.8.8,0,1,1,.8-.8A.8.8,0,0,1,76.9,61.46Z" transform="translate(-8.65 -49.43)"/>
+    </g>
+    <g>
+      <line class="cls-1" x1="56.23" y1="30.21" x2="70.47" y2="30.21"/>
+      <line class="cls-1" x1="56.23" y1="33.9" x2="70.47" y2="33.9"/>
+    </g>
+    <line class="cls-1" x1="15.24" y1="30.48" x2="29.48" y2="30.48"/>
+    <line class="cls-1" x1="19.96" y1="34.17" x2="24.76" y2="34.17"/>
+    <line class="cls-1" x1="22.36" y1="52.66" x2="111.77" y2="52.66"/>
+    <rect class="cls-3" x="113.36" y="78.27" width="14.12" height="6.2" transform="translate(30.4 152.36) rotate(-90)"/>
+    <rect class="cls-3" x="33.33" y="8.13" width="14.12" height="6.2"/>
+    <line class="cls-1" x1="61.85" y1="9.63" x2="63.35" y2="16.12"/>
+    <rect class="cls-4" width="127.78" height="57.1"/>
+  </g>
+  <g id="Flèches">
+    <polygon class="cls-5" points="85.57 51.34 86.13 52.66 85.57 53.97 88.68 52.66 85.57 51.34"/>
+    <g>
+      <line class="cls-1" x1="118.68" y1="25.87" x2="118.68" y2="39.18"/>
+      <path class="cls-2" d="M127.33,75.93l1.28.78,0,0-.83-2.09-.48-2.17-.48,2.17L126,76.67l0,0Z" transform="translate(-8.65 -49.43)"/>
+    </g>
+    <g>
+      <line class="cls-2" x1="53.54" y1="24.7" x2="53.54" y2="39.18"/>
+      <g>
+        <line class="cls-6" x1="53.54" y1="27.59" x2="53.54" y2="39.18"/>
+        <path class="cls-7" d="M62.19,77.66l1.27.77,0,0-.82-2.08-.48-2.18-.48,2.18-.83,2.08,0,0Z" transform="translate(-8.65 -49.43)"/>
+      </g>
+    </g>
+  </g>
+  <g id="Légende">
+    <text class="cls-8" transform="translate(56.49 8.13)">1</text>
+    <text x="-8.65" y="-49.43"/>    <text class="cls-9" transform="translate(102.14 33.9)">R</text>
+    <text class="cls-9" transform="translate(39.36 19.22)">r</text>
+    <text class="cls-9" transform="translate(72.99 34.33)">C</text>
+    <text class="cls-10" transform="translate(65.21 19.22)">A</text>
+    <text class="cls-9" transform="translate(120.99 34.42)">u</text>
+    <text class="cls-9" transform="translate(123.99 36.42) scale(0.58)">R</text>
+    <text class="cls-9" transform="translate(65.35 50.94)">B</text>
+    <text class="cls-9" transform="translate(3.11 35.06)">Pile</text>
+    <text class="cls-11" transform="translate(85.53 49.82)">i</text>
+    <text class="cls-12" transform="translate(46.98 34.33)">u</text>
+    <text class="cls-12" transform="translate(49.98 34.33) scale(0.58)">c</text>
+    <text class="cls-8" transform="translate(67.53 8.13)">2</text>
+  </g>
+</svg>

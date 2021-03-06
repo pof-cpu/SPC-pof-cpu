@@ -1,0 +1,36 @@
+<svg id="Ex2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 247.65 53.8">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #1d1d1b;
+        stroke-miterlimit: 10;
+        stroke-width: 0.75px;
+      }
+
+      .cls-2 {
+        fill: #1d1d1b;
+      }
+    </style>
+  </defs>
+  <line class="cls-1" x1="8.18" y1="27.9" x2="240.66" y2="27.9"/>
+  <g>
+    <line class="cls-1" x1="28.75" y1="47.77" x2="28.75" y2="8.03"/>
+    <path class="cls-2" d="M286.09,198.63a14,14,0,0,1,2.21-4l-2.21.8-2.21-.8A14.29,14.29,0,0,1,286.09,198.63Z" transform="translate(-257.34 -148.05)"/>
+    <path class="cls-2" d="M286.09,153.27a13.9,13.9,0,0,0,2.21,4l-2.21-.8-2.21.8A14.15,14.15,0,0,0,286.09,153.27Z" transform="translate(-257.34 -148.05)"/>
+  </g>
+  <g>
+    <line class="cls-1" x1="159.14" y1="47.77" x2="159.14" y2="8.03"/>
+    <path class="cls-2" d="M416.48,198.63a14.29,14.29,0,0,1,2.21-4l-2.21.8-2.21-.8A14,14,0,0,1,416.48,198.63Z" transform="translate(-257.34 -148.05)"/>
+    <path class="cls-2" d="M416.48,153.27a14.15,14.15,0,0,0,2.21,4l-2.21-.8-2.21.8A13.9,13.9,0,0,0,416.48,153.27Z" transform="translate(-257.34 -148.05)"/>
+  </g>
+  <line class="cls-1" x1="28.75" y1="27.9" x2="119.46" y2="27.9"/>
+  <line class="cls-1" x1="119.46" y1="27.9" x2="159.14" y2="27.9"/>
+  <line class="cls-1" x1="159.14" y1="27.9" x2="198.83" y2="27.9"/>
+  <line class="cls-1" x1="119.46" y1="30.16" x2="119.46" y2="25.63"/>
+  <line class="cls-1" x1="199.11" y1="29.63" x2="199.11" y2="25.09"/>
+  <rect class="cls-3" width="247.65" height="53.8"/>
+</svg>
