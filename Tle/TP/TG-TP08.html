@@ -4,27 +4,23 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../../style15082020.css" />
-    <link rel="stylesheet" media="print" href="../../print17102020.css"/>
+    <!-- <link rel="stylesheet" href="../../style15082020.css" /> -->
+    <link rel="stylesheet"  href="../../style20210106.css" />
+    <!-- <link rel="stylesheet" media="print" href="../../print03012021.css"> -->
     
     <title>SPC|Tle TP08</title>
     <script>
         MathJax = {
-            tex: {
-                inlineMath: [['$', '$'], ['\\(', '\\)']]
-
-            },
-            chtml:{
-                scale: 1
-            },
-            svg: {
-                fontCache: 'global'
-            }
+            tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] },
+            chtml: { scale: 0.96 },
+            svg: { fontCache: 'global' }
         };
     </script>
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-    </script>
+    <script id="MathJax-script" async src="../../es5/tex-chtml.js"></script>
+    <!-- <script src="https://polyfill.io/v3/polyfill.min.js?features=es6">
+    </script> -->
+    <!-- <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script> -->
 </head>
 <!-- ************************************************************************ -->
 <!-- ************************************************************************ -->
@@ -34,66 +30,63 @@
     <div class="main">
 
 
-
-
-        <!-- ************************************************************************ -->
-        <aside id="debut" class="d" style="margin: 10pt;">
-            <!---------------------------------------------------------------->
-             <!-- Logo MATHJAX ---------------------------------------->
-             <div style="margin: 10pt;">
+        <!-- *******************************Début cadre de gauche **********************************-->
+        <div id="debut" class="d" style="margin: 10pt;">
+            <!----------------------------------- Logo MATHJAX ---------------------------------------->
+            <div style="margin: 10pt;">
                 <a href="https://www.mathjax.org">
-                    <img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax" />
+                    <img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif"
+                        alt="Powered by MathJax" />
                 </a>
             </div>
+            <!-- ----------------------------------Fin logo MATHJAX-------------------------------- -->
+
+
+            <!-- -----------------------------------Sommaire--------------------------------------- -->
             <div style="margin: 10pt;">
-                <!-- <span class="gras"><u>Sommaire</u></span> <br> -->
-                 <!-- <a href="#Activité 1">Activité 1</a><br>
-                <br>
-                <a href="#Exercice 1">Exercice 1</a><br> -->
-                <!--
-                <a href="#Exercice 2">Exercice 2</a><br>
-                <a href="#Exercice 3">Exercice 3</a><br>
-                <br>
-                <a href="#Activité 2">Activité 2</a><br>
-                <br>
-                <a href="#Exercice 4">Exercice 4</a><br>
-                <br>
-                <a href="#Activité 3">Activité 3</a><br>
-                <a href="#Activité 4">Activité 4</a><br>
-                <br> -->
-                <!-- <a href="#Travail supplémentaire">Travail supplémentaire</a><br>
-                <a href="#Incertitude_type_A">Incertitude de type A</a><br> -->
-                <br>  
+                <p>
+                    <span class="gras"><u>Sommaire</u></span> <br>
+                </p>
+                <p>
+                    <!-- <a href="#Activité 1">Activité 1</a><br> -->
+                </p>
+                <!-- <a href="#Capacités numériques">Capacités numériques</a><br> -->
                 <p></p>
                 <a href="#fin">Aller à la fin</a>
             </div>
-            <!-- ------------------------------------------------- -->
+            <!-- ------------------------------------Fin Sommaire--------------------------------- -->
 
 
             
-        </aside>
+        </div> <!--*******************************Fin cadre gauche************************ -->
+
         <!-- ************************************************************************ -->
-
-        <div class="d" style="margin: 10pt;"> <!----------Début de la partie centrale ----------->
-            <div class="sans-margin entete">
-                Lycée Taiarapu Nui<br>
-                Terminale Générale<br>
-                Spécialité Physique – Chimie<br>
-                2020-2021
-
-                <hr>
+  <!-- *******************************Début cadre central **********************************-->
+  <div class="d" style="margin: 10pt;">
+  <!-- ------------------------------------Début entête--------------------------------- -->
+            <div class="entete"> <!--en-tête--> 
+                <div>
+                    Lycée Taiarapu Nui<br>
+                    Terminale Générale<br>
+                </div>
+                <div class="droite">
+                    Spécialité Physique – Chimie<br>
+                    2020-2021
+                </div>
             </div>
+            <!-- ------------------------------------ Fin entête--------------------------------- -->
 
             <!-- --------------------------TITRE----------------------------------------------- -->
-            <h5 class="sans-margin centrer">TP.8 Atténuation d’une onde</h5>
-            <hr>
+            <h3 class="titre">TP.8 Atténuation d’une onde</h3>
+            
+            
             <!-- --------------------------Fin titre------------------------------------------- -->
 
             <!--  -------------------------Introduction---------------------------------------- -->
-            <p class="sans-margin italique">
+            <div class="italique">
                 Illustrer l'atténuation géométrique et l'atténuation par absorption.
-            </p>
-            <p class=" italique">
+            </div>
+            <div class=" italique">
                 <u> <a href="../TG-Capacités.html" target="_blank">Capacités expérimentales </a></u> :
                 <ul class="simple italique sans-margin">
                     <li>Mesurer un niveau d’intensité sonore
@@ -107,7 +100,7 @@
                     </li>
                      
                 </ul>
-            </p>
+            </div>
             <!-- ---------------------------Fin introduction----------------------------------- -->
             
             <!---------------------------------paragraphe 1--------------------------------------->
