@@ -4,25 +4,24 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../../style15082020.css" />
-    <title>SPC|Tle TP05</title>
+    <!-- <link rel="stylesheet" href="../../style15082020.css" /> -->
+    <link rel="stylesheet"  href="../../style20210106.css" />
+    <!-- <link rel="stylesheet" media="print" href="../../print03012021.css"> -->
+    <title>
+        SPC|Tle TP05
+    </title>
     <script>
         MathJax = {
-            tex: {
-                inlineMath: [['$', '$'], ['\\(', '\\)']]
-
-            },
-            chtml:{
-                scale: 0.96
-            },
-            svg: {
-                fontCache: 'global'
-            }
+            tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] },
+            chtml: { scale: 0.96 },
+            svg: { fontCache: 'global' }
         };
     </script>
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-    </script>
+    <script id="MathJax-script" async src="../../es5/tex-chtml.js"></script>
+    <!-- <script src="https://polyfill.io/v3/polyfill.min.js?features=es6">
+    </script> -->
+    <!-- <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script> -->
 </head>
 <!-- ************************************************************************ -->
 <!-- ************************************************************************ -->
@@ -73,26 +72,28 @@
         
 
         <div class="d" style="margin: 10pt;"> <!----------Début de la partie centrale ----------->
-            <div class="sans-margin entete">
-                Lycée Taiarapu Nui<br>
-                Terminale Générale<br>
-                Spécialité Physique – Chimie<br>
-                2020-2021
-
-                <hr>
-            </div>
+            <div class="entete">
+                <div>
+                    Lycée Taiarapu Nui<br>
+                    Terminale Générale<br>
+                </div>
+                <div class="droite">
+                    Spécialité Physique – Chimie<br>
+                    2020-2021
+                </div>
+            </div>  
 
             <!-- --------------------------TITRE----------------------------------------------- -->
-            <h5 class="sans-margin centrer">TP.5 Titrage pH-métrique</h5>
+            <h3 class="titre">TP.5 Titrage pH-métrique</h3><!--TITRE-->
             <hr>
             <!-- --------------------------Fin titre------------------------------------------- -->
 
             <!--  -------------------------Introduction---------------------------------------- -->
-            <p class="sans-margin italique">
+            <div class="sans-margin italique">
                 Mettre en œuvre le suivi pH-métrique d’un titrage ayant pour support une 
                 réaction acide-base.
-            </p>
-            <p class=" italique">
+            </div>
+            <div class=" italique">
                 <u> <a href="../TG-Capacités.html" target="_blank">Capacités expérimentales </a></u> :
                 <ul class="simple italique sans-margin">
                     <li>
@@ -108,7 +109,7 @@
                      
                 </ul>
                 
-            </p>
+            </div>
             <div class="gras italique">
                 Comment déterminer la concentration en acide éthanoïque dans le vinaigre ?
             </div>
