@@ -4,27 +4,32 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../../style.css" />
-    <title>SPC|Tle TP01</title>
+    <!-- <link rel="stylesheet" href="../../style15082020.css" /> -->
+    <link rel="stylesheet"  href="../../style20210106.css" />
+    <!-- <link rel="stylesheet" media="print" href="../../print03012021.css"> -->
+
+    <title>
+        SPC|Tle TP01
+    </title>
 
     <script>
         MathJax = {
-            tex: {
-                inlineMath: [['$', '$'], ['\\(', '\\)']]
-            },
-            svg: {
-                fontCache: 'global'
-            }
+            tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] },
+            chtml: { scale: 0.96 },
+            svg: { fontCache: 'global' }
         };
     </script>
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-    </script>
+    <script id="MathJax-script" async src="../../es5/tex-chtml.js"></script>
+    <!-- <script src="https://polyfill.io/v3/polyfill.min.js?features=es6">
+    </script> -->
+    <!-- <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script> -->
+
 </head>
 
 
 <body>
-    <div class="main" style="margin: 0pt; ">
+    <div class="main">
        
         <!-- ----------------------------------------------------- -->
         <div class="d">
@@ -123,23 +128,26 @@
 
         <div class="d" style="margin: 10pt;">
 
-            <div class="sans-margin entete">
+            <div class="entete">
+                <div>
                 Lycée Taiarapu Nui<br>
                 Terminale Générale<br>
+                </div>
+                <div class="droite">
                 Spécialité Physique – Chimie<br>
                 2020-2021
-                <hr size="1" color="black">
+                </div>
             </div>
-            <h5 class="sans-margin centrer">Act.1 Mesure du pH et variation du pH</h5>
-            <hr size="1" color="black">
-            <p class="sans-margin italique">
+            <h3 class="titre">Act.1 Mesure du pH et variation du pH</h3>
+          
+            <!-- <div class="sans-margin italique">
                 Mesurer le pH de solutions d’acide chlorhydrique
                 \((H_3 O^+,Cl^- )\)obtenues par dilutions successives d’un facteur 10 pour
                 tester
                 la relation entre le pH et la concentration en ion oxonium \( H_3 O^+ \)
                 apporté.
-            </p>
-            <p class=" italique">
+            </div>
+            <div class=" italique">
                 <u> <a href="../TG-Capacités.html" target="_blank">Capacités expérimentales </a></u> :
             <ul class="simple italique">
                 <li>
@@ -159,7 +167,7 @@
                     l’environnement.
                 </li>
             </ul>
-            </p>
+            </div> -->
             <!-- <p>
                     <ul class="TP">
                         <li>Verser environ 15 mL de chacune des solutions dans les béchers 

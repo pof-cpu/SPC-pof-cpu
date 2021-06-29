@@ -4,22 +4,23 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../style15082020.css" />
+    <link rel="stylesheet" href="../style20210106.css" />
+    <!-- <link rel="stylesheet" media="print" href="../print03012021.css"> -->
     <title>SPC|Tle C03</title>
 
     <script>
         MathJax = {
-            tex: {
-                inlineMath: [['$', '$'], ['\\(', '\\)']]
-            },
-            svg: {
-                fontCache: 'global'
-            }
+            tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] },
+            chtml: { scale: 0.96 },
+            svg: { fontCache: 'global' }
         };
     </script>
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-    </script>
+    <script id="MathJax-script" async src="../es5/tex-chtml.js"></script>
+    
+    <!-- <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async 
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script> -->
 </head>
 
 
@@ -57,13 +58,15 @@
         </div> <!--Fin de la section1 "d"-->
 
         <div class="d" style="margin: 10pt;">
-
-            <div class="sans-margin entete">
-                Lycée Taiarapu Nui<br>
-                Terminale Générale<br>
-                Spécialité Physique – Chimie<br>
-                2020-2021
-                <!-- <hr size="1" color="black"> -->
+            <div class="entete">
+                <div>
+                    Lycée Taiarapu Nui<br>
+                    Terminale Générale<br>
+                </div>
+                <div class="droite">
+                    Spécialité Physique – Chimie<br>
+                    2020-2021
+                </div>
             </div>
 
             <h3 class="titre">C3. Analyse physique d'un système chimique</h3>
