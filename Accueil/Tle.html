@@ -5,10 +5,14 @@
            <meta name="viewport" content="width=device-width"/>
        <link rel="stylesheet" href="style-accueil.css" />
        <title>SPC|Tle</title>
-       <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-       <script id="MathJax-script" async
-               src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-       </script>
+       <script>
+        MathJax = {
+            tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] },
+            chtml: { scale: 0.96 },
+            svg: { fontCache: 'global' }
+        };
+      </script>
+      <script id="MathJax-script" async src="../es5/tex-chtml.js"></script>
    </head>
   
 <body>
@@ -36,9 +40,9 @@
       <a href="..\Tle\TG-Chapitres.html">Liste des chapitres</a><br>
       <a href="..\Tle\TG-Chapitres.html">Fiches</a><br>
       <br>
-      <a href="..\Tle\TG-Résultats.html">Résultats DS</a><br>
-      <br>
-      Attention lors de vos révisions dans les livres, certaines notions sont exclues du programme <br>
+      <!-- <a href="..\Tle\TG-Résultats.html">Résultats DS</a><br>
+      <br> -->
+      <b>Épreuve écrite de spécialité</b> : Attention ! Lors de vos révisions dans les livres, certaines notions sont exclues du programme <br>
       <a href="../Tle/TG-Notions exclues.html">Liste des notions exlues</a><br>
       <br>
       <br>
