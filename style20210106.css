@@ -209,7 +209,10 @@ paragraphe
 .margegauche{
   padding-left: 1em;
 }
-
+.margedec{
+  padding: 50px;
+  margin: 50em;
+}
 /* ----------------------------------- */
 
 img.reduire{
@@ -292,6 +295,9 @@ div.entete{
   justify-content: space-between;
 }
 
+div.sommaire{
+  margin-left: 10pt;
+}
 p.entredoc{
   margin:8px;
 }
