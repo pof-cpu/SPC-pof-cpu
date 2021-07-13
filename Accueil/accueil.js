@@ -21,7 +21,7 @@ function GetFileInfo () {
         hour: 'numeric',
         minute : 'numeric'
     });
-    message = "Document mis à jour le " + date;
+    message = "Mis à jour le " + date;
     document.getElementById("last-modified").innerHTML = message+'.';
 }
 console.log(GetFileInfo ());
