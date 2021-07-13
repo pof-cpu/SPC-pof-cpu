@@ -1,19 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="Fr">
    <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../style20210106.css" />
-       <title>SPC|Tle/Chapitres</title>
-       <script>
+    <link rel="stylesheet" href="../Calendrier/calendrier.css">
+    <script>
         MathJax = {
             tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] },
             chtml: { scale: 0.96 },
             svg: { fontCache: 'global' }
         };
-    </script>
+        </script>
     <script id="MathJax-script" async src="../es5/tex-chtml.js"></script>
-
+    <title>SPC|Tle/Chapitres</title>
+    
 
    </head>
    
@@ -24,15 +25,8 @@
             <div class="d" style="margin: 10pt;"><!------ Début de la partie gauche ---------->
                 <h5 class="sans-margin">Dates à retenir</h5>
                 <hr>
-                <!-- <p>
-                    <a href="https://www.parcoursup.fr/" 
-                    target="_blank">Parcoursup</a>
-                    : S'inscrire et ajouter ses vœux | Du 20 janvier au 11 mars inclus (Attention au décallage horaire). 
-                </p>
-               <p>
-                   Épreuves terminales de spécialité : du 15 au 17 mars 2021 ! <br>
-                   Voir le <a href="../Tle/Epreuves de spécialité/calendrier-de-l-ann-e-de-terminale-2020-2021-72309.pdf" target="_blank">calendrier</a> 
-               </p> -->
+           
+                
                <br>
                <hr>
                <a href="../Tle/TG-C02.html#Coordonnées_d'un_vecteur" 
@@ -143,27 +137,69 @@
             <div class="d" style="margin: 10pt;">
                 <h5 class="sans-margin">Période en cours</h5>
                 <hr>
-                <div>
+                <p id="date">
                     Aujourd'hui 
-                    <span class="gras"><script>document.write(date)</script></span>
+                    <!-- <span class="gras"><script>document.write(date)</script></span> -->
+                </p>
+                
+                <div class="calendrier">
+                    <div id="mois" class="mois">Mois</div>
+                    <div class="jour-lettre">Lun</div>
+                    <div class="jour-lettre">Mar</div>
+                    <div class="jour-lettre">Mer</div>
+                    <div class="jour-lettre">Jeu</div>
+                    <div class="jour-lettre">Ven</div>
+                    <div class="jour-lettre">Sam</div>
+                    <div class="jour-lettre">Dim</div>
+                    <div class="jour"></div>
+                    <div class="jour"></div>
+                    <div class="jour"></div>
+                    <div class="jour"></div>
+                    <div class="jour"></div>
+                    <div class="jour"></div>
+                    <div class="jour"></div>
+                    <div class="jour"></div>
+                    <div class="jour"></div>
+                    <div class="jour"></div>
+                    <div class="jour"></div>
+                    <div class="jour"></div>
+                    <div class="jour"></div>
+                    <div class="jour"></div>
+                    <div class="jour"></div>
+                    <div class="jour"></div>
+                    <div class="jour"></div>
+                    <div class="jour"></div>
+                    <div class="jour"></div>
+                    <div class="jour"></div>
+                    <div class="jour"></div>
+                    <div class="jour"></div>
+                    <div class="jour"></div>
+                    <div class="jour"></div>
+                    <div class="jour"></div>
+                    <div class="jour"></div>
+                    <div class="jour"></div>
+                    <div class="jour"></div>
+                    <div class="jour"></div>
+                    <div class="jour"></div>
+                    <div class="jour"></div>
+                    <div class="jour"></div>
+                    <div class="jour"></div>
+                    <div class="jour"></div>
+                    <div class="jour"></div>
+                    <div class="jour"></div>
+                    <div class="jour"></div>
+                    <div class="jour"></div>
+                    <div class="jour"></div>
+                    <div class="jour"></div>
+                    <div class="jour"></div>
+                    <div class="jour"></div>
                 </div>
-                <!-- <div class="centrer";> 
-
-                    <img src="../Calendrier/Janvier2021.png" alt="Janvier 2021">
-                    <img src="../Calendrier/Février2021.png" alt="Février 2021">
-                    <hr>
-                    <img src="..\Calendrier\Novembre2020.png" alt="Novembre 2020">
-                    <img src="..\Calendrier\Décembre2020.png" alt="Decembre 2020">
-                    <hr>
-                    <img src="..\Calendrier\Septembre2020.png" alt="Septembre 2020">
-                    <img src="..\Calendrier\Octobre2020.png" alt="Octobre 2020">
-                    <hr>
-                    <img src="..\Calendrier\Août2020.png" alt="Août 2020">
-                    <img src="..\Calendrier\Septembre2020.png" alt="Septembre 2020">
-                </div> -->
+                
             
             </div>
             <!-- Fin de la partie droite -->
-    </div>
+        </div>
+        <script type="module" src="../Calendrier/calendrier.mjs"></script>
+        <script src="../Accueil/accueil.js"></script>
     </body>
 </html>
