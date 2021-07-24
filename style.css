@@ -6,7 +6,15 @@
     padding: 0;
     /* box-sizing: border-box; */
 }
+.nav{
+    color: white;
+    text-shadow: 1px 1px  plum;
+}
+.nav ul li a{
+    color: white;
+    text-shadow: 1px 1px  plum;
 
+}
 
 
 @media screen and (max-width:810px) {
@@ -66,7 +74,7 @@
         height:100%;
         /* padding:6px 14px;   */
         background: #bfbec5;
-       transform: translateX(-90px);
+        transform: translateX(-90px);
         /* transition: all .2s ease; */
    }
    .nav.active{
@@ -79,7 +87,6 @@
     }
     .logo-text{
         margin-left:5px;
-        text-shadow: 1px 1px rgb(143, 143, 143);
 
     }
 
@@ -106,19 +113,11 @@
     }
 
     
-    /* .nav.active ul li img{
-        transform: translate(200px, 2px);
-        border:plum solid;
-    } */
     
     .nav ul li{
         position:relative;
         height: 30px;
-        /* width : 100%; */
-        /* margin:0 5px; */
         list-style: none;
-        /* line-height: 50px; */
-        /* border-radius: 12px; */
     }
 
     .nav img{
@@ -136,9 +135,21 @@
 
     .nav ul li a{
         text-decoration: none;
-        color: black;
         position: absolute;
         left:25px;
+    }
+
+    .nav ul li a span{
+        opacity: 0;
+    }
+
+    .nav ul li a:hover > span{
+        border: purple solid 1px;
+        position: absolute;
+        opacity: 1;
+        transform: translateX(70px);
+        background-color: white;
+        z-index: -1;
     }
 
     
@@ -223,6 +234,8 @@
         font-family: 'poppins', Arial, Helvetica, sans-serif;
         width:21cm;
         margin:0 auto 0 auto;
+  
+
 
     }
     .nav ul{
@@ -245,7 +258,7 @@
 
     .nav ul li a{
         text-decoration: none;
-        color: black;
+
     }
     .nav ul li img{
         height:20px;
