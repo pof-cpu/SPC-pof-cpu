@@ -9,15 +9,20 @@
 	
 <style>
     p{
-     /* text-align: center; */
     position:absolute;
     top:50%;
     left:50%;
     transform:translate(-50%, -50%);
-  }
-  img{
-    height:480px;
-  }
+    }
+    img{
+      height:480px;
+    }
+    @media screen and (max-width:810px) {
+      p{
+        top:0;
+        transform:translateX(-50%);
+      }
+    }
 </style>
 
 <body>
