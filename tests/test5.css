@@ -1,0 +1,50 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.s0{
+    border: red solid 1px;
+    width:300px;
+}
+.s10{
+    border: red solid 1px;
+    width:310px;
+}
+.s20{
+    border: red solid 1px;
+    width:320px;
+}
+.s30{
+    border: red solid 1px;
+    width:330px;
+}
+.s40{
+    border: red solid 1px;
+    width:340px;
+}
+.s50{
+    border: red solid 1px;
+    width:350px;
+}
+.s60{
+    border: red solid 1px;
+    width:360px;
+}
+.s70{
+    border: red solid 1px;
+    width:370px;
+}
+.s80{
+    border: red solid 1px;
+    width:380px;
+}
+.s90{
+    border: red solid 1px;
+    width:390px;
+}
+.s100{
+    border: red solid 1px;
+    width:400px;
+}
