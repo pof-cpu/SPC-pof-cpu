@@ -323,21 +323,24 @@ img.img-logo{
         padding: 6pt 0 6pt 1cm;
         /* font-size: 0.95em; */
     }
-    .question{
-        /* clear: left; */
-        /* margin: 1em 0 0 1em; */
-        /* padding: .5em 0 0 10px; */
-        padding:0;
-        /* border:rosybrown solid; */
-        list-style: decimal;
-        list-style-position: inside
+  
+    .question {
+        list-style-type: none;
     }
-    .question li{
+     .question:first-of-type{
+        counter-reset: item;
+    }
+    .figure .question{
+        counter-reset: none;
+    }
+     .question li{
         margin: 0em 0 0 15px;
         padding: 5px 0 5px 0;
-        /* border:black solid; */
-
-    }
+     }
+     .question> li:before {
+         counter-increment: item;
+        content: counter(item, decimal) ') ';
+     }
 
 } /* Fin laptop */
 /* *************************************** */
@@ -409,30 +412,53 @@ footer{
   }
   /* ----------------------------------- */
 @media print {
-
+    @page{
+        margin: 1cm 1.5cm 1.5cm 1.2cm;
+    }
     .nav, footer, .left-content, .right-content{
         display: none;
 
     }
     .figure img{
-        width:5cm;
+        width:3.5cm;
     }
+    .main-content{
+        column-count: 2;
+        column-rule: .25pt solid rgb(75, 70, 74);
+        column-gap: 1cm;
+        margin-bottom: 1cm;
+        column-fill:auto;
+      
+    }
+
     .attendus{
         font-family:"caveat";
         /* border:red solid 1px; */
         padding: 6pt 0 6pt 1cm;
         /* font-size: 0.95em; */
     }
-    .question{
-        clear: left;
-        /* margin: 1em 0 0 1em; */
-        padding: .5em 0 0 .5em;
-        /* border:black solid; */
-        list-style: decimal;
+    .question {
+        list-style-type: none;
     }
-    .question li{
-        margin: 0em 0 .5em .8cm;
-        padding-left: .5em;
+     .question:first-of-type{
+        counter-reset: item;
     }
+    .figure .question{
+        counter-reset: none;
+    }
+     .question li{
+        margin: 0em 0 0 15px;
+        padding: 5px 0 5px 0;
+     }
+     .question> li:before {
+         counter-increment: item;
+        content: counter(item, decimal) ') ';
+     }
     
+    .cadre {
+        /* break-inside:avoid-column; */
+        break-before: avoid;
+        break-inside: avoid;
+        break-inside: avoid-column;
+    }
 }
