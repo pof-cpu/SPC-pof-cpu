@@ -258,7 +258,6 @@ img.img-logo{
 
     }
     .left-content{
-        border:gray solid 1px;
         flex:1;
         padding:5px;
 
@@ -267,10 +266,12 @@ img.img-logo{
       /* border:paleturquoise solid 1px; */
       max-width: 21cm;
       padding:5px;
+      /* border:gray solid 1px; */
+
 
     }
     .right-content{
-        border:gray solid 1px;
+        /* border:gray solid 1px; */
         flex:1;
         padding:5px;
 
@@ -297,6 +298,52 @@ img.img-logo{
     list-style: decimal;
 }
 .question li{
-    margin: 0em 0 .5em 1.2em;
+    margin: 0em 0 .5em .8cm;
     padding-left: .5em;
+}
+
+
+.exercice{
+    background:rgb(234, 241, 221);
+}
+
+
+.attendus{
+    font-family:"caveat";
+    /* border:red solid 1px; */
+    padding: 6pt 0 6pt 1cm;
+    /* font-size: 0.95em; */
+}
+
+/* ----------------------------------- */
+/* fonts */
+/* ---------------------------------- */
+@font-face{
+    font-family:"consola";
+    src:url('/Fonts/consola.ttf');
+  }
+  @font-face{
+    font-family:"consolab";
+    src:url('/Fonts/consolab.ttf');
+  }
+  
+  @font-face{
+    font-family:"caveat";
+    /* src:url('https://fonts.googleapis.com/css2?family=Caveat&display=swap';) */
+    src:url('/Fonts/Caveat-Regular.ttf');
+  }
+  
+  
+  @font-face{
+    font-family:"cambria";
+    src:url('/Fonts/cambria.ttc');
+  }
+  /* ----------------------------------- */
+@media print {
+
+    .nav, .left-content, .right-content{
+        display: none;
+
+    }
+    
 }
