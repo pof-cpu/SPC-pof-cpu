@@ -277,3 +277,26 @@ img.img-logo{
 
     }
 }
+
+.activity{
+    background-color: rgb(253,233,217);
+}
+
+.figure{
+    display: flex;
+    /* border:red solid; */
+}
+.figure div{
+    margin:.5em;
+}
+.question{
+    clear: left;
+    /* margin: 1em 0 0 1em; */
+    padding: .5em 0 0 .5em;
+    /* border:black solid; */
+    list-style: decimal;
+}
+.question li{
+    margin: 0em 0 .5em 1.2em;
+    padding-left: .5em;
+}

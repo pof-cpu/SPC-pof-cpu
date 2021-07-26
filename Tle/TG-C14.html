@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="Fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" media="screen" href="../prism-default.css" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+
+    <script>
+        MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']]
+            },
+            chtml:{
+                scale: .9
+            },
+            svg: {
+                fontCache: 'global'
+                
+            }
+        };
+    </script>
+  
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async 
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+    <script src="../prism.js"></script>
+    <script type="text/javascript">
+        // Optional
+        Prism.plugins.NormalizeWhitespace.setDefaults({
+            'remove-trailing': true,
+            'remove-indent': true,
+            'left-trim': true,
+            'right-trim': true,
+            'tabs-to-spaces': 1,
+            'spaces-to-tabs': 4,
+            'indent': 0,
+        });
+    </script>
+    <title>C14</title> 
+
+</head>
+</head>
+<body>
+    <div class="nav">
+        <div id="btn" class="burger">
+            <div class="burger-item"></div>
+            <div class="burger-item"></div>
+            <div class="burger-item"></div>
+        </div>
+        <div class="logo"> <img class="img-logo" src="../icones/Logo.svg"> </div>
+        <div class="logo-text">SPC Lab</div>
+        <div>
+            <ul class="menu">
+                <li class="item"> <a href="../Accueil/Tle.html"><img class="icone" src="../icones/Accueil.svg">Accueil </a></li>
+                <li class="item"> <a href="../Tle/TG-Chapitres.html"><img class="icone" src="../icones/chapitres.svg">Chapitres</a> </li>
+                <li class="item"> <a href="../Tle/TG-TP.html"><img class="icone" src="../icones/TP.svg">TP</a> </li>
+                <li class="item"> <a href="../Tle/TG-Chapitres.html"><img class="icone" src="../icones/fiches.svg">Fiches</a> </li>
+                <li class="item"> <a href="../Tle/TG-Chapitres.html"><img class="icone" src="../icones/python_clair.svg">Python</a> </li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="left-content">
+            <h1></h1>
+            <p></p>
+        </div>
+        <div class="main-content">
+            <!-- Activité 1 -->
+            <h4 class="activity">
+                Activité 1.
+            </h4>
+            <div class="figure">
+                <div>
+                    <a href="../Tle/C14/Charges dans un condensateur à différents instants.svg" target="_blanck"> <img style="width:200px;" src="../Tle/C14/Charges dans un condensateur à différents instants.svg" alt="Charges dans un condensateur à différents instants" ></a>
+                </div>
+                <div>
+                    Donnée : $e=1,6×10^{-19} C$ <br>
+                    Rappel : $I=\frac{Q}{Δt}$<br>
+                    Une pile fait circuler des charges électriques dans un conducteur pendant une durée $Δt$. L’intensité du courant électrique $I$ dans le conducteur est constant.<br>
+                    On considère une section $S$ du conducteur. Entre l’instant  $t_2=1,0 s$, $N=6,25×10^{18}$ porteurs de charges sont passés à travers $S$.
+                </div>
+            </div>
+            <ol class="question">
+                <li>Quels sont les porteurs de charges dans un conducteur ?</li>
+                
+                <li>Quelle est la charge par unité de temps correspondant aux porteurs de charges ayant traversé $S$. 
+                </li>
+            </ol>
+            <p>
+                Cette valeur représente un débit de charges électriques. Lorsque l’intensité n’est pas continue, elle varie au cours du temps donc le débit de charges varie. 
+            </p>
+            <ol start="3" class="question">
+                <li>Entre l’instant $t$ et $t+Δt$, la charge qui est passé à travers $S$ est $q(t+Δt)-q(t)$. Exprimer le débit de charges pendant la durée $Δt$.
+                </li>
+                <li> Ce débit de charge est égal à l’intensité $i(t)$ à l’instant $t$. À quoi correspond $\lim\limits_{\Delta t \to 0} i(t) $   ?</li>
+            </ol>
+            
+        </div>
+        <div class="right-content">
+        </div>
+    </div>
+
+   
+  
+
+
+
+
+
+    <script>
+        let btn =document.getElementById('btn')
+        let menu =document.querySelector(".menu");
+        let nav=document.querySelector('.nav');
+        let container=document.querySelector('.container');
+        btn.onclick=function(){
+            menu.classList.toggle('active');
+            nav.classList.toggle('active');
+            container.classList.toggle('active');
+
+        }
+    </script>
+</body>
+</html>
