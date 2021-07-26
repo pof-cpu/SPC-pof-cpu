@@ -18,7 +18,7 @@
                 inlineMath: [['$', '$'], ['\\(', '\\)']]
             },
             chtml:{
-                scale: .9
+                scale: .92
             },
             svg: {
                 fontCache: 'global'
@@ -116,14 +116,15 @@
                 </div>
                 <div>
                     La charge électrique $q$ traversant une section de conducteur est représentée ci-contre.
-                    <ol start="5" class="question">
-                        <li>
-                            Rappeler la relation liant l’intensité $I$ et une durée $Δt$ ?
-                        </li>
-                        <li>Déterminer l’intensité $I$ </li>
-                    </ol>
                 </div>
+                <ol start="5" class="question">
+                    <li>
+                        Rappeler la relation liant l’intensité $I$ et une durée $Δt$ ?
+                    </li>
+                    <li>Déterminer l’intensité $I$ </li>
+                </ol>
             </div>
+           
 
             <!-- ************************************ -->
             <!-- Activité 2 -->
@@ -156,6 +157,9 @@
                     On charge un condensateur de capacité $C=2,0 nF$ par un courant d’intensité $I$ constant. La tension $u_C$ aux bornes du condensateur est représentée en fonction du temps.
                 </div>
             </div>
+            <ol class="question">
+                <li>Déterminer l’intensité $I$ du courant.</li>
+            </ol>
 
              <!-- ************************************ -->
             <!-- Activité 3 -->
@@ -180,10 +184,10 @@
                 </ol>
                 
                 <div class="figure"> <a href="../Tle/C14/activité3-graph3.svg" target='_blanck'><img src="../Tle/C14/activité3-graph3.svg" alt="graphique" srcset=""></a>
-                    <div><ol start="12" class="question">
+                    <ol start="12" class="question">
                         <li>Dans le cas de la décharge, exprimer $ln⁡(u_C )$ en fonction de $τ$, $E$ et $t$.</li>
                         <li>Calculer la pente de la courbe $ln⁡(u_C )=f(t)$ et en déduire la valeur de $τ$.</li>
-                    </ol></div></div>
+                    </ol></div>
                 <p class="attendus">
                     Attendus<br>
                     #	Établir différentielle vérifiée par la tension aux bornes d’un condensateur (charge et décharge). <br>
@@ -210,20 +214,90 @@
                     </ol>
                 
 
-                 <!-- ************************************ -->
+                <!-- ************************************ -->
                 <!-- Exercice 4 -->
                 <!-- ************************************ -->
                 <h4 class="exercice">Exercice 4.</h4>
                     <div>
                         Un condensateur de capacité $C=50\ nF$ a initialement une charge $q_0=3,5\ μF$ à une armature. Il est placé en série avec un dipôle ohmique de résistance $R$. L’évolution de la tension $u_C$ entre ses bornes vérifie :
+                        \[RC \frac{du_C}{dt}+u_C=0 \]
                     </div>
+                    <ol start="15" class="question">
+                        <li>Vérifier que l’expression $u_C (t)=U_0\ e^{-\frac{t}{RC}}$ est une solution de cette équation différentielle.</li>
+                        <li>Quelle est la relation entre $q_0$ et $U_0$ ?</li>
+                        <li>Calculer la valeur $U_0$ et tracer l’allure de la courbe représentative de $u_C (t)$. </li>
+                    </ol>
+
+                <!-- ************************************ -->
+                <!-- Exercice 5 -->
+                <!-- ************************************ -->
+                <h4 class="exercice">Exercice 5.</h4>
+                    <div class="cadre">
+                        <h4>Document 1 – Stimulateur cardiaque </h4>
+                        <div class="figure">
+                            <a href="../Tle/C14/Circuit RC exercice.svg" target='_blanck'><img src="../Tle/C14//Circuit RC exercice.svg" alt="graphique" srcset=""></a>
+                            <div>
+                                Un stimulateur cardiaque est un dispositif hautement perfectionné et très miniaturisé, relié au cœur humain par des électrodes (appelées les sondes).  Le stimulateur est actionné grâce à une pile intégrée, généralement au lithium;  il  génère de petites impulsions électriques de basse tension qui forcent le cœur à battre à un rythme régulier et suffisamment rapide.  Il comporte donc deux parties  :  le boîtier,  source  des impulsions électriques, et les sondes, qui conduisent le courant. Le générateur d’impulsions du stimulateur cardiaque peut être modélisé par le circuit représenté ci-contre.<br>
+                                La valeur de $r$ est très faible, de telle sorte que le condensateur se charge très rapidement lorsque l'interrupteur (en réalité un dispositif électronique) est en position 1. Lorsque la charge est terminée,  l'interrupteur bascule en position 2.  Le condensateur se décharge lentement dans la résistance $R$, de valeur élevée. Quand la tension aux bornes de $R$ atteint une valeur donnée ($e-1$ fois sa valeur initiale, avec $ln(e)  =  1$),  le boîtier envoie au cœur une impulsion électrique par l'intermédiaire des sondes. L'interrupteur bascule simultanément en position 1 et la recharge du condensateur se fait quasiment instantanément à travers $r$. Le processus recommence.
+                            </div>
+
+
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="figure">
+                        <a href="../Tle/C14/Circuit RCex4(2).svg" target='_blanck'><img src="../Tle/C14//Circuit RCex4(2).svg" alt="graphique" srcset=""></a>
+
+                        <div>
+                            Pour déterminer la valeur de la résistance $R$, on insère le condensateur préalablement chargé sous la tension $E$ dans le circuit schématisé ci-contre.
+                            La capacité du condensateur est $C=0,40\ μF$. On enregistre alors l’évolution de la tension $u_C$ aux bornes du condensateur. On obtient la courbe ci-dessous.
+
+                        </div>
+                    </div>
+                    <div class="figure">
+                        <a href="../Tle/C14/Circuit RCex4(3).svg" target='_blanck'><img src="../Tle/C14//Circuit RCex4(3).svg" alt="graphique" srcset=""></a>
+                        <ol start="18" class="question">
+                            <li>Déterminer graphiquement la valeur de $E$.</li>
+                            <li>Déterminer graphiquement la valeur du temps caractéristique $τ$ de la décharge du condensateur.</li>
+                            <li>En respectant les notations, donner :
+                                <ol class="lettre">
+                                    <li>La relation liant l’intensité du courant $i$ et la charge $q$ de l’une des armatures du condensateur que l’on précisera ;
+                                    </li>
+                                    <li>La relation liant $u_R$ et $i$.</li>
+                                </ol>
+                            </li>
+                            <li>En déduire que la tension $u_C$ aux bornes du condensateur vérifie l’équation différentielle : \[ \frac{du_C}{dt}+\frac{1}{RC} u_C=0\]</li>
+                            <li>Montrer que cette équation différentielle admet une solution de la forme :
+                                \[u_C (t)=A\ e^{-\dfrac{t}{τ}}\]
+                                Donner les expressions de $A$ et $τ$ en fonction de $E$, $C$ et $R$.
+                            </li>
+                            
+                            <li>En utilisant la valeur de $τ$ déterminée à la question 19), calculer la valeur de $R$.</li>
+                            <em>
+                                On admet pour la suite que, tant que le condensateur se décharge, l'évolution de $U_R$ en fonction du temps est donnée par :
+                                \[U_R (t)=5,6\ e^{-t/0,80}\]
+                                 On rappelle qu'une impulsion électrique est envoyée au cœur lorsque la tension aux bornes de $R$ atteint $e^{-1}$ fois sa valeur initiale.
+                            </em>
+                            <li>Calculer la valeur de $U_R$ qui déclenche l’envoi d’une impulsion vers le cœur.</li>
+                            <li>À quel instant, après le début de la décharge, cette valeur est-elle atteinte ?</li>
+                            <li>Que se passe-t-il après cet instant ? Représenter l’allure de l’évolution de $U_R$ au cours du temps lors de la génération des impulsions. Préciser les valeurs remarquables.</li>
+                            <li>Déterminer la fréquence des impulsions de tension ainsi générées. Vérifier que le résultat est bien compatible avec une fréquence cardiaque normale.   </li>
+                        </ol>
+    
+                    </div>
+                    
+                    
+                <!------------------------------  -->
+                <div style="text-align: right;">□</div>
+                <!------------------------------  -->
 
 
 
 
             <!--***************************************  -->
             <footer id="last-modified" class="italique">*</footer>
-            <script src="../LastModified.js"></script>
+            <script src="../edited.js"></script>
             <!--***************************************  -->
 
         </div><!--Fin Main Content-->

@@ -176,21 +176,34 @@ img.img-logo{
         padding: 6pt 0 6pt 10px;
         /* font-size: 0.95em; */
     }
-    .question{
-        /* clear: left; */
-        /* margin: 1em 0 0 1em; */
-        /* padding: .5em 0 0 10px; */
+    /* .question{
         padding:0;
-        /* border:rosybrown solid; */
         list-style: decimal;
         list-style-position: inside
     }
     .question li{
         margin: 0em 0 0 15px;
         padding: 5px 0 5px 0;
-        /* border:black solid; */
 
+    } */
+    .question {
+        list-style-type: none;
     }
+     .question:first-of-type{
+        counter-reset: item;
+    }
+    .figure .question{
+        counter-reset: none;
+    }
+     .question li{
+        margin: 0em 0 0 15px;
+        padding: 5px 0 5px 0;
+     }
+     .question> li:before {
+         counter-increment: item;
+        content: counter(item, decimal) ') ';
+     }
+  
 
 } /*Fin Smartphone */
 
@@ -352,11 +365,24 @@ img.img-logo{
 .exercice{
     background:rgb(234, 241, 221);
 }
+.cadre{
+    border: black solid 1px;
+    /* text-align: justify; */
+    /* text-justify: distribute; */
+}
+ol .lettre{
+    list-style-type: lower-latin;
+    margin-left: 20px;
+}
 
 
 footer{
     font-style: italic;
+    margin-top: 2em;
+    font-size: .8em;
 }
+
+
 
 /* ----------------------------------- */
 /* fonts */
