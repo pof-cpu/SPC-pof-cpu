@@ -71,7 +71,9 @@
         <div class="left-content">
             <h1></h1>
             <p></p>
-        </div>
+        </div><!--Fin left Content-->
+
+        <!-- ******************************************* -->
         <div class="main-content">
             <!-- Activité 1 -->
             <h4 class="activity">
@@ -79,11 +81,11 @@
             </h4>
             <div class="figure">
                 <div>
-                    <a href="../Tle/C14/Charges dans un condensateur à différents instants.svg" target="_blanck"> <img style="width:auto;" src="../Tle/C14/Charges dans un condensateur à différents instants.svg" alt="Charges dans un condensateur à différents instants" ></a>
+                    <a href="../Tle/C14/Charges dans un condensateur à différents instants.svg" target="_blanck"> <img  src="../Tle/C14/Charges dans un condensateur à différents instants.svg" alt="Charges dans un condensateur à différents instants" ></a>
                 </div>
                 <div>
                     Donnée : $e=1,6×10^{-19} C$ <br>
-                    Rappel : $I=\frac{Q}{Δt}$<br>
+                    Rappel : $I=\dfrac{Q}{Δt}$<br>
                     Une pile fait circuler des charges électriques dans un conducteur pendant une durée $Δt$. L’intensité du courant électrique $I$ dans le conducteur est constant.<br>
                     On considère une section $S$ du conducteur. Entre l’instant  $t_2=1,0 s$, $N=6,25×10^{18}$ porteurs de charges sont passés à travers $S$.
                 </div>
@@ -110,7 +112,7 @@
             </h4>
             <div class="figure" >
                 <div>
-                    <a href="../Tle/C14/Exercice1-graph.svg"><img style="width:200px" src="../Tle/C14/Exercice1-graph.svg" alt="graphique"></a>
+                    <a href="../Tle/C14/Exercice1-graph.svg"><img  src="../Tle/C14/Exercice1-graph.svg" alt="graphique"></a>
                 </div>
                 <div>
                     La charge électrique $q$ traversant une section de conducteur est représentée ci-contre.
@@ -133,8 +135,8 @@
                 Dans la relation $q_A=C.u_{AB}$, en régime variable, $q_A$ et $u_{AB}$ varient mais $C$ est constant.
             </p>
             <ol start="7" class="question">
-                <li>Exprimer la dérivée de $q_A$ par rapport au temps en fonction de $C$ et $u_AB$.</li>
-                <li>En déduire une relation entre $i$, $C$ et $u_AB$. </li>
+                <li>Exprimer la dérivée de $q_A$ par rapport au temps en fonction de $C$ et $u_{AB}$.</li>
+                <li>En déduire une relation entre $i$, $C$ et $u_{AB}$. </li>
             </ol>
             <p class="attendus">
                 Attendus<br>
@@ -149,13 +151,80 @@
             <!-- ************************************ -->
             <h4 class="exercice">Exercice 2.</h4>
             <div class="figure">
-                <a href="http://"><img src="" alt="" srcset=""></a>
+                <a href="../Tle/C14/Exercice2-graph.svg" target='_blanck'><img src="../Tle/C14/Exercice2-graph.svg" alt="graphique" srcset=""></a>
                 <div>
-                    On charge un condensateur de capacité C=2,0 nF par un courant d’intensité I constant. La tension u_C aux bornes du condensateur est représenté en fonction du temps.
+                    On charge un condensateur de capacité $C=2,0 nF$ par un courant d’intensité $I$ constant. La tension $u_C$ aux bornes du condensateur est représentée en fonction du temps.
                 </div>
             </div>
 
+             <!-- ************************************ -->
+            <!-- Activité 3 -->
+            <!-- ************************************ -->
+            <h4 class="activity">
+                Activité 3.
+            </h4>
+                <div class="figure">
+                    <a href="../Tle/C14/activité3-graph1.svg" target='_blanck'><img src="../Tle/C14/activité3-graph1.svg" alt="graphique" srcset=""></a>
+                    <a href="../Tle/C14/activité3-graph2.svg" target='_blanck'><img src="../Tle/C14/activité3-graph2.svg" alt="graphique" srcset=""></a>
+                </div>
+                <div>
+                   On trace la tension aux bornes d’un condensateur lors de sa charge et de sa décharge :
+                    Charge : $u_C=E(1-e^{-t/τ})$
+                     
+                    Décharge : $u_C=Ee^{-t/τ}$
+                    
+                </div>
+                <ol start="10" class="question">
+                    <li>Dans les deux cas exprimer et calculer $u_C$ pour $t=τ$.</li>
+                    <li>Déterminer graphiquement la valeur de $\tau$ dans les deux cas.</li>
+                </ol>
+                
+                <div class="figure"> <a href="../Tle/C14/activité3-graph3.svg" target='_blanck'><img src="../Tle/C14/activité3-graph3.svg" alt="graphique" srcset=""></a>
+                    <div><ol start="12" class="question">
+                        <li>Dans le cas de la décharge, exprimer $ln⁡(u_C )$ en fonction de $τ$, $E$ et $t$.</li>
+                        <li>Calculer la pente de la courbe $ln⁡(u_C )=f(t)$ et en déduire la valeur de $τ$.</li>
+                    </ol></div></div>
+                <p class="attendus">
+                    Attendus<br>
+                    #	Établir différentielle vérifiée par la tension aux bornes d’un condensateur (charge et décharge). <br>
+                    #	Résoudre l’équation différentielle<br>
+                    #	Définir le temps caractéristique de la charge ou la décharge d’un condensateur<br>
+                    #	Savoir déterminer graphiquement la caractéristique de temps  <br>
 
+                </p>
+
+
+
+                <!-- ************************************ -->
+                <!-- Exercice 3 -->
+                <!-- ************************************ -->
+                <h4 class="exercice">Exercice 3.</h4>
+                    <div>
+                        L’équation différentielle régissant la tension $u_C$ aux bornes d’un condensateur de capacité $C$ en série avec un dipôle ohmique de résistance $R$ et d’un générateur de f.é.m $E$ est :
+                        \[ RC \frac{du_C}{dt}+u_C=E \]
+                        L’expression de la tension aux bornes du condensateur est :
+                        \[u_C (t)=K(1-e^{-t⁄RC}) \]
+                    </div>
+                    <ol class="question" start="14">
+                        <li>Déterminer l’expression de K pour que $u_C (t)$ soit solution de l’équation différentielle. </li>
+                    </ol>
+                
+
+                 <!-- ************************************ -->
+                <!-- Exercice 4 -->
+                <!-- ************************************ -->
+                <h4 class="exercice">Exercice 4.</h4>
+                    <div>
+                        Un condensateur de capacité $C=50\ nF$ a initialement une charge $q_0=3,5\ μF$ à une armature. Il est placé en série avec un dipôle ohmique de résistance $R$. L’évolution de la tension $u_C$ entre ses bornes vérifie :
+                    </div>
+
+
+
+
+            <!--***************************************  -->
+            <footer id="last-modified" class="italique">*</footer>
+            <script src="../LastModified.js"></script>
+            <!--***************************************  -->
 
         </div><!--Fin Main Content-->
         
@@ -163,7 +232,7 @@
         
         
         <div class="right-content">
-        </div>
+        </div><!--Fin right Content-->
     </div>
 
    

@@ -167,7 +167,32 @@ img.img-logo{
     .right-content{
         padding:5px;
     }
-}
+    .figure img{
+        width:100px;
+    }
+    .attendus{
+        font-family:"caveat";
+        /* border:red solid 1px; */
+        padding: 6pt 0 6pt 10px;
+        /* font-size: 0.95em; */
+    }
+    .question{
+        /* clear: left; */
+        /* margin: 1em 0 0 1em; */
+        /* padding: .5em 0 0 10px; */
+        padding:0;
+        /* border:rosybrown solid; */
+        list-style: decimal;
+        list-style-position: inside
+    }
+    .question li{
+        margin: 0em 0 0 15px;
+        padding: 5px 0 5px 0;
+        /* border:black solid; */
+
+    }
+
+} /*Fin Smartphone */
 
 @media screen and (min-width:810px) {
     /* laptop */
@@ -275,33 +300,53 @@ img.img-logo{
         /* border:gray solid 1px; */
         flex:1;
         padding:5px;
-
+    }
+    .figure img{
+        width:5cm;
+    }
+    .attendus{
+        font-family:"caveat";
+        /* border:red solid 1px; */
+        padding: 6pt 0 6pt 1cm;
+        /* font-size: 0.95em; */
+    }
+    .question{
+        /* clear: left; */
+        /* margin: 1em 0 0 1em; */
+        /* padding: .5em 0 0 10px; */
+        padding:0;
+        /* border:rosybrown solid; */
+        list-style: decimal;
+        list-style-position: inside
+    }
+    .question li{
+        margin: 0em 0 0 15px;
+        padding: 5px 0 5px 0;
+        /* border:black solid; */
 
     }
-}
+
+} /* Fin laptop */
+/* *************************************** */
 
 .activity{
     background-color: rgb(253,233,217);
 }
 
 .figure{
-    display: flex;
+    display: inline-block;
     /* border:red solid; */
 }
 .figure div{
     margin:.5em;
 }
-.question{
-    clear: left;
-    /* margin: 1em 0 0 1em; */
-    padding: .5em 0 0 .5em;
-    /* border:black solid; */
-    list-style: decimal;
+.figure img{
+    float: left;
+    border:grey solid 1px;
+    padding:5px;
+    margin: 5px;
 }
-.question li{
-    margin: 0em 0 .5em .8cm;
-    padding-left: .5em;
-}
+
 
 
 .exercice{
@@ -309,11 +354,8 @@ img.img-logo{
 }
 
 
-.attendus{
-    font-family:"caveat";
-    /* border:red solid 1px; */
-    padding: 6pt 0 6pt 1cm;
-    /* font-size: 0.95em; */
+footer{
+    font-style: italic;
 }
 
 /* ----------------------------------- */
@@ -321,30 +363,50 @@ img.img-logo{
 /* ---------------------------------- */
 @font-face{
     font-family:"consola";
-    src:url('/Fonts/consola.ttf');
+    src:url('Fonts/consola.ttf');
   }
   @font-face{
     font-family:"consolab";
-    src:url('/Fonts/consolab.ttf');
+    src:url('Fonts/consolab.ttf');
   }
   
   @font-face{
     font-family:"caveat";
     /* src:url('https://fonts.googleapis.com/css2?family=Caveat&display=swap';) */
-    src:url('/Fonts/Caveat-Regular.ttf');
+    src:url('Fonts/Caveat-Regular.ttf');
   }
   
   
   @font-face{
     font-family:"cambria";
-    src:url('/Fonts/cambria.ttc');
+    src:url('Fonts/cambria.ttc');
   }
   /* ----------------------------------- */
 @media print {
 
-    .nav, .left-content, .right-content{
+    .nav, footer, .left-content, .right-content{
         display: none;
 
+    }
+    .figure img{
+        width:5cm;
+    }
+    .attendus{
+        font-family:"caveat";
+        /* border:red solid 1px; */
+        padding: 6pt 0 6pt 1cm;
+        /* font-size: 0.95em; */
+    }
+    .question{
+        clear: left;
+        /* margin: 1em 0 0 1em; */
+        padding: .5em 0 0 .5em;
+        /* border:black solid; */
+        list-style: decimal;
+    }
+    .question li{
+        margin: 0em 0 .5em .8cm;
+        padding-left: .5em;
     }
     
 }
