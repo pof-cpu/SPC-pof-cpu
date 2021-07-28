@@ -85,7 +85,9 @@
   } */
 }
 
-
+footer{
+  margin-top: 2em;
+}
 .attendus{
     font-family:"caveat";
     font-size: 0.95em;
@@ -725,7 +727,6 @@ ol.al > li:before {
   justify-content: space-between;
   /* align-self: flex-start; */
   align-content: stretch;
-   
 }
 
 
