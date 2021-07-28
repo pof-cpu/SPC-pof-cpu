@@ -42,8 +42,10 @@
 }
 #navigation a.active{
   background: #900 ;
-  
- 
+}
+
+article{
+  font-size: .92em;
 }
 h1{
   margin: 1rem 0 0rem 0;
