@@ -11,6 +11,22 @@ img.img-logo{
     height:20px;
 }
 
+
+/* -----------date--------------------------------- */
+#date::first-letter{
+    text-transform: capitalize;
+}
+/* -----------date--------------------------------- */
+
+/* -----------Calendreier-------------------------- */
+    .calendrier *{
+        font-size: .92em;
+    }
+/* -----------Calendreier-------------------------- */
+
+
+
+
 @media screen and (max-width:810px) {
     /* smartphone */
     /* body{
@@ -203,6 +219,8 @@ img.img-logo{
          counter-increment: item;
         content: counter(item, decimal) ') ';
      }
+ 
+
   
 
 } /*Fin Smartphone */
@@ -342,6 +360,11 @@ img.img-logo{
         content: counter(item, decimal) ') ';
      }
 
+
+   
+
+
+
 } /* Fin laptop */
 /* *************************************** */
 
@@ -386,6 +409,9 @@ footer{
 }
 
 
+
+
+/* -----------page chapitre------------------------ */
 
 /* ----------------------------------- */
 /* fonts */
