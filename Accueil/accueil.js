@@ -24,5 +24,5 @@ function GetFileInfo () {
     message = "Modifié le " + date;
     document.getElementById("last-modified").innerHTML = message+'.';
 }
-console.log(GetFileInfo ());
-console.log(typeof(today));
+// console.log(GetFileInfo ());
+// console.log(typeof(today));

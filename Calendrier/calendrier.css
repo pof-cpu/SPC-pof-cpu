@@ -7,21 +7,20 @@ body{
 }
 
 .calendrier{
-    margin-left: 00px;
+ 
     display: inline-flex;
     flex-wrap: wrap;
-    width:264px;
+    width:225px;
     border:rgb(129, 129, 216) solid 1px;
     font-family:'Trebuchet MS';
     font-size:.9em;
+    margin-bottom: 10px;
     
     /* flex-direction: column; */
 }
-div{
-    /* font-size:0.96em; */
-}
+
 .jour{
-    width:35px;
+    width:30px;
     margin:1px;
     text-align: center;
 }
@@ -193,7 +192,7 @@ div{
     color:black;
 }
 .vacances{
-    background-color: rgba(204, 192, 218, 0.507);
+    background-color: rgba(195, 174, 219, 0.507);
     color:black;
 }
 .today{
@@ -215,7 +214,7 @@ div{
 
 
 .jour-lettre{
-    width:35px;
+    width:30px;
     margin: 1px;
     /* font-size: medium; */
     /* border: #e0c3d6 solid 1px; */

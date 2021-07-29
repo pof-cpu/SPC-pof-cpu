@@ -108,7 +108,19 @@ footer{
   padding: 0;
 }
 
-/
+.calendrier_chapitre{
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+#date{
+  margin: 15px;
+}
+#date::first-letter{
+
+  text-transform:capitalize;
+}
 
 
 /* ----------------------------------- */

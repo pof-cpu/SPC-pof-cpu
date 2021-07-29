@@ -10,7 +10,7 @@ import {jourferieannee, vacances} from './vacances_joursfériés.mjs';
 
 
 
-function calendrier(today){
+function calendrier(today, mois){
     let aujourdhui = new Date()
  
     // *************************************
@@ -73,8 +73,23 @@ function calendrier(today){
     }
     //*********************************************** */
 
-    let mois = texte_mois(today);
-    console.log(mois);
+    // Choix du mois
+    // -----------------------------------------------
+    // let mois = texte_mois(today);
+    let mt =today.getMonth()
+    let ma =aujourdhui.getMonth()
+        // let mois = 'next_month';
+  
+    // if (ma==mt){
+    //     let mois = 'current_month';
+    //     console.log(mois);
+    // }else{
+    //     let mois = 'next_month';
+    //     console.log('NO');
+    // };
+
+   
+
 
     // *****************************************
     // Fonction Etat du jour : vacences, férié, etc
@@ -122,10 +137,10 @@ function calendrier(today){
     //----------------------------------------
 
     // document.getElementById('mois').innerHTML=texte_mois(today) +' '+ today.getFullYear();
-    document.querySelector('.mois').innerHTML=texte_mois(today) +' '+ today.getFullYear();
+    document.querySelector('.mois.'+ mois).innerHTML=texte_mois(today) +' '+ today.getFullYear();
 
 
-    let d = document.querySelectorAll('.jour');
+    let d = document.querySelectorAll('.jour.'+ mois);
     let jour = 0;
     let pj = premierjour(today);
     let dj = dernierjour(today);
@@ -191,24 +206,61 @@ function calendrier(today){
             contenu=jour-dj;
             d[i].innerHTML="<div class=\"autremois\">" + contenu + "</div>";  
         }
-
     } return true;
 }
 
+console.log('fichier chargé ')
+let mydate = new Date(2021,6,1);
+
+function calendrierChapitre(mydate){
+    let a = mydate.getFullYear()
+    let current_month = mydate.getMonth()
+    let next_month = current_month+1;
+    let after_next_month = current_month+2;
+    // console.log(current_month);
+    // console.log(next_month);
+    // console.log('année ' + a);
+    let next_date=new Date(a,next_month,1);
+    let after_next_date=new Date(a,after_next_month,1);
+    console.log('calendrier statut : '+calendrier(mydate, 'current_month'));
+    console.log('calendrier statut : '+calendrier(next_date, 'next_month'));
+    console.log('calendrier statut : '+calendrier(after_next_date, 'after_next_month'));
+    
+return 'calendrierChapitre effectué'
+};
+
+console.log(calendrierChapitre(mydate));
+
+// console.log('calendrier statut : '+calendrier(mydate, 'current_month'));
+// console.log('calendrier statut : '+calendrier(mydate, 'next_month'));
  
 
-let today = new Date()
- console.log('calendrier statut : '+calendrier(today));
 
 
 
-//  Pour obtenir la date en lettre en Fr
-// ********************************************
-//  let datelocale = today.toLocaleDateString('fr-FR');
-//  let datelocalelongue = today.toLocaleDateString('fr-FR',{
-//      weekday:'long',
-//      year : 'numeric',
-//      month:'long',
-//      day: 'numeric'
-//  });
- 
+// let janvier = new Date(2021,0,1)
+//  console.log('calendrier statut : '+calendrier(janvier));
+// let février = new Date(2021,1,1)
+//  console.log('calendrier statut : '+calendrier(février));
+// let mars = new Date(2021,2,1)
+//  console.log('calendrier statut : '+calendrier(mars));
+
+// let avril = new Date(2021,3,1)
+//  console.log('calendrier statut : '+calendrier(avril));
+// let mai = new Date(2021,4,1)
+//  console.log('calendrier statut : '+calendrier(mai));
+// let juin = new Date(2021,5,1)
+//  console.log('calendrier statut : '+calendrier(juin));
+// let juillet = new Date(2021,6,1)
+//  console.log('calendrier statut : '+calendrier(juillet));
+// let août = new Date(2021,7,1)
+//  console.log('calendrier statut : '+calendrier(août));
+// let septembre = new Date(2021,8,1)
+//  console.log('calendrier statut : '+calendrier(septembre));
+// let octobre = new Date(2021,9,1)
+//  console.log('calendrier statut : '+calendrier(octobre));
+// let novembre = new Date(2021,10,1)
+//  console.log('calendrier statut : '+calendrier(novembre));
+// let décembre = new Date(2021,11,1)
+//  console.log('calendrier statut : '+calendrier(décembre));
+
