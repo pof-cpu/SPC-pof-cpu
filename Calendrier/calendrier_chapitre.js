@@ -210,7 +210,8 @@ function calendrier(today, mois){
 }
 
 console.log('fichier chargé ')
-let mydate = new Date(2021,6,1);
+// let mydate = new Date(2021,6,1);
+let mydate = new Date();
 
 function calendrierChapitre(mydate){
     let a = mydate.getFullYear()
