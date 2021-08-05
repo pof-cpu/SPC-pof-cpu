@@ -182,57 +182,7 @@ footer{
     src:url('Fonts/cambria.ttc');
   }
   /* ----------------------------------- */
-@media print {
-    @page{
-        margin: 1cm 1.5cm 1.5cm 1.2cm;
-    }
-    .nav, footer, .left-content, .right-content{
-        display: none;
 
-    }
-    .figure img{
-        width:3.5cm;
-    }
-    .main-content{
-        column-count: 2;
-        column-rule: .25pt solid rgb(75, 70, 74);
-        column-gap: 1cm;
-        margin-bottom: 1cm;
-        column-fill:auto;
-      
-    }
-
-    .attendus{
-        font-family:"caveat";
-        /* border:red solid 1px; */
-        padding: 6pt 0 6pt 1cm;
-        /* font-size: 0.95em; */
-    }
-    .question {
-        list-style-type: none;
-    }
-     .question:first-of-type{
-        counter-reset: item;
-    }
-    .figure .question{
-        counter-reset: none;
-    }
-     .question li{
-        margin: 0em 0 0 15px;
-        padding: 5px 0 5px 0;
-     }
-     .question> li:before {
-         counter-increment: item;
-        content: counter(item, decimal) ') ';
-     }
-    
-    .cadre {
-        /* break-inside:avoid-column; */
-        break-before: avoid;
-        break-inside: avoid;
-        break-inside: avoid-column;
-    }
-}
 
 /* ************************************ */
 /* BARNAV */
@@ -405,5 +355,71 @@ footer{
 /* ********************************** */
     .figure img{
         width:3cm;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media print {
+    @page{
+        margin: 1cm 1.5cm 1.5cm 1.2cm;
+    }
+    .container{
+        display:block
+    }
+    .nav, footer, .left-content, .right-content{
+        display: none;
+
+    }
+    .bottom{
+        display: block;
+    }
+    .figure img{
+        width:3.5cm;
+    }
+    .main-content{
+        column-count: 2;
+        column-rule: .25pt solid rgb(75, 70, 74);
+        column-gap: 1cm;
+        margin-bottom: 1cm;
+        column-fill:auto;
+      
+    }
+
+    .attendus{
+        font-family:"caveat";
+        /* border:red solid 1px; */
+        padding: 6pt 0 6pt 1cm;
+        /* font-size: 0.95em; */
+    }
+    .question {
+        list-style-type: none;
+    }
+     .question:first-of-type{
+        counter-reset: item;
+    }
+    .figure .question{
+        counter-reset: none;
+    }
+     .question li{
+        margin: 0em 0 0 15px;
+        padding: 5px 0 5px 0;
+     }
+     .question> li:before {
+         counter-increment: item;
+        content: counter(item, decimal) ') ';
+     }
+    
+    .cadre {
+        /* break-inside:avoid-column; */
+        break-before: avoid;
+        break-inside: avoid;
+        break-inside: avoid-column;
     }
 }
