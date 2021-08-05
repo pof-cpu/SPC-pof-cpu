@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="Fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" media="screen" href="../prism-default.css" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+
+    <script>
+        MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']]
+            },
+            chtml:{
+                scale: .92
+            },
+            svg: {
+                fontCache: 'global'
+                
+            }
+        };
+    </script>
+  
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async 
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+    <script src="../prism.js"></script>
+    <script type="text/javascript">
+        // Optional
+        Prism.plugins.NormalizeWhitespace.setDefaults({
+            'remove-trailing': true,
+            'remove-indent': true,
+            'left-trim': true,
+            'right-trim': true,
+            'tabs-to-spaces': 1,
+            'spaces-to-tabs': 4,
+            'indent': 0,
+        });
+    </script>
+    <title>C14</title> 
+
+</head>
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <div class="logo">
+            <div><img src="../icones/Logo_tubes_à_essais.svg" alt="" srcset=""></div> 
+            
+            <div class="logo_text">SPC Lab</div>
+            
+            </div>
+            <div class="menu">
+                <a href="../Accueil/accueil.html"> <img class="icone" src="../icones/Accueil.svg" alt="" srcset=""><span>Accueil</span> </a>
+                <a href="../Tle/TG-Chapitres.html"> <img class="icone" src="../icones/chapitres.svg" alt="" srcset=""><span>Chapitres</span> </a>
+                <a href="../Tle/TG-TP.html"> <img class="icone" src="../icones/TP.svg" alt="" srcset=""><span>TP</span> </a>
+                <a href="../Tle/TG-Chapitres.html"> <img class="icone" src="../icones/Fiches.svg" alt="" srcset=""><span>Fiches</span> </a>
+                <a href="#"> <img class="icone" src="../icones/python_clair.svg" alt="" srcset=""><span>Python</span> </a>
+            </div>
+            <!-- <div class="icone_burger">
+            <div id="btn" class="burger">
+                <div class="burger-item"></div>
+                <div class="burger-item"></div>
+                <div class="burger-item"></div>
+            </div>
+            </div> -->
+        </div>
+        <div class="bottom">
+            <div id="left-content">
+                <h1></h1>
+                <p></p>
+            </div><!--Fin left Content-->
+
+            <!-- ******************************************* -->
+            <div id="main-content">
+                <!-- Activité 1 -->
+                <h4 class="activity">
+                    Activité 1.
+                </h4>
+                <div class="figure">
+                    <div>
+                        <a href="../Tle/C14/Charges dans un condensateur à différents instants.svg" target="_blanck"> <img  src="../Tle/C14/Charges dans un condensateur à différents instants.svg" alt="Charges dans un condensateur à différents instants" ></a>
+                    </div>
+                    <div>
+                        Donnée : $e=1,6×10^{-19} C$ <br>
+                        Rappel : $I=\dfrac{Q}{Δt}$<br>
+                        Une pile fait circuler des charges électriques dans un conducteur pendant une durée $Δt$. L’intensité du courant électrique $I$ dans le conducteur est constant.<br>
+                        On considère une section $S$ du conducteur. Entre l’instant  $t_2=1,0 s$, $N=6,25×10^{18}$ porteurs de charges sont passés à travers $S$.
+                    </div>
+                </div>
+                <ol class="question">
+                    <li>Quels sont les porteurs de charges dans un conducteur ?</li>
+                    
+                    <li>Quelle est la charge par unité de temps correspondant aux porteurs de charges ayant traversé $S$. 
+                    </li>
+                </ol>
+                <p>
+                    Cette valeur représente un débit de charges électriques. Lorsque l’intensité n’est pas continue, elle varie au cours du temps donc le débit de charges varie. 
+                </p>
+                <ol start="3" class="question">
+                    <li>Entre l’instant $t$ et $t+Δt$, la charge qui est passé à travers $S$ est $q(t+Δt)-q(t)$. Exprimer le débit de charges pendant la durée $Δt$.
+                    </li>
+                    <li> Ce débit de charge est égal à l’intensité $i(t)$ à l’instant $t$. À quoi correspond $\lim\limits_{\Delta t \to 0} i(t) $   ?</li>
+                </ol>
+                <!-- ************************************ -->
+                <!-- Exercice 1 -->
+                <!-- ************************************ -->
+                <h4 class="exercice">
+                    Exercice 1.
+                </h4>
+                <div class="figure" >
+                    <div>
+                        <a href="../Tle/C14/Exercice1-graph.svg"><img  src="../Tle/C14/Exercice1-graph.svg" alt="graphique"></a>
+                    </div>
+                    <div>
+                        La charge électrique $q$ traversant une section de conducteur est représentée ci-contre.
+                    </div>
+                    <ol start="5" class="question">
+                        <li>
+                            Rappeler la relation liant l’intensité $I$ et une durée $Δt$ ?
+                        </li>
+                        <li>Déterminer l’intensité $I$ </li>
+                    </ol>
+                </div>
+            
+
+                <!-- ************************************ -->
+                <!-- Activité 2 -->
+                <!-- ************************************ -->
+                <h4 class="activity">
+                    Activité 2.
+                </h4>
+                <p>
+                    Dans la relation $q_A=C.u_{AB}$, en régime variable, $q_A$ et $u_{AB}$ varient mais $C$ est constant.
+                </p>
+                <ol start="7" class="question">
+                    <li>Exprimer la dérivée de $q_A$ par rapport au temps en fonction de $C$ et $u_{AB}$.</li>
+                    <li>En déduire une relation entre $i$, $C$ et $u_{AB}$. </li>
+                </ol>
+                <p class="attendus">
+                    Attendus<br>
+                    #	Connaître la relation entre la charge q d’un condensateur et la tension u appliquée.<br>
+                    #	Relier l’intensité d’un courant électrique au débit de charges.
+
+                </p>
+
+
+                <!-- ************************************ -->
+                <!-- Exercice 2 -->
+                <!-- ************************************ -->
+                <h4 class="exercice">Exercice 2.</h4>
+                <div class="figure">
+                    <a href="../Tle/C14/Exercice2-graph.svg" target='_blanck'><img src="../Tle/C14/Exercice2-graph.svg" alt="graphique" srcset=""></a>
+                    <div>
+                        On charge un condensateur de capacité $C=2,0 nF$ par un courant d’intensité $I$ constant. La tension $u_C$ aux bornes du condensateur est représentée en fonction du temps.
+                    </div>
+                </div>
+                <ol class="question">
+                    <li>Déterminer l’intensité $I$ du courant.</li>
+                </ol>
+
+                <!-- ************************************ -->
+                <!-- Activité 3 -->
+                <!-- ************************************ -->
+                <h4 class="activity">
+                    Activité 3.
+                </h4>
+                    <div class="figure">
+                        <a href="../Tle/C14/activité3-graph1.svg" target='_blanck'><img src="../Tle/C14/activité3-graph1.svg" alt="graphique" srcset=""></a>
+                        <a href="../Tle/C14/activité3-graph2.svg" target='_blanck'><img src="../Tle/C14/activité3-graph2.svg" alt="graphique" srcset=""></a>
+                    </div>
+                    <div>
+                    On trace la tension aux bornes d’un condensateur lors de sa charge et de sa décharge :
+                        Charge : $u_C=E(1-e^{-t/τ})$
+                        
+                        Décharge : $u_C=Ee^{-t/τ}$
+                        
+                    </div>
+                    <ol start="10" class="question">
+                        <li>Dans les deux cas exprimer et calculer $u_C$ pour $t=τ$.</li>
+                        <li>Déterminer graphiquement la valeur de $\tau$ dans les deux cas.</li>
+                    </ol>
+                    
+                    <div class="figure"> <a href="../Tle/C14/activité3-graph3.svg" target='_blanck'><img src="../Tle/C14/activité3-graph3.svg" alt="graphique" srcset=""></a>
+                        <ol start="12" class="question">
+                            <li>Dans le cas de la décharge, exprimer $ln⁡(u_C )$ en fonction de $τ$, $E$ et $t$.</li>
+                            <li>Calculer la pente de la courbe $ln⁡(u_C )=f(t)$ et en déduire la valeur de $τ$.</li>
+                        </ol></div>
+                    <p class="attendus">
+                        Attendus<br>
+                        #	Établir différentielle vérifiée par la tension aux bornes d’un condensateur (charge et décharge). <br>
+                        #	Résoudre l’équation différentielle<br>
+                        #	Définir le temps caractéristique de la charge ou la décharge d’un condensateur<br>
+                        #	Savoir déterminer graphiquement la caractéristique de temps  <br>
+
+                    </p>
+
+
+
+                    <!-- ************************************ -->
+                    <!-- Exercice 3 -->
+                    <!-- ************************************ -->
+                    <h4 class="exercice">Exercice 3.</h4>
+                        <div>
+                            L’équation différentielle régissant la tension $u_C$ aux bornes d’un condensateur de capacité $C$ en série avec un dipôle ohmique de résistance $R$ et d’un générateur de f.é.m $E$ est :
+                            \[ RC \frac{du_C}{dt}+u_C=E \]
+                            L’expression de la tension aux bornes du condensateur est :
+                            \[u_C (t)=K(1-e^{-\frac{t}{RC}}) \]
+                        </div>
+                        <ol class="question" start="14">
+                            <li>Déterminer l’expression de K pour que $u_C (t)$ soit solution de l’équation différentielle. </li>
+                        </ol>
+                    
+
+                    <!-- ************************************ -->
+                    <!-- Exercice 4 -->
+                    <!-- ************************************ -->
+                    <h4 class="exercice">Exercice 4.</h4>
+                        <div>
+                            Un condensateur de capacité $C=50\ nF$ a initialement une charge $q_0=3,5\ μF$ à une armature. Il est placé en série avec un dipôle ohmique de résistance $R$. L’évolution de la tension $u_C$ entre ses bornes vérifie :
+                            \[RC \frac{du_C}{dt}+u_C=0 \]
+                        </div>
+                        <ol start="15" class="question">
+                            <li>Vérifier que l’expression $u_C (t)=U_0\ e^{-\frac{t}{RC}}$ est une solution de cette équation différentielle.</li>
+                            <li>Quelle est la relation entre $q_0$ et $U_0$ ?</li>
+                            <li>Calculer la valeur $U_0$ et tracer l’allure de la courbe représentative de $u_C (t)$. </li>
+                        </ol>
+
+                    <!-- ************************************ -->
+                    <!-- Exercice 5 -->
+                    <!-- ************************************ -->
+                    <h4 class="exercice">Exercice 5.</h4>
+                        <div class="cadre">
+                            <h4>Document 1 – Stimulateur cardiaque </h4>
+                            <div class="figure">
+                                <a href="../Tle/C14/Circuit RC exercice.svg" target='_blanck'><img src="../Tle/C14//Circuit RC exercice.svg" alt="graphique" srcset=""></a>
+                                <div>
+                                    Un stimulateur cardiaque est un dispositif hautement perfectionné et très miniaturisé, relié au cœur humain par des électrodes (appelées les sondes).  Le stimulateur est actionné grâce à une pile intégrée, généralement au lithium;  il  génère de petites impulsions électriques de basse tension qui forcent le cœur à battre à un rythme régulier et suffisamment rapide.  Il comporte donc deux parties  :  le boîtier,  source  des impulsions électriques, et les sondes, qui conduisent le courant. Le générateur d’impulsions du stimulateur cardiaque peut être modélisé par le circuit représenté ci-contre.<br>
+                                    La valeur de $r$ est très faible, de telle sorte que le condensateur se charge très rapidement lorsque l'interrupteur (en réalité un dispositif électronique) est en position 1. Lorsque la charge est terminée,  l'interrupteur bascule en position 2.  Le condensateur se décharge lentement dans la résistance $R$, de valeur élevée. Quand la tension aux bornes de $R$ atteint une valeur donnée ($e-1$ fois sa valeur initiale, avec $ln(e)  =  1$),  le boîtier envoie au cœur une impulsion électrique par l'intermédiaire des sondes. L'interrupteur bascule simultanément en position 1 et la recharge du condensateur se fait quasiment instantanément à travers $r$. Le processus recommence.
+                                </div>
+
+
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="figure">
+                            <a href="../Tle/C14/Circuit RCex4(2).svg" target='_blanck'><img src="../Tle/C14//Circuit RCex4(2).svg" alt="graphique" srcset=""></a>
+
+                            <div>
+                                Pour déterminer la valeur de la résistance $R$, on insère le condensateur préalablement chargé sous la tension $E$ dans le circuit schématisé ci-contre.
+                                La capacité du condensateur est $C=0,40\ μF$. On enregistre alors l’évolution de la tension $u_C$ aux bornes du condensateur. On obtient la courbe ci-dessous.
+
+                            </div>
+                        </div>
+                        <div class="figure">
+                            <a href="../Tle/C14/Circuit RCex4(3).svg" target='_blanck'><img src="../Tle/C14//Circuit RCex4(3).svg" alt="graphique" srcset=""></a>
+                            <ol start="18" class="question">
+                                <li>Déterminer graphiquement la valeur de $E$.</li>
+                                <li>Déterminer graphiquement la valeur du temps caractéristique $τ$ de la décharge du condensateur.</li>
+                                <li>En respectant les notations, donner :
+                                    <ol class="lettre">
+                                        <li>La relation liant l’intensité du courant $i$ et la charge $q$ de l’une des armatures du condensateur que l’on précisera ;
+                                        </li>
+                                        <li>La relation liant $u_R$ et $i$.</li>
+                                    </ol>
+                                </li>
+                            </ol>
+                        </div>
+                        <ol class="question">
+                            <li>En déduire que la tension $u_C$ aux bornes du condensateur vérifie l’équation différentielle : \[ \frac{du_C}{dt}+\frac{1}{RC} u_C=0\]</li>
+                            <li>Montrer que cette équation différentielle admet une solution de la forme :
+                                \[u_C (t)=A\ e^{-\dfrac{t}{τ}}\]
+                                Donner les expressions de $A$ et $τ$ en fonction de $E$, $C$ et $R$.
+                            </li>
+                            
+                            <li>En utilisant la valeur de $τ$ déterminée à la question 19), calculer la valeur de $R$.</li>
+                            <em>
+                                On admet pour la suite que, tant que le condensateur se décharge, l'évolution de $U_R$ en fonction du temps est donnée par :
+                                \[U_R (t)=5,6\ e^{-t/0,80}\]
+                                On rappelle qu'une impulsion électrique est envoyée au cœur lorsque la tension aux bornes de $R$ atteint $e^{-1}$ fois sa valeur initiale.
+                            </em>
+                            <li>Calculer la valeur de $U_R$ qui déclenche l’envoi d’une impulsion vers le cœur.</li>
+                            <li>À quel instant, après le début de la décharge, cette valeur est-elle atteinte ?</li>
+                            <li>Que se passe-t-il après cet instant ? Représenter l’allure de l’évolution de $U_R$ au cours du temps lors de la génération des impulsions. Préciser les valeurs remarquables.</li>
+                            <li>Déterminer la fréquence des impulsions de tension ainsi générées. Vérifier que le résultat est bien compatible avec une fréquence cardiaque normale.   </li>
+                        </ol>    
+        
+                        
+                        
+                        
+                    <!------------------------------  -->
+                    <div style="text-align: right;">□</div>
+                    <!------------------------------  -->
+
+
+
+
+                <!--***************************************  -->
+                <footer id="last-modified" class="italique">*</footer>
+                <script src="../edited.js"></script>
+                <!--***************************************  -->
+
+            </div><!--Fin Main Content-->
+            
+            
+            
+            
+            <div id="right-content">
+            </div><!--Fin right Content-->
+        </div><!--Fin bottom-->
+    </div>
+
+   
+  
+
+
+
+
+
+    <script>
+        let btn =document.getElementById('btn')
+        let menu =document.querySelector(".menu");
+        let nav=document.querySelector('.nav');
+        let container=document.querySelector('.container');
+        btn.onclick=function(){
+            menu.classList.toggle('active');
+            nav.classList.toggle('active');
+            container.classList.toggle('active');
+
+        }
+    </script>
+</body>
+</html>

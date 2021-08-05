@@ -1,0 +1,172 @@
+
+*{
+    margin:0;
+    padding:0;
+    font-size: .96em;
+    box-sizing: border-box;
+}
+
+footer{
+    font-style: italic;
+}
+
+
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+   
+}
+    .nav{
+        display: grid;
+        position: fixed;
+        grid-template-columns: 1fr 21cm 1fr;
+        grid-template-rows: 20px;
+        width:100%;
+        height:28px;
+        background-color:lightgray;
+        z-index: 1000;
+        padding-top:5px;
+        
+    }
+        .menu{
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        }
+            .menu a{
+                text-decoration: none;
+                color: black;
+                font-family: 'poppins';
+                
+            }
+                .menu a:hover{
+                    color:royalblue
+                }
+                .menu a:hover .icone{
+                    background-color:royalblue
+                }
+
+        .icone_burger{
+            position:relative;
+            top:-5px;
+            justify-self: end;
+        }
+        .icone{
+            height:15px;
+        }
+        .logo{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            display: grid;
+            grid-template-columns: 35px 1fr;
+            grid-template-rows: 30px;
+        }
+            .logo img{
+                height:30px;
+        
+                position:relative;
+                top:-9px;
+                left:0px;
+            }
+        
+
+  
+
+    .bottom{
+        display:grid;
+        margin: 28px 5px 5px 5px;
+        grid-template-columns: 1fr 21cm 1fr;
+        grid-template-rows: auto;
+    }
+
+                
+                /* ************************************* */
+                /* BURGER */
+                /* ************************************** */
+                .burger{
+                    /* position:absolute; */
+                    height: 23px;
+                    width:24px;
+                    cursor: pointer;
+                    border:grey solid 1px;
+                    /* top:5px; */
+                    /* right:15px */
+                    justify-self: center;
+                    align-self: start;
+                    
+
+                }
+                .burger-item{
+                    position:relative;
+                    top : 1px;
+                    left:2px;
+                    width: 18px;
+                    height: 4px;
+                    background-color:rgb(99, 99, 99) ;
+                    border-radius: 3px;
+                    margin-top: 2px;
+                    margin-bottom: 2px;
+                    transition: .2s;
+
+
+                }
+                .nav.active .burger-item:nth-child(3){
+                    display: none;
+                }
+                .nav.active .burger-item:nth-child(1){
+                    transform-origin: center;
+                    transform: translate(-2px ,6px) rotate(45deg);
+                    width: 22px;
+                    transition: .2s;
+                }
+                .nav.active .burger-item:nth-child(2){
+                    transform-origin: center;
+                    transform: translate(-2px ,0px) rotate(-45deg);
+                    width: 22px;
+                    transition: .2s;
+
+                }
+
+                /* *********************************************** */
+
+        
+    
+        .footer{
+            grid-area: f;
+            border:solid;
+            background-color:lightskyblue;
+            }
+  
+    
+@media screen and (max-width:1200px){
+    .container{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+    }
+    .nav{
+        display: grid;
+        position: fixed;
+        grid-template-columns: 50px 1fr 30px;
+        width:100%;
+        z-index: 1000;
+        padding-top:5px;
+    }
+    .bottom{
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+   
+    .logo_text{
+        display:none;
+    }
+    
+    .menu a span{
+        display: none;
+    }
+    .icone_burger{
+        position:relative;
+        top:-5px;
+    }
+}
