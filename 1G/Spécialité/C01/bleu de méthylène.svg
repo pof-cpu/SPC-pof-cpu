@@ -1,0 +1,68 @@
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 202.74561 70.60498">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 0.3985px;
+      }
+
+      .cls-2 {
+        font-size: 9.9626px;
+        font-family: CMR10;
+      }
+
+      .cls-3 {
+        font-size: 6.9738px;
+        font-family: MyriadPro-Regular, Myriad Pro;
+      }
+    </style>
+  </defs>
+  <line class="cls-1" x1="50.05099" y1="54.74864" x2="67.30706" y2="64.71141"/>
+  <line class="cls-1" x1="52.04354" y1="53.59802" x2="67.30724" y2="62.41052"/>
+  <polyline class="cls-1" points="67.135 64.612 67.307 64.711 84.563 54.749"/>
+  <text class="cls-2" transform="translate(98.08301 68.11475)">N</text>
+  <polyline class="cls-1" points="84.391 54.848 84.563 54.749 96.357 61.558"/>
+  <line class="cls-1" x1="107.28117" y1="61.55835" x2="119.07533" y2="54.74864"/>
+  <polyline class="cls-1" points="118.903 54.848 119.075 54.749 136.331 64.711"/>
+  <line class="cls-1" x1="121.06789" y1="53.59802" x2="136.33157" y2="62.41052"/>
+  <polyline class="cls-1" points="136.159 64.612 136.331 64.711 153.587 54.749"/>
+  <polyline class="cls-1" points="153.415 54.848 153.587 54.749 153.587 34.823"/>
+  <line class="cls-1" x1="151.59494" y1="53.59831" x2="151.59494" y2="35.97342"/>
+  <text class="cls-2" transform="translate(167.10594 28.26465)">N</text>
+  <polyline class="cls-1" points="153.587 35.022 153.587 34.823 165.382 28.013"/>
+  <text class="cls-2" transform="translate(167.24364 8.33887)">C</text>
+  <text class="cls-2" transform="translate(174.43994 8.33887)">H</text>
+  <text class="cls-3" transform="translate(181.91162 9.8335)">3</text>
+  <line class="cls-1" x1="170.84358" y1="19.46377" x2="170.84358" y2="10.33127"/>
+  <text class="cls-2" transform="translate(184.49951 38.22705)">C</text>
+  <text class="cls-2" transform="translate(191.6958 38.22705)">H</text>
+  <text class="cls-3" transform="translate(199.16846 39.7212)">3</text>
+  <line class="cls-1" x1="176.30515" y1="28.01355" x2="182.77644" y2="31.75003"/>
+  <polyline class="cls-1" points="153.587 35.022 153.587 34.823 136.331 24.86"/>
+  <polyline class="cls-1" points="136.504 24.96 136.331 24.86 119.075 34.823"/>
+  <line class="cls-1" x1="136.33157" y1="27.16119" x2="121.06789" y2="35.97371"/>
+  <polyline class="cls-1" points="119.248 34.723 119.075 34.823 119.075 54.749 119.248 54.848"/>
+  <polyline class="cls-1" points="118.903 54.848 119.075 54.749 119.075 34.823"/>
+  <text class="cls-2" transform="translate(99.05127 28.26465)">S</text>
+  <polyline class="cls-1" points="119.075 35.022 119.075 34.823 106.313 27.454"/>
+  <line class="cls-1" x1="97.32584" y1="27.45428" x2="84.56316" y2="34.82309"/>
+  <polyline class="cls-1" points="84.391 54.848 84.563 54.749 84.563 34.823"/>
+  <polyline class="cls-1" points="84.563 35.022 84.563 34.823 67.307 24.86"/>
+  <line class="cls-1" x1="82.57058" y1="35.97371" x2="67.30689" y2="27.16119"/>
+  <polyline class="cls-1" points="67.48 24.96 67.307 24.86 50.051 34.823"/>
+  <text class="cls-2" transform="translate(25.75195 28.82666)">N</text>
+  <text class="cls-3" transform="translate(33.22412 25.21143)">+</text>
+  <line class="cls-1" x1="49.55288" y1="35.6859" x2="40.89149" y2="30.68558"/>
+  <line class="cls-1" x1="50.5491" y1="33.96026" x2="41.88771" y2="28.95993"/>
+  <text class="cls-2" transform="translate(29.19775 8.90186)">C</text>
+  <text class="cls-2" transform="translate(36.39306 8.90186)">H</text>
+  <text class="cls-3" transform="translate(43.86523 10.39551)">3</text>
+  <line class="cls-1" x1="32.79493" y1="18.90152" x2="32.79493" y2="10.89352"/>
+  <text class="cls-2" transform="translate(11.94189 38.78955)">C</text>
+  <line class="cls-1" x1="24.20021" y1="29.82286" x2="20.8621" y2="31.75009"/>
+  <text class="cls-2" transform="translate(0 38.78955)">H</text>
+  <text class="cls-3" transform="translate(7.47217 40.28369)">3</text>
+  <polyline class="cls-1" points="50.224 34.723 50.051 34.823 50.051 54.749 50.224 54.848"/>
+</svg>

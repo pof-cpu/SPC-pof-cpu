@@ -130,8 +130,23 @@ img.img-logo{
     padding:5px;
     margin: 5px;
 }
+.cadre{
+    border:black solid 1px;
+    padding:0 5px 0 5px;
+}
+.gras{
+    font-weight: bold;
+}
+canvas{
+    /* border: blue solid; */
+    width: 100%;
+    height:auto;
+}
 
-
+.source{
+    font-style: italic;
+    text-align: right;
+}
 
 .exercice{
     background:rgb(234, 241, 221);
@@ -347,7 +362,10 @@ footer{
         position:relative;
         top:-5px;
     }
-
+    .menu a{
+        width: 22px;
+        height:23px;
+    }
 
 
 /* ********************************** */

@@ -1,0 +1,98 @@
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230.43956 66.46154">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #dce5f1;
+      }
+
+      .cls-1, .cls-4 {
+        fill-rule: evenodd;
+      }
+
+      .cls-16, .cls-2, .cls-3, .cls-5, .cls-6 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3, .cls-5, .cls-6 {
+        stroke: #000;
+        stroke-linejoin: round;
+      }
+
+      .cls-2 {
+        stroke-width: 0.75px;
+      }
+
+      .cls-3 {
+        stroke-width: 4.5px;
+      }
+
+      .cls-5 {
+        stroke-width: 1.5px;
+      }
+
+      .cls-15, .cls-7 {
+        font-size: 12px;
+        fill: #1d1d1b;
+      }
+
+      .cls-7 {
+        font-family: MyriadPro-Regular, Myriad Pro;
+      }
+
+      .cls-8 {
+        letter-spacing: -0.01497em;
+      }
+
+      .cls-9 {
+        letter-spacing: -0.00997em;
+      }
+
+      .cls-10 {
+        letter-spacing: 0.00004em;
+      }
+
+      .cls-11 {
+        letter-spacing: -0.00403em;
+      }
+
+      .cls-12 {
+        letter-spacing: -0.00594em;
+      }
+
+      .cls-13 {
+        letter-spacing: -0.00496em;
+      }
+
+      .cls-14 {
+        letter-spacing: -0.00004em;
+      }
+
+      .cls-15 {
+        font-family: Cmmi7, cmmi7;
+      }
+    </style>
+  </defs>
+  <polygon class="cls-1" points="106.561 17.264 129.241 17.264 129.241 40.184 106.561 40.184 106.561 17.264 106.561 17.264"/>
+  <polygon class="cls-2" points="106.561 17.264 129.241 17.264 129.241 40.184 106.561 40.184 106.561 17.264 106.561 17.264"/>
+  <polygon class="cls-1" points="106.801 17.264 99.961 24.975 99.961 47.624 106.801 39.913 106.801 17.264 106.801 17.264"/>
+  <polygon class="cls-2" points="106.801 17.264 99.961 24.975 99.961 47.624 106.801 39.913 106.801 17.264 106.801 17.264"/>
+  <polygon class="cls-2" points="99.961 24.704 106.623 17.264 129.241 17.264 122.579 24.704 99.961 24.704 99.961 24.704"/>
+  <polygon class="cls-1" points="99.961 47.624 106.623 40.184 129.241 40.184 122.579 47.624 99.961 47.624 99.961 47.624"/>
+  <polygon class="cls-2" points="99.961 47.624 106.623 40.184 129.241 40.184 122.579 47.624 99.961 47.624 99.961 47.624"/>
+  <polygon class="cls-2" points="129.361 17.264 122.521 24.975 122.521 47.744 129.361 40.033 129.361 17.264 129.361 17.264"/>
+  <polygon class="cls-2" points="99.961 11.384 122.521 11.384 122.521 24.704 99.961 24.704 99.961 11.384 99.961 11.384"/>
+  <polygon class="cls-2" points="106.801 3.944 99.961 11.655 99.961 24.704 106.801 16.993 106.801 3.944 106.801 3.944"/>
+  <polygon class="cls-2" points="129.361 3.944 122.521 11.655 122.521 24.704 129.361 16.993 129.361 3.944 129.361 3.944"/>
+  <polygon class="cls-2" points="106.921 4.184 129.361 4.184 129.361 17.504 106.921 17.504 106.921 4.184 106.921 4.184"/>
+  <line class="cls-3" x1="21.36264" y1="36.46405" x2="90.92299" y2="36.46418"/>
+  <polygon class="cls-4" points="88.673 29.714 97.673 36.464 88.673 43.214 88.673 29.714 88.673 29.714"/>
+  <line class="cls-5" x1="131.58109" y1="36.40405" x2="208.86807" y2="36.4041"/>
+  <polygon class="cls-4" points="208.868 33.404 212.868 36.404 208.868 39.404 208.868 33.404 208.868 33.404"/>
+  <line class="cls-6" x1="101.9611" y1="50.26403" x2="121.64803" y2="50.2641"/>
+  <polygon class="cls-4" points="121.648 50.264 119.648 48.264 123.648 50.264 119.648 52.264 121.648 50.264 121.648 50.264"/>
+  <polygon class="cls-4" points="101.961 50.264 103.961 52.264 99.961 50.264 103.961 48.264 101.961 50.264 101.961 50.264"/>
+  <text class="cls-7" transform="translate(4.66972 23.48089)"><tspan class="cls-8">L</tspan><tspan x="5.48389" y="0">umiè</tspan><tspan class="cls-9" x="30.92334" y="0">r</tspan><tspan class="cls-10" x="34.72754" y="0">e incide</tspan><tspan class="cls-11" x="73.71484" y="0">n</tspan><tspan class="cls-12" x="80.32666" y="0">t</tspan><tspan x="84.22705" y="0">e</tspan></text>
+  <text class="cls-7" transform="translate(134.23015 24.70417)"><tspan class="cls-8">L</tspan><tspan x="5.48389" y="0">umiè</tspan><tspan class="cls-9" x="30.92334" y="0">r</tspan><tspan class="cls-10" x="34.72754" y="0">e t</tspan><tspan class="cls-13" x="47.25537" y="0">r</tspan><tspan class="cls-14" x="51.11963" y="0">ansmise</tspan></text>
+  <text class="cls-15" transform="translate(106.9211 63.09917)">`</text>
+  <rect class="cls-16" width="230.43956" height="66.46154"/>
+</svg>
